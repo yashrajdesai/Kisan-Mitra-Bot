@@ -28,3 +28,19 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
+- story: query
+  steps: 
+  - intent: plant_protection_ladyfinger_curl
+  - action: utter_plant_protection_ladyfinger_curl
+  - intent: plant_protection_tomato_curl
+  - action: utter_plant_protection_tomato_curl
+
+- story: weather
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: weather
+  - action: utter_city
+  - intent: city
+  - action: action_weather_api
