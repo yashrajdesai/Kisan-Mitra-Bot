@@ -90,3 +90,34 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: plant_protection_ladyfinger_curl
+  examples: |
+    - tell me control leaf curl in bhindi?
+    - tell me control leaf curl in lady-finger?
+    - how to control leaf leaf curl in lady-finger?
+    - how to control leaf leaf curl in bhindi?
+    - how to control leaf leaf curl in okra?
+
+- intent: plant_protection_tomato_curl
+  examples: |
+    - tell me control leaf curl in tomato?
+    - tell me control leaf curl in tamatar?
+    - how to control leaf leaf curl in tomato?
+
+- intent: weather
+  examples: |
+    - what's the weather
+    - i want to know the weather of today
+    - tell me the weather forcast
+    - hows the weather today
+
+- intent: city
+  examples: |
+    - Delhi
+    - delhi
+    - chandigarh
+    - mohali
+    - mumbai
+    - jaipur
+
