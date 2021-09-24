@@ -14,6 +14,7 @@ intents:
   - contact_no_NDRI
   - weather 
   - city
+  - Plant_Protection_red_palm_weevil_attack
 
 responses:
   utter_greet:
@@ -52,6 +53,11 @@ responses:
 
   utter_temp:
   - text: "Today's temperature is {temp} degree Celcius."
+
+  utter_Plant_Protection_red_palm_weevil_attack:
+  - text: "Recommended to apply 20 g Metarhizium in 1 litre of water and spray in the cowdung pit. Apply peruvelam leaves into the cowdung pit. Close all the holes on the trunk except the topmost hole. Apply 2 ml Imidachloprid in 4 litre of water and pour through the topmost hole.
+    Contact Thiruvalla Research Station 0469 2604181
+    Mancomb Research Station 0477 2702245"
 
 actions:
   - action_weather_api

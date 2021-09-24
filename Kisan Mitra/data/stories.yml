@@ -49,6 +49,11 @@ stories:
   - intent: contact_no_NDRI
   - action: utter_contact_no_NDRI
 
+- story: query5
+  steps:
+  - intent: Plant_Protection_red_palm_weevil_attack
+  - action: utter_Plant_Protection_red_palm_weevil_attack
+
 - story: weather
   steps:
   - intent: weather
