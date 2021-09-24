@@ -135,3 +135,21 @@ nlu:
     - mumbai
     - jaipur
 
+- intent: Plant_Protection_red_palm_weevil_attack
+  examples: |
+    - red palm weevil attack
+
+
+# - intent: Cultural_Practices_Methods_of_planting_in_coconut
+#   examples: |
+#     - Methods of planting in coconut
+
+
+# - intent: Plant_Protection_Attack_of_ant_in_cow_pea        
+#   examples: |
+#     - Attack of ant in cow pea
+
+
+# - intent: Government_Schemes_How_much_quantity_of_Magnesium_sulfate_is_to_be_added_to_coconut
+#   examples: |
+#     - How much quantity of Magnesium sulfate is to be added to coconut
