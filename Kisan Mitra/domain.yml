@@ -10,6 +10,8 @@ intents:
   - bot_challenge
   - plant_protection_ladyfinger_curl
   - plant_protection_tomato_curl
+  - plant_protection_cotton_pest_control
+  - contact_no_NDRI
   - weather 
   - city
 
@@ -38,6 +40,12 @@ responses:
 
   utter_plant_protection_tomato_curl:
   - text: "Spray imedacloropid 17.8 sl 0.5 ml/liter water in tomato"
+
+  utter_plant_protection_cotton_pest_control:
+  - text: "Spray of imidachloprid 17.8% sl 0.5 ml per liter water"
+
+  utter_contact_no_NDRI:
+  - text: "Please contact to NDRI toll free no +91-184-2259015"
 
   utter_city:
   - text: "which city you want to check for?"
