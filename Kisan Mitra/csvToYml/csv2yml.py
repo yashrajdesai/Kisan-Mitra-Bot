@@ -1,5 +1,6 @@
 # importing csv module
 import csv
+import re
   
 # csv file name
 filename = "Kerala_2019.csv"
@@ -28,8 +29,18 @@ print('Field names are:' + ', '.join(field for field in fields))
   
 #  printing first 5 rows
 print('\nFirst 5 rows are:\n')
-for row in rows[:5]:
-    # parsing each column of a row
-    for col in row:
-        print("%10s"%col),
-    print('\n')
+for row in rows[1:5]:
+    
+    queryType = row[0].strip()
+    queryType =  re.sub(' +', ' ', queryType)
+
+    queryText = row[1].strip()
+    queryText =  re.sub(' +', ' ', queryText)
+
+    intent = "- intent: " +  queryType.replace(" ", "_") + "_" + queryText.replace(" ", "_") + "\n"
+    examples = "  examples: |\n" + "    - " + queryText.replace("_", " ") + "\n\n"
+
+    file = open("nlu.yml","a", encoding="utf-8")  
+
+    finalIntent = intent+examples
+    file.write(finalIntent)
