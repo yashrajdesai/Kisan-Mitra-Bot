@@ -28,3 +28,30 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
+- story: query1
+  steps: 
+  - intent: plant_protection_ladyfinger_curl
+  - action: utter_plant_protection_ladyfinger_curl
+
+- story: query2
+  steps: 
+  - intent: plant_protection_tomato_curl
+  - action: utter_plant_protection_tomato_curl
+
+- story: query3
+  steps: 
+  - intent: plant_protection_cotton_pest_control
+  - action: utter_plant_protection_cotton_pest_control
+
+- story: query4
+  steps: 
+  - intent: contact_no_NDRI
+  - action: utter_contact_no_NDRI
+
+- story: weather
+  steps:
+  - intent: weather
+  - action: utter_city
+  - intent: city
+  - action: action_weather_api
