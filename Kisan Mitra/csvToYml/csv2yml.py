@@ -3,7 +3,7 @@ import csv
 import re
   
 # csv file name
-filename = "Kerala_2019.csv"
+filename = "Our_Dataset.csv"
   
 # initializing the titles and rows list
 fields = []
@@ -29,7 +29,8 @@ print('Field names are:' + ', '.join(field for field in fields))
   
 #  printing first 5 rows
 print('\nFirst 5 rows are:\n')
-for row in rows[1:5]:
+file = open("nlu.yml","w", encoding="utf-8")  
+for row in rows[1:]:
     
     queryType = row[0].strip()
     queryType =  re.sub(' +', ' ', queryType)
@@ -39,8 +40,6 @@ for row in rows[1:5]:
 
     intent = "- intent: " +  queryType.replace(" ", "_") + "_" + queryText.replace(" ", "_") + "\n"
     examples = "  examples: |\n" + "    - " + queryText.replace("_", " ") + "\n\n"
-
-    file = open("nlu.yml","a", encoding="utf-8")  
-
+    
     finalIntent = intent+examples
     file.write(finalIntent)
