@@ -39,7 +39,15 @@ for row in rows[1:]:
     queryText =  re.sub(' +', ' ', queryText)
 
     intent = "- intent: " +  queryType.replace(" ", "_") + "_" + queryText.replace(" ", "_") + "\n"
-    examples = "  examples: |\n" + "    - " + queryText.replace("_", " ") + "\n\n"
+    examples = "  examples: |\n" + "    - " + queryText.replace("_", " ") + "\n"
+    if(queryText.startswith("Tell me")):
+        queryTextTwo = queryText.replace("Tell me", "What is the")
+    else: 
+        tellText = "Tell me "
+        queryTextTwo = tellText + queryText
     
-    finalIntent = intent+examples
+    examplestwo = "    - " + queryTextTwo + "\n\n"
+    # "\n\n"
+    
+    finalIntent = intent + examples + examplestwo
     file.write(finalIntent)

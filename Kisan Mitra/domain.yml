@@ -404,7 +404,7 @@ intents:
   - Mushroom_Production_Farmer_needs_information_regards_training_for_mushroom_production_?
   - Plant_Protection_Farmer_needs_information_regarding_seedling_treatment_of_tomato_crop_?
   - Plant_Protection_Farmer_needs_information_regarding_soil_treatment_for_tomato_cultivation_?
-  - Plant_Protection_Farmer_wants_to_know_about_the_management_of_the_disease/_pest_in_the_paddy_crop?
+  - Plant_Protection_Farmer_wants_to_know_about_the_management_of_the_disease_pest_in_the_paddy_crop?
   - Plant_Protection_Farmer_wants_information_about_control_of_whitefly_in_papaya_plant_?
   - Plant_Protection_Farmer's_query_about_stem_borer_in_paddy_?
   - Plant_Protection_Farmer_wants_to_know_information_about_control_of_leaf_roller_or_leaf_folder_on_paddy_crop?
@@ -465,7 +465,7 @@ intents:
   - Plant_Protection_Farmer's_query_about_blast_in_paddy_?
   - Plant_Protection_Farmer_wants_to_know_information_about_control_of_leaf_roller_or_leaf_folder_on_paddy_crop?
   - Plant_Protection_Farmer_needs_information_regarding_spacing_in_brinjal?
-  - Plant_Protection_Farmer_needs_information_regarding_control_of_blast_/sheath_blight_disease_in_paddy_crop_?
+  - Plant_Protection_Farmer_needs_information_regarding_control_of_blast_sheath_blight_disease_in_paddy_crop_?
   - Credit_Farmer_wants_to_know_about_credit_for_poultry_farming?
   - Plant_Protection_Farmer_need_information_regards_control_of_rice_hispa_in_paddy_crop?
   - Plant_Protection_Farmer_need_information_regards_control_of_case_worm_in_paddy_crop?
@@ -903,7 +903,7 @@ intents:
   - Soil_Testing_Information_regarding_contact_no._of_patiala_kvk?
   - Seeds_Information_regarding_seed_rate_of_rapeseed-mustard?
   - Nutrient_Management_Information_regarding_total_fertilizer_application_in_rapeseed-raya_and_gobhi_sarson?
-  - Plant_Protection_Information_regarding_control_of_foot_rot/gummosis_in_citrus?
+  - Plant_Protection_Information_regarding_control_of_foot_rot_gummosis_in_citrus?
   - Plant_Protection_Information_regarding_bordeaux_paste_?
   - Bio-Pesticides_and_Bio-Fertilizers_Information_regarding_better_flower_in_brinjal
   - Plant_Protection_Information_regarding_caterpillar_in_maize_?
@@ -2384,7 +2384,7 @@ responses:
   utter_Plant_Protection_Farmer_needs_information_regarding_soil_treatment_for_tomato_cultivation_?:
   - text: "Soil treatment for tomato cultivation with trichoderma viridie 1.0 % wp @ 1 kilogram mix with 25-30 kilogram farm yard manure per acre before sowing."
 
-  utter_Plant_Protection_Farmer_wants_to_know_about_the_management_of_the_disease/_pest_in_the_paddy_crop?:
+  utter_Plant_Protection_Farmer_wants_to_know_about_the_management_of_the_disease_pest_in_the_paddy_crop?:
   - text: "Dear farmer, kindly inspect the field once again for the respective insects and then call at our kisan call center when you are in the field itself."
 
   utter_Plant_Protection_Farmer_wants_information_about_control_of_whitefly_in_papaya_plant_?:
@@ -2507,7 +2507,7 @@ responses:
   utter_Plant_Protection_Farmer_needs_information_regarding_spacing_in_brinjal?:
   - text: "Recommended keep row to row 85cm and plan to plant 60 cm spacing in brinjal"
 
-  utter_Plant_Protection_Farmer_needs_information_regarding_control_of_blast_/sheath_blight_disease_in_paddy_crop_?:
+  utter_Plant_Protection_Farmer_needs_information_regarding_control_of_blast_sheath_blight_disease_in_paddy_crop_?:
   - text: "Recommended for the sheath blight disease in paddy crop spray tebuconazole 50% + trifloxystrobin 25%, 75 wg(50% +25% w/w) 8 gram and streptocyclin 2 gram at 15 litre of water (for blast, sheath blight, neck rot and early blight)"
 
   utter_Credit_Farmer_wants_to_know_about_credit_for_poultry_farming?:
@@ -3497,7 +3497,7 @@ responses:
   utter_Nutrient_Management_Information_regarding_total_fertilizer_application_in_rapeseed-raya_and_gobhi_sarson?:
   - text: "Seed rate of rapeseed-mustard is 1.5kg per acre."
 
-  utter_Plant_Protection_Information_regarding_control_of_foot_rot/gummosis_in_citrus?:
+  utter_Plant_Protection_Information_regarding_control_of_foot_rot_gummosis_in_citrus?:
   - text: "Drench 50 ml sodium hypo chloride 5% mixed with 10 litre of water per plant to cure root rot."
 
   utter_Plant_Protection_Information_regarding_bordeaux_paste_?:

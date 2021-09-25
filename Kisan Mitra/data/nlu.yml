@@ -1687,9 +1687,9 @@ nlu:
     examples: |
       - Farmer needs information regarding soil treatment for tomato cultivation ?
 
-  - intent: Plant_Protection_Farmer_wants_to_know_about_the_management_of_the_disease/_pest_in_the_paddy_crop?
+  - intent: Plant_Protection_Farmer_wants_to_know_about_the_management_of_the_disease_pest_in_the_paddy_crop?
     examples: |
-      - Farmer wants to know about the management of the disease/ pest in the paddy crop?
+      - Farmer wants to know about the management of the disease pest in the paddy crop?
 
   - intent: Plant_Protection_Farmer_wants_information_about_control_of_whitefly_in_papaya_plant_?
     examples: |
@@ -1931,9 +1931,9 @@ nlu:
     examples: |
       - Farmer needs information regarding spacing in brinjal?
 
-  - intent: Plant_Protection_Farmer_needs_information_regarding_control_of_blast_/sheath_blight_disease_in_paddy_crop_?
+  - intent: Plant_Protection_Farmer_needs_information_regarding_control_of_blast_sheath_blight_disease_in_paddy_crop_?
     examples: |
-      - Farmer needs information regarding control of blast /sheath blight disease in paddy crop ?
+      - Farmer needs information regarding control of blast sheath blight disease in paddy crop ?
 
   - intent: Credit_Farmer_wants_to_know_about_credit_for_poultry_farming?
     examples: |
@@ -3683,9 +3683,9 @@ nlu:
     examples: |
       - Information regarding total fertilizer application in rapeseed-raya and gobhi sarson?
 
-  - intent: Plant_Protection_Information_regarding_control_of_foot_rot/gummosis_in_citrus?
+  - intent: Plant_Protection_Information_regarding_control_of_foot_rot_gummosis_in_citrus?
     examples: |
-      - Information regarding control of foot rot/gummosis in citrus?
+      - Information regarding control of foot rot_gummosis in citrus?
 
   - intent: Plant_Protection_Information_regarding_bordeaux_paste_?
     examples: |
