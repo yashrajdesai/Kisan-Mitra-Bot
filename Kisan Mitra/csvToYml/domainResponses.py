@@ -29,25 +29,24 @@ print('Field names are:' + ', '.join(field for field in fields))
   
 #  printing first 5 rows
 print('\nFirst 5 rows are:\n')
-file = open("nlu.yml","w", encoding="utf-8")  
+file = open("domainResponses.yml","w", encoding="utf-8")  
+#rows = list(set(rows))
+utter_dataset=[]
 for row in rows[1:]:
-    
+
     queryType = row[0].strip()
     queryType =  re.sub(' +', ' ', queryType)
 
     queryText = row[1].strip()
     queryText =  re.sub(' +', ' ', queryText)
 
-    intent = "- intent: " +  queryType.replace(" ", "_") + "_" + queryText.replace(" ", "_") + "\n"
-    examples = "  examples: |\n" + "    - " + queryText.replace("_", " ") + "\n"
-    if(queryText.startswith("Tell me")):
-        queryTextTwo = queryText.replace("Tell me", "What is the")
-    else: 
-        tellText = "Tell me "
-        queryTextTwo = tellText + queryText
-    
-    examplestwo = "    - " + queryTextTwo + "\n\n"
-    # "\n\n"
-    
-    finalIntent = intent + examples + examplestwo
-    file.write(finalIntent)
+    kccAnswer=row[2].strip()
+    kccAnswer=   re.sub(' +', ' ', kccAnswer)
+
+    # Writing responses into domain.yml
+    utters="  utter_"+queryType.replace(" ","_")+"_"+queryText.replace(" ","_")
+    kccAns = ":\n"+"  - text: "+'"'+kccAnswer+'"'+"\n\n"
+    if utters not in utter_dataset:
+        # print(utters)
+        file.write(utters+kccAns)
+        utter_dataset.append(utters)
