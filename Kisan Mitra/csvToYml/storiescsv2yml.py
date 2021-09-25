@@ -3,7 +3,7 @@ import csv
 import re
   
 # csv file name
-filename = "Kerala_2019.csv"
+filename = "Our_Dataset.csv"
   
 # initializing the titles and rows list
 fields = []
@@ -30,7 +30,9 @@ print('Field names are:' + ', '.join(field for field in fields))
 #  printing first 5 rows
 print('\nFirst 5 rows are:\n')
 x = 6
-for row in rows[:5]:
+file = open("stories.yml","w", encoding="utf-8")  
+action_dataset = []
+for row in rows[1:]:
     
     queryType = row[0].strip()
     queryType =  re.sub(' +', ' ', queryType)
@@ -42,9 +44,9 @@ for row in rows[:5]:
     steps = "  steps: \n"
     intent =  "  - intent: " + queryType.replace(" ", "_") + "_" + queryText.replace(" ", "_") + "\n"
     action =  "  - action: utter_" + queryType.replace(" ", "_") + "_" + queryText.replace(" ", "_") + "\n"
-    x = x + 1
-    # file = open("nlu.yml","a", encoding="utf-8")  
-
-    finalIntent = story+steps+intent+action
-    # file.write(finalIntent)
-    print(finalIntent)
+    if( action not in action_dataset):
+        x = x + 1
+        action_dataset.append(action)
+        finalIntent = story+steps+intent+action+"\n"
+        file.write(finalIntent)
+        # print(finalIntent)

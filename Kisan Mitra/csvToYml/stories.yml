@@ -1,66 +1,3 @@
-version: "2.0"
-
-stories:
-
-- story: happy path
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
-
-- story: sad path 1
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
-
-- story: sad path 2
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
-
-- story: query1
-  steps: 
-  - intent: plant_protection_ladyfinger_curl
-  - action: utter_plant_protection_ladyfinger_curl
-
-- story: query2
-  steps: 
-  - intent: plant_protection_tomato_curl
-  - action: utter_plant_protection_tomato_curl
-
-- story: query3
-  steps: 
-  - intent: plant_protection_cotton_pest_control
-  - action: utter_plant_protection_cotton_pest_control
-
-- story: query4
-  steps: 
-  - intent: contact_no_NDRI
-  - action: utter_contact_no_NDRI
-
-- story: query5
-  steps:
-  - intent: Plant_Protection_red_palm_weevil_attack
-  - action: utter_Plant_Protection_red_palm_weevil_attack
-
-- story: weather
-  steps:
-  - intent: weather
-  - action: utter_city
-  - intent: city
-  - action: action_weather_api
-
 - story: query6
   steps: 
   - intent: Crop_Insurance_I_want_to_online_crop_insurance
@@ -1768,8 +1705,8 @@ stories:
 
 - story: query347
   steps: 
-  - intent: Plant_Protection_Farmer_wants_to_know_about_the_management_of_the_disease_pest_in_the_paddy_crop?
-  - action: utter_Plant_Protection_Farmer_wants_to_know_about_the_management_of_the_disease_pest_in_the_paddy_crop?
+  - intent: Plant_Protection_Farmer_wants_to_know_about_the_management_of_the_disease/_pest_in_the_paddy_crop?
+  - action: utter_Plant_Protection_Farmer_wants_to_know_about_the_management_of_the_disease/_pest_in_the_paddy_crop?
 
 - story: query348
   steps: 
@@ -1973,8 +1910,8 @@ stories:
 
 - story: query388
   steps: 
-  - intent: Plant_Protection_Farmer_needs_information_regarding_control_of_blast_sheath_blight_disease_in_paddy_crop_?
-  - action: utter_Plant_Protection_Farmer_needs_information_regarding_control_of_blast_sheath_blight_disease_in_paddy_crop_?
+  - intent: Plant_Protection_Farmer_needs_information_regarding_control_of_blast_/sheath_blight_disease_in_paddy_crop_?
+  - action: utter_Plant_Protection_Farmer_needs_information_regarding_control_of_blast_/sheath_blight_disease_in_paddy_crop_?
 
 - story: query389
   steps: 
@@ -3623,8 +3560,8 @@ stories:
 
 - story: query718
   steps: 
-  - intent: Plant_Protection_Information_regarding_control_of_foot_rot_gummosis_in_citrus?
-  - action: utter_Plant_Protection_Information_regarding_control_of_foot_rot_gummosis_in_citrus?
+  - intent: Plant_Protection_Information_regarding_control_of_foot_rot/gummosis_in_citrus?
+  - action: utter_Plant_Protection_Information_regarding_control_of_foot_rot/gummosis_in_citrus?
 
 - story: query719
   steps: 
