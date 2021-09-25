@@ -3,7 +3,7 @@ import csv
 import re
   
 # csv file name
-filename = "Kerala_2019.csv"
+filename = "Our_Dataset.csv"
   
 # initializing the titles and rows list
 fields = []
@@ -29,15 +29,24 @@ print('Field names are:' + ', '.join(field for field in fields))
   
 #  printing first 5 rows
 print('\nFirst 5 rows are:\n')
-for row in rows[1:5]:
-    
+file = open("domainResponses.yml","w", encoding="utf-8")  
+#rows = list(set(rows))
+utter_dataset=[]
+for row in rows[1:]:
+
     queryType = row[0].strip()
     queryType =  re.sub(' +', ' ', queryType)
+
+    queryText = row[1].strip()
+    queryText =  re.sub(' +', ' ', queryText)
 
     kccAnswer=row[2].strip()
     kccAnswer=   re.sub(' +', ' ', kccAnswer)
 
     # Writing responses into domain.yml
-
-    utters="\n\n  utter_"+queryType.replace(" ","_")+":\n"+"  - text: "+'"'+kccAnswer+'"'
-    print(utters)
+    utters="  utter_"+queryType.replace(" ","_")+"_"+queryText.replace(" ","_")
+    kccAns = ":\n"+"  - text: "+'"'+kccAnswer+'"'+"\n\n"
+    if utters not in utter_dataset:
+        # print(utters)
+        file.write(utters+kccAns)
+        utter_dataset.append(utters)
