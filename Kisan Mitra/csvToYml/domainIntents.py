@@ -22,6 +22,7 @@ with open(filename, 'r') as csvfile:
         rows.append(row)
 
 file = open("domainIntents.yml","w", encoding="utf-8") 
+intents_dataset= []
 for row in rows:
     
     queryType = row[0].strip()
@@ -31,4 +32,6 @@ for row in rows:
     queryText =  re.sub(' +', ' ', queryText)
     intent = "  - " +  queryType.replace(" ", "_") + "_" + queryText.replace(" ", "_") + "\n"
     #print(intent,end="")
-    file.write(intent)
+    if intent not in intents_dataset:
+        intents_dataset.append(intent)
+        file.write(intent)
