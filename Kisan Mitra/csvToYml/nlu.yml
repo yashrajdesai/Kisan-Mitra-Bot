@@ -263,11 +263,6 @@
     - Tell me leaf yellowing in wheat
     - What is the leaf yellowing in wheat
 
-- intent: Seeds_and_Planting_Material_Tell_me_tomato_varieties.
-  examples: |
-    - Tell me tomato varieties.
-    - What is the tomato varieties.
-
 - intent: Seeds_and_Planting_Material_Tell_me_guava_varieties.
   examples: |
     - Tell me guava varieties.
@@ -277,11 +272,6 @@
   examples: |
     - I want to agriculture related complaint ragistred.
     - Tell me I want to agriculture related complaint ragistred.
-
-- intent: Fertilizer_Use_and_Availability_Tell_me_nutrient_management_?
-  examples: |
-    - Tell me nutrient management ?
-    - What is the nutrient management ?
 
 - intent: Seeds_and_Planting_Material_Tell_me_about_variety_of_banana_?
   examples: |
@@ -322,11 +312,6 @@
   examples: |
     - Tell me not growth in wheat
     - What is the not growth in wheat
-
-- intent: Seeds_and_Planting_Material_Tell_me_bhindi_sowing_time.
-  examples: |
-    - Tell me bhindi sowing time.
-    - What is the bhindi sowing time.
 
 - intent: Seeds_and_Planting_Material_Tell_me_cucurbits_sowing_time.
   examples: |
@@ -493,11 +478,6 @@
     - Pm kisan related query . amount is not transferred to account yet ?
     - Tell me Pm kisan related query . amount is not transferred to account yet ?
 
-- intent: Government_Schemes_Pm_kisan_related_query
-  examples: |
-    - Pm kisan related query
-    - Tell me Pm kisan related query
-
 - intent: Plant_Protection_Rhinoceros_beetle_attack
   examples: |
     - Rhinoceros beetle attack
@@ -517,11 +497,6 @@
   examples: |
     - Fungal attack in betel vine
     - Tell me Fungal attack in betel vine
-
-- intent: Plant_Protection_Rhinoceros_beetle_attack
-  examples: |
-    - Rhinoceros beetle attack
-    - Tell me Rhinoceros beetle attack
 
 - intent: Cultural_Practices_Coconut_planting
   examples: |
@@ -548,20 +523,10 @@
     - Coconut organic fertilizer
     - Tell me Coconut organic fertilizer
 
-- intent: Government_Schemes_Pmkisan
-  examples: |
-    - Pmkisan
-    - Tell me Pmkisan
-
 - intent: Nutrient_Management_Calcium_nitrate_foliar_dosage_for_banana
   examples: |
     - Calcium nitrate foliar dosage for banana
     - Tell me Calcium nitrate foliar dosage for banana
-
-- intent: Government_Schemes_Pm_kisan_related_query_._amount_is_not_transferred_to_account_yet_?
-  examples: |
-    - Pm kisan related query . amount is not transferred to account yet ?
-    - Tell me Pm kisan related query . amount is not transferred to account yet ?
 
 - intent: Animal_Nutrition_Animal_husbandry_toll_free_contact_number
   examples: |
@@ -572,11 +537,6 @@
   examples: |
     - Fruit borer in cow pea
     - Tell me Fruit borer in cow pea
-
-- intent: Government_Schemes_Pm_samman_nidhi_application_submitted_and_money_didint_get_yet
-  examples: |
-    - Pm samman nidhi application submitted and money didint get yet
-    - Tell me Pm samman nidhi application submitted and money didint get yet
 
 - intent: Cultural_Practices_Pachouli_cultivation_related_query
   examples: |
@@ -592,11 +552,6 @@
   examples: |
     - Dosage of fame
     - Tell me Dosage of fame
-
-- intent: Government_Schemes_Pm_kisan_related_query
-  examples: |
-    - Pm kisan related query
-    - Tell me Pm kisan related query
 
 - intent: Plant_Protection_Chilli_mite_and_thrips_attack
   examples: |
@@ -617,11 +572,6 @@
   examples: |
     - Sucker treatment in banana against fungal attack
     - Tell me Sucker treatment in banana against fungal attack
-
-- intent: Government_Schemes_Pm_samman_nidhi_application_submitted_and_money_didint_get_yet
-  examples: |
-    - Pm samman nidhi application submitted and money didint get yet
-    - Tell me Pm samman nidhi application submitted and money didint get yet
 
 - intent: Nutrient_Management_Fertilizer_recommendation_of_banana
   examples: |
@@ -793,16 +743,6 @@
     - Toll free no. of pusa-delhi=
     - Tell me Toll free no. of pusa-delhi=
 
-- intent: Training_and_Exposure_Visits_I_want_to_mushroom_related_training.
-  examples: |
-    - I want to mushroom related training.
-    - Tell me I want to mushroom related training.
-
-- intent: Varieties_Tell_me_variety_of_bajra_?
-  examples: |
-    - Tell me variety of bajra ?
-    - What is the variety of bajra ?
-
 - intent: Plant_Protection_Tell_me_whitefly_control_in_cotton_?
   examples: |
     - Tell me whitefly control in cotton ?
@@ -813,27 +753,12 @@
     - Tell me fruit no proper making.
     - What is the fruit no proper making.
 
-- intent: Nutrient_Management_Tell_me_about_taking_soil_sample_?
-  examples: |
-    - Tell me about taking soil sample ?
-    - What is the about taking soil sample ?
-
 - intent: Crop_Insurance_Tell_me_about_taking_soil_sample_?
   examples: |
     - Tell me about taking soil sample ?
     - What is the about taking soil sample ?
 
 - intent: Cultural_Practices_Tell_me_about_taking_soil_sample_?
-  examples: |
-    - Tell me about taking soil sample ?
-    - What is the about taking soil sample ?
-
-- intent: Government_Schemes_Tell_me_about_taking_soil_sample_?
-  examples: |
-    - Tell me about taking soil sample ?
-    - What is the about taking soil sample ?
-
-- intent: Fertilizer_Use_and_Availability_Tell_me_about_taking_soil_sample_?
   examples: |
     - Tell me about taking soil sample ?
     - What is the about taking soil sample ?
@@ -888,11 +813,6 @@
     - Tell me control of flower dropping in bottle gourd ?
     - What is the control of flower dropping in bottle gourd ?
 
-- intent: Nutrient_Management_Tell_me_nutrient_management_in_paddy_?
-  examples: |
-    - Tell me nutrient management in paddy ?
-    - What is the nutrient management in paddy ?
-
 - intent: Government_Schemes_Tell_me_contact_number_of_nsc_kanpur_?
   examples: |
     - Tell me contact number of nsc kanpur ?
@@ -922,11 +842,6 @@
   examples: |
     - Tell me fertilizer in jamun of 5 yrs. ?
     - What is the fertilizer in jamun of 5 yrs. ?
-
-- intent: Varieties_Tell_me_variety_of_bajra_?
-  examples: |
-    - Tell me variety of bajra ?
-    - What is the variety of bajra ?
 
 - intent: Plant_Protection_Tell_me_control_of_bacterial_blight_disease_in_jack_fruit_?
   examples: |
@@ -983,16 +898,6 @@
     - Tell me control termit in dhan crop.
     - What is the control termit in dhan crop.
 
-- intent: Disease_Management_Tell_me_contact_number_of_animal_husbandry_?
-  examples: |
-    - Tell me contact number of animal husbandry ?
-    - What is the contact number of animal husbandry ?
-
-- intent: Government_Schemes_Tell_me_contact_no._of_pusa_delhi_?
-  examples: |
-    - Tell me contact no. of pusa delhi ?
-    - What is the contact no. of pusa delhi ?
-
 - intent: Field_Preparation_Tell_me_weed_control_in_paddy_?
   examples: |
     - Tell me weed control in paddy ?
@@ -1037,11 +942,6 @@
   examples: |
     - Tell me insect control in paddy ?
     - What is the insect control in paddy ?
-
-- intent: Disease_Management_Tell_me_contact_number_of_animal_husbandry_?
-  examples: |
-    - Tell me contact number of animal husbandry ?
-    - What is the contact number of animal husbandry ?
 
 - intent: Government_Schemes_Tell_me_dd_kisan_channel_contact_number_?
   examples: |
@@ -1113,11 +1013,6 @@
     - Tell me dhan nursery time.
     - What is the dhan nursery time.
 
-- intent: Varieties_Tell_me_variety_of_bajra_?
-  examples: |
-    - Tell me variety of bajra ?
-    - What is the variety of bajra ?
-
 - intent: Field_Preparation_Tell_me_weed_control_in_urd_bean_?
   examples: |
     - Tell me weed control in urd bean ?
@@ -1158,11 +1053,6 @@
     - Tell me disease control in in paddy
     - What is the disease control in in paddy
 
-- intent: Varieties_Tell_me_variety_of_bajra_?
-  examples: |
-    - Tell me variety of bajra ?
-    - What is the variety of bajra ?
-
 - intent: Plant_Protection_Tell_me_control_leaf_curl_in_bhindi.
   examples: |
     - Tell me control leaf curl in bhindi.
@@ -1198,11 +1088,6 @@
     - Tell me variety of bajra
     - What is the variety of bajra
 
-- intent: Soil_Testing_Tell_me_about_taking_soil_sample_?
-  examples: |
-    - Tell me about taking soil sample ?
-    - What is the about taking soil sample ?
-
 - intent: Training_and_Exposure_Visits_Tell_me_kvk_contact_number.
   examples: |
     - Tell me kvk contact number.
@@ -1212,11 +1097,6 @@
   examples: |
     - Tell me no flowering in armenian.
     - What is the no flowering in armenian.
-
-- intent: Market_Information_Tell_me_about_taking_soil_sample_?
-  examples: |
-    - Tell me about taking soil sample ?
-    - What is the about taking soil sample ?
 
 - intent: Fertilizer_Use_and_Availability_Tell_me_control_of_flower_dropping
   examples: |
@@ -1313,11 +1193,6 @@
     - Farmer needs information regarding control for brown hopper in paddy crop ?
     - Tell me Farmer needs information regarding control for brown hopper in paddy crop ?
 
-- intent: Plant_Protection_Farmer_needs_information_regarding_control_for_brown_hopper_in_paddy_crop_?
-  examples: |
-    - Farmer needs information regarding control for brown hopper in paddy crop ?
-    - Tell me Farmer needs information regarding control for brown hopper in paddy crop ?
-
 - intent: Plant_Protection_Farmer_need_information_regards_control_of_plant_hopper_in_paddy_crop?
   examples: |
     - Farmer need information regards control of plant hopper in paddy crop?
@@ -1392,11 +1267,6 @@
   examples: |
     - Farmer wants to know about the management of the paddy stem borer ?
     - Tell me Farmer wants to know about the management of the paddy stem borer ?
-
-- intent: Plant_Protection_Farmer_wants_to_know_about_the_management_of_the_bph_in_the_paddy_crop_?
-  examples: |
-    - Farmer wants to know about the management of the bph in the paddy crop ?
-    - Tell me Farmer wants to know about the management of the bph in the paddy crop ?
 
 - intent: Plant_Protection_Farmer_wants_information_about_control_of_wilt_in_red_gram_crop_?
   examples: |
@@ -1508,11 +1378,6 @@
     - Farmer is having query about the management of paddy crop after the application of wrong dose of pesticides?
     - Tell me Farmer is having query about the management of paddy crop after the application of wrong dose of pesticides?
 
-- intent: Plant_Protection_Farmer_needs_information_regarding_control_of_brown_plant_hopper_in_paddy_crop_?
-  examples: |
-    - Farmer needs information regarding control of brown plant hopper in paddy crop ?
-    - Tell me Farmer needs information regarding control of brown plant hopper in paddy crop ?
-
 - intent: Plant_Protection_Farmer's_query_about_sheath_blight_in_paddy_?
   examples: |
     - Farmer's query about sheath blight in paddy ?
@@ -1573,11 +1438,6 @@
     - Farmer's query about water manangement in paddy field for control of brown plant hopper ?
     - Tell me Farmer's query about water manangement in paddy field for control of brown plant hopper ?
 
-- intent: Plant_Protection_Farmer's_query_about_panicle_mite_in_paddy_crop_?
-  examples: |
-    - Farmer's query about panicle mite in paddy crop ?
-    - Tell me Farmer's query about panicle mite in paddy crop ?
-
 - intent: Plant_Protection_Farmer's_query_about_rice_case_worm_in_paddy_?
   examples: |
     - Farmer's query about rice case worm in paddy ?
@@ -1588,35 +1448,15 @@
     - Farmer want to know information about control measure false smut disease in paddy crop?
     - Tell me Farmer want to know information about control measure false smut disease in paddy crop?
 
-- intent: Plant_Protection_Farmer's_query_about_green_plant_hopper_in_paddy_?
-  examples: |
-    - Farmer's query about green plant hopper in paddy ?
-    - Tell me Farmer's query about green plant hopper in paddy ?
-
-- intent: Plant_Protection_Farmer's_query_about_blast_in_paddy_?
-  examples: |
-    - Farmer's query about blast in paddy ?
-    - Tell me Farmer's query about blast in paddy ?
-
 - intent: Plant_Protection_Farmer_wants_to_know_about_the_management_of_the_sheath_blight_in_the_paddy_crop_?
   examples: |
     - Farmer wants to know about the management of the sheath blight in the paddy crop ?
     - Tell me Farmer wants to know about the management of the sheath blight in the paddy crop ?
 
-- intent: Plant_Protection_Farmer's_query_about_panicle_mite_in_paddy_crop_?
-  examples: |
-    - Farmer's query about panicle mite in paddy crop ?
-    - Tell me Farmer's query about panicle mite in paddy crop ?
-
 - intent: Plant_Protection_Farmer_wants_to_know_about_management_of_control_in_tomato?
   examples: |
     - Farmer wants to know about management of control in tomato?
     - Tell me Farmer wants to know about management of control in tomato?
-
-- intent: Plant_Protection_Farmer_want_to_know_information_about_control_measure_brown_plant_hopper_in_paddy_crop?
-  examples: |
-    - Farmer want to know information about control measure brown plant hopper in paddy crop?
-    - Tell me Farmer want to know information about control measure brown plant hopper in paddy crop?
 
 - intent: Plant_Protection_Farmer_information_about_to_control_measure_of_brown_plant_hopper_in_paddy_crop?
   examples: |
@@ -1628,11 +1468,6 @@
     - Farmer needs information regarding control of blast in paddy crop ?
     - Tell me Farmer needs information regarding control of blast in paddy crop ?
 
-- intent: Plant_Protection_Farmer's_query_about_green_plant_hopper_in_paddy_?
-  examples: |
-    - Farmer's query about green plant hopper in paddy ?
-    - Tell me Farmer's query about green plant hopper in paddy ?
-
 - intent: Plant_Protection_Farmer_wants_to_know_about_control_of_shoot_borer_attack_in_tomato_crop?
   examples: |
     - Farmer wants to know about control of shoot borer attack in tomato crop?
@@ -1642,26 +1477,6 @@
   examples: |
     - Farmer wants control of flower dropping due to attack of papaya mealybug ?
     - Tell me Farmer wants control of flower dropping due to attack of papaya mealybug ?
-
-- intent: Plant_Protection_Farmer_wants_to_know_about_the_management_of_the_bph_in_the_paddy_crop_?
-  examples: |
-    - Farmer wants to know about the management of the bph in the paddy crop ?
-    - Tell me Farmer wants to know about the management of the bph in the paddy crop ?
-
-- intent: Plant_Protection_Farmer_wants_to_know_about_the_management_of_the_bph_in_the_paddy_crop_?
-  examples: |
-    - Farmer wants to know about the management of the bph in the paddy crop ?
-    - Tell me Farmer wants to know about the management of the bph in the paddy crop ?
-
-- intent: Plant_Protection_Farmer_wants_to_know_about_the_management_of_the_paddy_stem_borer_?
-  examples: |
-    - Farmer wants to know about the management of the paddy stem borer ?
-    - Tell me Farmer wants to know about the management of the paddy stem borer ?
-
-- intent: Plant_Protection_Farmer's_query_about_blast_in_paddy_?
-  examples: |
-    - Farmer's query about blast in paddy ?
-    - Tell me Farmer's query about blast in paddy ?
 
 - intent: Plant_Protection_Farmer_want_to_know_information_about_control_measure_sheath_blight_disease_of_paddy_crop?
   examples: |
@@ -1697,11 +1512,6 @@
   examples: |
     - Farmer wants to know information about fish production?
     - Tell me Farmer wants to know information about fish production?
-
-- intent: Plant_Protection_Farmer's_query_about_panicle_mite_in_paddy_crop_?
-  examples: |
-    - Farmer's query about panicle mite in paddy crop ?
-    - Tell me Farmer's query about panicle mite in paddy crop ?
 
 - intent: Plant_Protection_Farmer_wants_to_know_about_bacterial_leaf_blight_in_paddy?
   examples: |
@@ -1772,11 +1582,6 @@
   examples: |
     - Farmers want to know information about control measure of blast disease in paddy crop?
     - Tell me Farmers want to know information about control measure of blast disease in paddy crop?
-
-- intent: Plant_Protection_Farmer_needs_information_regarding_control_of_panicle_mite_in_paddy_crop_?
-  examples: |
-    - Farmer needs information regarding control of panicle mite in paddy crop ?
-    - Tell me Farmer needs information regarding control of panicle mite in paddy crop ?
 
 - intent: Plant_Protection_Farmer_wants_to_know_about_how_to_control_toxicity_of_insecticides_in_his_paddy_crop?
   examples: |
@@ -1863,16 +1668,6 @@
     - Farmer want to know information about nutrient management in paddy crop?
     - Tell me Farmer want to know information about nutrient management in paddy crop?
 
-- intent: Plant_Protection_Farmer_want_to_know_information_about_control_measure_panicle_mite_insect_in_paddy_crop?
-  examples: |
-    - Farmer want to know information about control measure panicle mite insect in paddy crop?
-    - Tell me Farmer want to know information about control measure panicle mite insect in paddy crop?
-
-- intent: Plant_Protection_Farmer_wants_to_know_information_about_control_measure_disease_in_paddy_crop?
-  examples: |
-    - Farmer wants to know information about control measure disease in paddy crop?
-    - Tell me Farmer wants to know information about control measure disease in paddy crop?
-
 - intent: Fertilizer_Use_and_Availability_Farmer_want_to_know_information_about_fertilizer_dose_in_papaya_at_the_time_of_5-6_month_of_planting?
   examples: |
     - Farmer want to know information about fertilizer dose in papaya at the time of 5-6 month of planting?
@@ -1888,40 +1683,10 @@
     - Farmer needs information regarding control of bacterial leaf blight in paddy crop ?
     - Tell me Farmer needs information regarding control of bacterial leaf blight in paddy crop ?
 
-- intent: Plant_Protection_Farmer_needs_information_regarding_control_of_gundhi_bug_insect_attack_in_paddy_crop_?
-  examples: |
-    - Farmer needs information regarding control of gundhi bug insect attack in paddy crop ?
-    - Tell me Farmer needs information regarding control of gundhi bug insect attack in paddy crop ?
-
 - intent: Plant_Protection_Farmer_needs_information_regarding_control_of_root_rot_disease_in_paddy_crop_?
   examples: |
     - Farmer needs information regarding control of root rot disease in paddy crop ?
     - Tell me Farmer needs information regarding control of root rot disease in paddy crop ?
-
-- intent: Plant_Protection_Farmer_needs_information_regarding_control_of_stem_borer_in_paddy_crop_?
-  examples: |
-    - Farmer needs information regarding control of stem borer in paddy crop ?
-    - Tell me Farmer needs information regarding control of stem borer in paddy crop ?
-
-- intent: Plant_Protection_Farmer_needs_information_regarding_control_of_bacterial_leaf_blight_in_paddy_crop_?
-  examples: |
-    - Farmer needs information regarding control of bacterial leaf blight in paddy crop ?
-    - Tell me Farmer needs information regarding control of bacterial leaf blight in paddy crop ?
-
-- intent: Plant_Protection_Farmer_needs_information_regarding_control_of_brown_plant_hopper_in_paddy_crop_?
-  examples: |
-    - Farmer needs information regarding control of brown plant hopper in paddy crop ?
-    - Tell me Farmer needs information regarding control of brown plant hopper in paddy crop ?
-
-- intent: Plant_Protection_Farmer_needs_information_regarding_control_of_brown_plant_hopper_insect_attack_in_paddy_crop_?
-  examples: |
-    - Farmer needs information regarding control of brown plant hopper insect attack in paddy crop ?
-    - Tell me Farmer needs information regarding control of brown plant hopper insect attack in paddy crop ?
-
-- intent: Plant_Protection_Farmer_needs_information_regarding_control_of_neck_blast_in_paddy_crop_?
-  examples: |
-    - Farmer needs information regarding control of neck blast in paddy crop ?
-    - Tell me Farmer needs information regarding control of neck blast in paddy crop ?
 
 - intent: Mushroom_Production_Farmer_needs_information_regards_training_for_mushroom_production_?
   examples: |
@@ -1938,10 +1703,10 @@
     - Farmer needs information regarding soil treatment for tomato cultivation ?
     - Tell me Farmer needs information regarding soil treatment for tomato cultivation ?
 
-- intent: Plant_Protection_Farmer_wants_to_know_about_the_management_of_the_disease/_pest_in_the_paddy_crop?
+- intent: Plant_Protection_Farmer_wants_to_know_about_the_management_of_the_disease_pest_in_the_paddy_crop?
   examples: |
-    - Farmer wants to know about the management of the disease/ pest in the paddy crop?
-    - Tell me Farmer wants to know about the management of the disease/ pest in the paddy crop?
+    - Farmer wants to know about the management of the disease pest in the paddy crop?
+    - Tell me Farmer wants to know about the management of the disease pest in the paddy crop?
 
 - intent: Plant_Protection_Farmer_wants_information_about_control_of_whitefly_in_papaya_plant_?
   examples: |
@@ -1952,26 +1717,6 @@
   examples: |
     - Farmer's query about stem borer in paddy ?
     - Tell me Farmer's query about stem borer in paddy ?
-
-- intent: Plant_Protection_Farmer_wants_to_know_information_about_control_of_leaf_roller_or_leaf_folder_on_paddy_crop?
-  examples: |
-    - Farmer wants to know information about control of leaf roller or leaf folder on paddy crop?
-    - Tell me Farmer wants to know information about control of leaf roller or leaf folder on paddy crop?
-
-- intent: Plant_Protection_Farmer's_query_about_panicle_mite_in_paddy_crop_?
-  examples: |
-    - Farmer's query about panicle mite in paddy crop ?
-    - Tell me Farmer's query about panicle mite in paddy crop ?
-
-- intent: Plant_Protection_Farmer's_query_about_panicle_mite_in_paddy_crop_?
-  examples: |
-    - Farmer's query about panicle mite in paddy crop ?
-    - Tell me Farmer's query about panicle mite in paddy crop ?
-
-- intent: Plant_Protection_Farmer's_query_about_brown_plant_hopper_in_paddy_?
-  examples: |
-    - Farmer's query about brown plant hopper in paddy ?
-    - Tell me Farmer's query about brown plant hopper in paddy ?
 
 - intent: Plant_Protection_Farmer_wants_to_know_about_control_of_bacterial_leaf_blight_disease_in_paddy_?
   examples: |
@@ -1988,16 +1733,6 @@
     - Farmer want to know information about control measure leaf folder insect in paddy ?
     - Tell me Farmer want to know information about control measure leaf folder insect in paddy ?
 
-- intent: Plant_Protection_Farmer's_query_about_panicle_mite_in_paddy_crop_?
-  examples: |
-    - Farmer's query about panicle mite in paddy crop ?
-    - Tell me Farmer's query about panicle mite in paddy crop ?
-
-- intent: Plant_Protection_Farmer's_query_about_green_plant_hopper_in_paddy_?
-  examples: |
-    - Farmer's query about green plant hopper in paddy ?
-    - Tell me Farmer's query about green plant hopper in paddy ?
-
 - intent: Nutrient_Management_Farmer_wants_to_know_about_nutrient_management_in_red_gram_crop?
   examples: |
     - Farmer wants to know about nutrient management in red gram crop?
@@ -2007,16 +1742,6 @@
   examples: |
     - Farmer wants information about control of aphid in red gram crop ?
     - Tell me Farmer wants information about control of aphid in red gram crop ?
-
-- intent: Plant_Protection_Farmer_want_to_know_information_about_control_measure_panicle_mite_insect_in_paddy_crop?
-  examples: |
-    - Farmer want to know information about control measure panicle mite insect in paddy crop?
-    - Tell me Farmer want to know information about control measure panicle mite insect in paddy crop?
-
-- intent: Plant_Protection_Farmer_needs_information_regarding_control_of_sheath_blight_in_paddy_crop_?
-  examples: |
-    - Farmer needs information regarding control of sheath blight in paddy crop ?
-    - Tell me Farmer needs information regarding control of sheath blight in paddy crop ?
 
 - intent: Plant_Protection_Farmer_wants_to_know_about_the_management_of_brown_leaf_spot_in_the_paddy_crop_?
   examples: |
@@ -2033,25 +1758,10 @@
     - Farmer wants to know information about weed management in field?
     - Tell me Farmer wants to know information about weed management in field?
 
-- intent: Plant_Protection_Farmer's_query_about_rice_case_worm_in_paddy_?
-  examples: |
-    - Farmer's query about rice case worm in paddy ?
-    - Tell me Farmer's query about rice case worm in paddy ?
-
-- intent: Plant_Protection_Farmer_wants_to_know_information_about_control_of_leaf_roller_or_leaf_folder_on_paddy_crop?
-  examples: |
-    - Farmer wants to know information about control of leaf roller or leaf folder on paddy crop?
-    - Tell me Farmer wants to know information about control of leaf roller or leaf folder on paddy crop?
-
 - intent: Plant_Protection_Farmer_wants_to_know_information_about_control_of_army_warm_in_paddy_crop?
   examples: |
     - Farmer wants to know information about control of army warm in paddy crop?
     - Tell me Farmer wants to know information about control of army warm in paddy crop?
-
-- intent: Plant_Protection_Farmer_wants_to_know_information_about_control_of_brown_plant_hopper_in_paddy_crop?
-  examples: |
-    - Farmer wants to know information about control of brown plant hopper in paddy crop?
-    - Tell me Farmer wants to know information about control of brown plant hopper in paddy crop?
 
 - intent: Plant_Protection_Farmer_need_information_regarding_unknown_disease_and_insects_of_paddy_crop_?
   examples: |
@@ -2092,16 +1802,6 @@
   examples: |
     - Farmer needs information regarding control of leaf roller insect attack in paddy crop ?
     - Tell me Farmer needs information regarding control of leaf roller insect attack in paddy crop ?
-
-- intent: Plant_Protection_Farmer_needs_information_regarding_control_of_blast_in_paddy_crop_?
-  examples: |
-    - Farmer needs information regarding control of blast in paddy crop ?
-    - Tell me Farmer needs information regarding control of blast in paddy crop ?
-
-- intent: Plant_Protection_Farmer's_query_about_false_smut_in_paddy_?
-  examples: |
-    - Farmer's query about false smut in paddy ?
-    - Tell me Farmer's query about false smut in paddy ?
 
 - intent: Plant_Protection_Farmer's_query_about_panicle_mites_in_paddy_?
   examples: |
@@ -2148,35 +1848,10 @@
     - Farmer wants to know availability of bengal gram variety?
     - Tell me Farmer wants to know availability of bengal gram variety?
 
-- intent: Plant_Protection_Farmer_needs_information_regarding_control_of_leaf_roller_insect_attack_in_paddy_crop_?
-  examples: |
-    - Farmer needs information regarding control of leaf roller insect attack in paddy crop ?
-    - Tell me Farmer needs information regarding control of leaf roller insect attack in paddy crop ?
-
-- intent: Plant_Protection_Farmer_wants_to_know_about_control_of_sheath_blight_disease_in_paddy?
-  examples: |
-    - Farmer wants to know about control of sheath blight disease in paddy?
-    - Tell me Farmer wants to know about control of sheath blight disease in paddy?
-
-- intent: Plant_Protection_Farmer_needs_information_regarding_control_of_panicle_mite_in_paddy_crop_?
-  examples: |
-    - Farmer needs information regarding control of panicle mite in paddy crop ?
-    - Tell me Farmer needs information regarding control of panicle mite in paddy crop ?
-
 - intent: Plant_Protection_Farmer_wants_information_about_control_of_false_smut_in_paddy_crop_?
   examples: |
     - Farmer wants information about control of false smut in paddy crop ?
     - Tell me Farmer wants information about control of false smut in paddy crop ?
-
-- intent: Plant_Protection_Farmer_wants_to_know_about_control_of_stem_borer_attack_in_paddy?
-  examples: |
-    - Farmer wants to know about control of stem borer attack in paddy?
-    - Tell me Farmer wants to know about control of stem borer attack in paddy?
-
-- intent: Plant_Protection_Farmer's_query_about_green_plant_hopper_in_paddy_?
-  examples: |
-    - Farmer's query about green plant hopper in paddy ?
-    - Tell me Farmer's query about green plant hopper in paddy ?
 
 - intent: Plant_Protection_Farmer's_query_about_citrus_canker_in_citrus_?
   examples: |
@@ -2228,25 +1903,15 @@
     - Farmer wants to know about the management of the mites in the paddy ?
     - Tell me Farmer wants to know about the management of the mites in the paddy ?
 
-- intent: Plant_Protection_Farmer's_query_about_blast_in_paddy_?
-  examples: |
-    - Farmer's query about blast in paddy ?
-    - Tell me Farmer's query about blast in paddy ?
-
-- intent: Plant_Protection_Farmer_wants_to_know_information_about_control_of_leaf_roller_or_leaf_folder_on_paddy_crop?
-  examples: |
-    - Farmer wants to know information about control of leaf roller or leaf folder on paddy crop?
-    - Tell me Farmer wants to know information about control of leaf roller or leaf folder on paddy crop?
-
 - intent: Plant_Protection_Farmer_needs_information_regarding_spacing_in_brinjal?
   examples: |
     - Farmer needs information regarding spacing in brinjal?
     - Tell me Farmer needs information regarding spacing in brinjal?
 
-- intent: Plant_Protection_Farmer_needs_information_regarding_control_of_blast_/sheath_blight_disease_in_paddy_crop_?
+- intent: Plant_Protection_Farmer_needs_information_regarding_control_of_blast_sheath_blight_disease_in_paddy_crop_?
   examples: |
-    - Farmer needs information regarding control of blast /sheath blight disease in paddy crop ?
-    - Tell me Farmer needs information regarding control of blast /sheath blight disease in paddy crop ?
+    - Farmer needs information regarding control of blast sheath blight disease in paddy crop ?
+    - Tell me Farmer needs information regarding control of blast sheath blight disease in paddy crop ?
 
 - intent: Credit_Farmer_wants_to_know_about_credit_for_poultry_farming?
   examples: |
@@ -2267,11 +1932,6 @@
   examples: |
     - Farmer needs information regarding hybrid varieties of tomato crop ?
     - Tell me Farmer needs information regarding hybrid varieties of tomato crop ?
-
-- intent: Plant_Protection_Farmer_needs_information_regarding_control_of_bacterial_leaf_blight_in_paddy_?
-  examples: |
-    - Farmer needs information regarding control of bacterial leaf blight in paddy ?
-    - Tell me Farmer needs information regarding control of bacterial leaf blight in paddy ?
 
 - intent: Government_Schemes_Farmer_needs_information_regarding_subsidy_for_cow_rearing_?
   examples: |
@@ -2303,16 +1963,6 @@
     - Farmer needs information regarding control of rust in cowpea crop ?
     - Tell me Farmer needs information regarding control of rust in cowpea crop ?
 
-- intent: Plant_Protection_Farmer's_query_about_brown_plant_hopper_in_paddy_?
-  examples: |
-    - Farmer's query about brown plant hopper in paddy ?
-    - Tell me Farmer's query about brown plant hopper in paddy ?
-
-- intent: Plant_Protection_Farmer's_query_about_brown_plant_hopper_in_paddy_field_?
-  examples: |
-    - Farmer's query about brown plant hopper in paddy field ?
-    - Tell me Farmer's query about brown plant hopper in paddy field ?
-
 - intent: Plant_Protection_Farmer_needs_information_regarding_management_for_blast_of_paddy_?
   examples: |
     - Farmer needs information regarding management for blast of paddy ?
@@ -2327,11 +1977,6 @@
   examples: |
     - Farmer wants information about get daily messages related to agriculture on your mobile?
     - Tell me Farmer wants information about get daily messages related to agriculture on your mobile?
-
-- intent: Plant_Protection_Farmer_wants_information_about_control_brown_hopper_in_paddy_crop_?
-  examples: |
-    - Farmer wants information about control brown hopper in paddy crop ?
-    - Tell me Farmer wants information about control brown hopper in paddy crop ?
 
 - intent: Water_Management_Farmer_wants_to_know_water_management_in_paddy?
   examples: |
@@ -2358,11 +2003,6 @@
     - Farmer needs information regarding harvesting time of wheat crop ?
     - Tell me Farmer needs information regarding harvesting time of wheat crop ?
 
-- intent: Plant_Protection_Farmer's_query_about_brown_plant_hopper_in_paddy_field_?
-  examples: |
-    - Farmer's query about brown plant hopper in paddy field ?
-    - Tell me Farmer's query about brown plant hopper in paddy field ?
-
 - intent: Plant_Protection_Farmer_wants_to_management_of_panicle_mite_in_paddy?
   examples: |
     - Farmer wants to management of panicle mite in paddy?
@@ -2388,11 +2028,6 @@
     - Farmer need information regards suitable variety of wheat?
     - Tell me Farmer need information regards suitable variety of wheat?
 
-- intent: Plant_Protection_Farmer_needs_information_regarding_control_of_gundhi_bug_insect_attack_in_paddy_crop_?
-  examples: |
-    - Farmer needs information regarding control of gundhi bug insect attack in paddy crop ?
-    - Tell me Farmer needs information regarding control of gundhi bug insect attack in paddy crop ?
-
 - intent: Cultural_Practices_Farmer_wants_to_know_about_average_yield_of_sunflower?
   examples: |
     - Farmer wants to know about average yield of sunflower?
@@ -2417,11 +2052,6 @@
   examples: |
     - Farmer needs information regarding yield of mushroom ?
     - Tell me Farmer needs information regarding yield of mushroom ?
-
-- intent: Plant_Protection_Farmer's_query_about_brown_plant_hopper_in_paddy_?
-  examples: |
-    - Farmer's query about brown plant hopper in paddy ?
-    - Tell me Farmer's query about brown plant hopper in paddy ?
 
 - intent: Plant_Protection_Farmer_wants_to_know_about_control_of_pod_borer_attack_in_cowpea_crop?
   examples: |
@@ -2468,35 +2098,15 @@
     - Farmer needs information regarding availability of wheat seeds ?
     - Tell me Farmer needs information regarding availability of wheat seeds ?
 
-- intent: Plant_Protection_Farmer_needs_information_regarding_control_of_brown_plant_hopper_insect_attack_in_paddy_crop_?
-  examples: |
-    - Farmer needs information regarding control of brown plant hopper insect attack in paddy crop ?
-    - Tell me Farmer needs information regarding control of brown plant hopper insect attack in paddy crop ?
-
 - intent: Plant_Protection_Farmer_needs_information_regarding_use_of_imidachloprid_40_%_+_ethiprole_40_%_wg_in_paddy_crop_?
   examples: |
     - Farmer needs information regarding use of imidachloprid 40 % + ethiprole 40 % wg in paddy crop ?
     - Tell me Farmer needs information regarding use of imidachloprid 40 % + ethiprole 40 % wg in paddy crop ?
 
-- intent: Government_Schemes_Farmer_want_to_know_information_about_pradhan_mantri_kisan_samman_nidhi_yojana?
-  examples: |
-    - Farmer want to know information about pradhan mantri kisan samman nidhi yojana?
-    - Tell me Farmer want to know information about pradhan mantri kisan samman nidhi yojana?
-
 - intent: Government_Schemes_Farmer_want_to_know_information_about_subsidy_on_agriculture_machinery_?
   examples: |
     - Farmer want to know information about subsidy on agriculture machinery ?
     - Tell me Farmer want to know information about subsidy on agriculture machinery ?
-
-- intent: Government_Schemes_Farmer_want_to_know_information_about_pradhan_mantri_kisan_samman_nidhi_yojana?
-  examples: |
-    - Farmer want to know information about pradhan mantri kisan samman nidhi yojana?
-    - Tell me Farmer want to know information about pradhan mantri kisan samman nidhi yojana?
-
-- intent: Government_Schemes_Farmer_wants_to_know_information_about_pradhan_mantri_shram_yogi_maan-dhan_(pm-sym)?
-  examples: |
-    - Farmer wants to know information about pradhan mantri shram yogi maan-dhan (pm-sym)?
-    - Tell me Farmer wants to know information about pradhan mantri shram yogi maan-dhan (pm-sym)?
 
 - intent: Cultural_Practices_Farmer_wants_to_know_information_about_sowing_time_of_october_to_november_vegetable_crop?
   examples: |
@@ -2517,21 +2127,6 @@
   examples: |
     - Farmer wants to know about control of cut worm in paddy?
     - Tell me Farmer wants to know about control of cut worm in paddy?
-
-- intent: Plant_Protection_Farmer_query_about_management_of_whorl_maggot_in_paddy_crop?
-  examples: |
-    - Farmer query about management of whorl maggot in paddy crop?
-    - Tell me Farmer query about management of whorl maggot in paddy crop?
-
-- intent: Plant_Protection_Farmer_wants_to_know_about_control_of_sheath_blight_disease_in_paddy?
-  examples: |
-    - Farmer wants to know about control of sheath blight disease in paddy?
-    - Tell me Farmer wants to know about control of sheath blight disease in paddy?
-
-- intent: Plant_Protection_Farmer_wants_to_know_about_control_of_stem_borer_attack_in_paddy?
-  examples: |
-    - Farmer wants to know about control of stem borer attack in paddy?
-    - Tell me Farmer wants to know about control of stem borer attack in paddy?
 
 - intent: Plant_Protection_Farmer_wants_to_know_about_management_of_root_rot_disease_in_fenugreek?
   examples: |
@@ -2568,11 +2163,6 @@
     - Farmer want to know information about control measure mite insect in cowpea crop?
     - Tell me Farmer want to know information about control measure mite insect in cowpea crop?
 
-- intent: Plant_Protection_Farmer_want_to_know_information_about_control_measure_brown_plant_hopper_in_paddy_crop?
-  examples: |
-    - Farmer want to know information about control measure brown plant hopper in paddy crop?
-    - Tell me Farmer want to know information about control measure brown plant hopper in paddy crop?
-
 - intent: Plant_Protection_Farmer_wants_to_know_about_control_of_anthracnose_in_papaya?
   examples: |
     - Farmer wants to know about control of anthracnose in papaya?
@@ -2582,11 +2172,6 @@
   examples: |
     - Farmer wants information about control of white fly in paddy crop ?
     - Tell me Farmer wants information about control of white fly in paddy crop ?
-
-- intent: Plant_Protection_Farmer_needs_information_regarding_control_of_sheath_blight_in_paddy_crop_?
-  examples: |
-    - Farmer needs information regarding control of sheath blight in paddy crop ?
-    - Tell me Farmer needs information regarding control of sheath blight in paddy crop ?
 
 - intent: Plant_Protection_Framer_wants_information_about_control_of_leaf_eating_caterpillar_in_tomato_crop_?
   examples: |
@@ -2623,11 +2208,6 @@
     - Farmer wants to know about control of cut worm attack in paddy crop?
     - Tell me Farmer wants to know about control of cut worm attack in paddy crop?
 
-- intent: Plant_Protection_Farmer_wants_to_know_about_control_of_brown_plant_hopper_attack_in_paddy_crop?
-  examples: |
-    - Farmer wants to know about control of brown plant hopper attack in paddy crop?
-    - Tell me Farmer wants to know about control of brown plant hopper attack in paddy crop?
-
 - intent: Plant_Protection_Farmer_wants_to_know_about_control_of_bean_aphid_attack_in_cowpea?
   examples: |
     - Farmer wants to know about control of bean aphid attack in cowpea?
@@ -2653,11 +2233,6 @@
     - Farmer need information that while using carbofuran 3% gr water should be remove from field or not?
     - Tell me Farmer need information that while using carbofuran 3% gr water should be remove from field or not?
 
-- intent: Plant_Protection_Farmer_wants_information_about_control_of_cutworms_in_paddy_crop_?
-  examples: |
-    - Farmer wants information about control of cutworms in paddy crop ?
-    - Tell me Farmer wants information about control of cutworms in paddy crop ?
-
 - intent: Government_Schemes_Farmer_wants_to_know_information_about_registration_of_his_crops_in_advisory_details_of_kisan_call_centre?
   examples: |
     - Farmer wants to know information about registration of his crops in advisory details of kisan call centre?
@@ -2668,45 +2243,15 @@
     - Farmer is having query about the micro nutrient but he is not confirm with the name of chemical?
     - Tell me Farmer is having query about the micro nutrient but he is not confirm with the name of chemical?
 
-- intent: Plant_Protection_Farmer_wants_information_about_control_brown_hopper_in_paddy_crop_?
-  examples: |
-    - Farmer wants information about control brown hopper in paddy crop ?
-    - Tell me Farmer wants information about control brown hopper in paddy crop ?
-
-- intent: Plant_Protection_Farmer_wants_to_know_about_control_of_stem_borer_attack_in_paddy_crop?
-  examples: |
-    - Farmer wants to know about control of stem borer attack in paddy crop?
-    - Tell me Farmer wants to know about control of stem borer attack in paddy crop?
-
-- intent: Plant_Protection_Farmer_wants_to_know_about_control_of_smut_disease_in_paddy?
-  examples: |
-    - Farmer wants to know about control of smut disease in paddy?
-    - Tell me Farmer wants to know about control of smut disease in paddy?
-
 - intent: Plant_Protection_Farmer_wants_to_know_about_control_of_rotting_in_spinach?
   examples: |
     - Farmer wants to know about control of rotting in spinach?
     - Tell me Farmer wants to know about control of rotting in spinach?
 
-- intent: Government_Schemes_Farmer_want_to_know_information_about_pradhan_mantri_kisan_samman_nidhi_yojana?
-  examples: |
-    - Farmer want to know information about pradhan mantri kisan samman nidhi yojana?
-    - Tell me Farmer want to know information about pradhan mantri kisan samman nidhi yojana?
-
-- intent: Plant_Protection_Farmer_want_to_know_information_about_control_measure_panicle_mite_insect_in_paddy_crop?
-  examples: |
-    - Farmer want to know information about control measure panicle mite insect in paddy crop?
-    - Tell me Farmer want to know information about control measure panicle mite insect in paddy crop?
-
 - intent: Plant_Protection_Farmer_wants_to_know_about_control_of_neck_blast_disease_in_paddy_?
   examples: |
     - Farmer wants to know about control of neck blast disease in paddy ?
     - Tell me Farmer wants to know about control of neck blast disease in paddy ?
-
-- intent: Plant_Protection_Farmer_wants_to_know_about_control_of_brown_plant_hopper_attack_in_paddy_crop?
-  examples: |
-    - Farmer wants to know about control of brown plant hopper attack in paddy crop?
-    - Tell me Farmer wants to know about control of brown plant hopper attack in paddy crop?
 
 - intent: Cultural_Practices_Farmer_wants_to_know_information_about_characteristics_of_lock-1_variety_of_wheat_crop?
   examples: |
@@ -2717,11 +2262,6 @@
   examples: |
     - Farmer wants to know information about characteristics of gw-273 variety of wheat crop?
     - Tell me Farmer wants to know information about characteristics of gw-273 variety of wheat crop?
-
-- intent: Plant_Protection_Farmer's_query_about_brown_plant_hopper_in_paddy_field_?
-  examples: |
-    - Farmer's query about brown plant hopper in paddy field ?
-    - Tell me Farmer's query about brown plant hopper in paddy field ?
 
 - intent: Cultural_Practices_Farmer_wants_to_know_information_about_cultivation_of_cauliflower_crop?
   examples: |
@@ -2743,20 +2283,10 @@
     - Farmer wants information about animal husbandry loan?
     - Tell me Farmer wants information about animal husbandry loan?
 
-- intent: Plant_Protection_Farmer_needs_information_regarding_control_of_brown_plant_hopper_in_paddy_crop_?
-  examples: |
-    - Farmer needs information regarding control of brown plant hopper in paddy crop ?
-    - Tell me Farmer needs information regarding control of brown plant hopper in paddy crop ?
-
 - intent: Plant_Protection_Farmer_wants_to_about_control_of_mealy_bug_in_paddy?
   examples: |
     - Farmer wants to about control of mealy bug in paddy?
     - Tell me Farmer wants to about control of mealy bug in paddy?
-
-- intent: Plant_Protection_Farmer's_query_about_brown_plant_hopper_in_paddy_field_?
-  examples: |
-    - Farmer's query about brown plant hopper in paddy field ?
-    - Tell me Farmer's query about brown plant hopper in paddy field ?
 
 - intent: Nutrient_Management_Farmer_query_about_nutrient_management_in_paddy?
   examples: |
@@ -2772,11 +2302,6 @@
   examples: |
     - Farmer needs information regarding control for stem borer in paddy ?
     - Tell me Farmer needs information regarding control for stem borer in paddy ?
-
-- intent: Government_Schemes_Farmer_wants_to_know_information_about_pradhan_mantri_shram_yogi_maan-dhan_(pm-sym)?
-  examples: |
-    - Farmer wants to know information about pradhan mantri shram yogi maan-dhan (pm-sym)?
-    - Tell me Farmer wants to know information about pradhan mantri shram yogi maan-dhan (pm-sym)?
 
 - intent: Fertilizer_Use_and_Availability_Farmer_needs_information_regarding_fertilizer_dose_of_bitter_gourd_crop_?
   examples: |
@@ -2813,11 +2338,6 @@
     - Farmer want to know information about pre-insect control in pigeonpea crop?
     - Tell me Farmer want to know information about pre-insect control in pigeonpea crop?
 
-- intent: Plant_Protection_Farmer_wants_to_know_information_about_control_of_brown_plant_hopper_in_paddy_crop?
-  examples: |
-    - Farmer wants to know information about control of brown plant hopper in paddy crop?
-    - Tell me Farmer wants to know information about control of brown plant hopper in paddy crop?
-
 - intent: Plant_Protection_Farmer_wants_to_know_information_about_control_of_false_smut_in_paddy_crop_at_starting_period?
   examples: |
     - Farmer wants to know information about control of false smut in paddy crop at starting period?
@@ -2837,11 +2357,6 @@
   examples: |
     - Farmer need information regarding cultural practices in lethyrus crop ?
     - Tell me Farmer need information regarding cultural practices in lethyrus crop ?
-
-- intent: Varieties_Farmer_needs_information_regarding_improved_varieties_of_wheat_crop_?
-  examples: |
-    - Farmer needs information regarding improved varieties of wheat crop ?
-    - Tell me Farmer needs information regarding improved varieties of wheat crop ?
 
 - intent: Market_Information_Pm-kisan_&_pm-kisan_maan_dhan_yojna_(pm-kmy)_help_desk_number.
   examples: |
@@ -2948,11 +2463,6 @@
     - Information regarding control of stem borer and leaf folder in paddy and basmati?
     - Tell me Information regarding control of stem borer and leaf folder in paddy and basmati?
 
-- intent: Plant_Protection_Information_regarding_control_of_rice_ear_cutting_caterpillar_in_paddy_?
-  examples: |
-    - Information regarding control of rice ear cutting caterpillar in paddy ?
-    - Tell me Information regarding control of rice ear cutting caterpillar in paddy ?
-
 - intent: Plant_Protection_Information_regarding_the_control_of_stem_borer_and_leaf_folder_in_paddy_?
   examples: |
     - Information regarding the control of stem borer and leaf folder in paddy ?
@@ -2963,11 +2473,6 @@
     - Information regarding control of neck blast in paddy ?
     - Tell me Information regarding control of neck blast in paddy ?
 
-- intent: Plant_Protection_Information_regarding_control_of_grasshopper_and_aphid_in_paddy_?
-  examples: |
-    - Information regarding control of grasshopper and aphid in paddy ?
-    - Tell me Information regarding control of grasshopper and aphid in paddy ?
-
 - intent: Plant_Protection_Information_regarding_application_of_insecticide_in_paddy_crop?
   examples: |
     - Information regarding application of insecticide in paddy crop?
@@ -2977,11 +2482,6 @@
   examples: |
     - Information regarding control of damping off in cauliflower?
     - Tell me Information regarding control of damping off in cauliflower?
-
-- intent: Plant_Protection_Information_regarding_control_of_grasshopper_in_paddy_?
-  examples: |
-    - Information regarding control of grasshopper in paddy ?
-    - Tell me Information regarding control of grasshopper in paddy ?
 
 - intent: Plant_Protection_Information_regarding_control_of_stem_borer_in_basmati?
   examples: |
@@ -3008,11 +2508,6 @@
     - Information regarding best variety of papaya?
     - Tell me Information regarding best variety of papaya?
 
-- intent: Plant_Protection_Information_regarding_control_of_grasshopper_in_paddy_?
-  examples: |
-    - Information regarding control of grasshopper in paddy ?
-    - Tell me Information regarding control of grasshopper in paddy ?
-
 - intent: Water_Management_Information_regarding_the_irrigation_schedule_in_paddy?
   examples: |
     - Information regarding the irrigation schedule in paddy?
@@ -3033,16 +2528,6 @@
     - Information regarding manures and fertilizers used in potato crop?
     - Tell me Information regarding manures and fertilizers used in potato crop?
 
-- intent: Plant_Protection_Information_regarding_control_of_grasshopper_and_aphid_in_paddy_?
-  examples: |
-    - Information regarding control of grasshopper and aphid in paddy ?
-    - Tell me Information regarding control of grasshopper and aphid in paddy ?
-
-- intent: Plant_Protection_Information_regarding_control_of_grasshopper_and_aphid_in_paddy_?
-  examples: |
-    - Information regarding control of grasshopper and aphid in paddy ?
-    - Tell me Information regarding control of grasshopper and aphid in paddy ?
-
 - intent: Plant_Protection_Information_regarding_to_stem_borer_or_leaf_folder_in_paddy_and_basmati?
   examples: |
     - Information regarding to stem borer or leaf folder in paddy and basmati?
@@ -3058,20 +2543,10 @@
     - Information regarding the contact number of dairy development department ?
     - Tell me Information regarding the contact number of dairy development department ?
 
-- intent: Plant_Protection_Information_regarding_control_of_rice_ear_cutting_caterpillar_in_paddy_?
-  examples: |
-    - Information regarding control of rice ear cutting caterpillar in paddy ?
-    - Tell me Information regarding control of rice ear cutting caterpillar in paddy ?
-
 - intent: Plant_Protection_Information_regarding_water_management_in_paddy_?
   examples: |
     - Information regarding water management in paddy ?
     - Tell me Information regarding water management in paddy ?
-
-- intent: Plant_Protection_Information_regarding_the_control_of_sheath_blight_in_paddy_crop?
-  examples: |
-    - Information regarding the control of sheath blight in paddy crop?
-    - Tell me Information regarding the control of sheath blight in paddy crop?
 
 - intent: Plant_Protection_Information_regarding_contact_no._of_patiala_kvk?
   examples: |
@@ -3103,20 +2578,10 @@
     - Information regrading improved varieties of wheat?
     - Tell me Information regrading improved varieties of wheat?
 
-- intent: Plant_Protection_Information_regarding_the_control_of_sheath_blight_in_basmati_crop?
-  examples: |
-    - Information regarding the control of sheath blight in basmati crop?
-    - Tell me Information regarding the control of sheath blight in basmati crop?
-
 - intent: Plant_Protection_Information_regarding_control_of_false_smut_in_paddy_?
   examples: |
     - Information regarding control of false smut in paddy ?
     - Tell me Information regarding control of false smut in paddy ?
-
-- intent: Plant_Protection_Information_regarding_the_control_of_sheath_blight_in_paddy_crop?
-  examples: |
-    - Information regarding the control of sheath blight in paddy crop?
-    - Tell me Information regarding the control of sheath blight in paddy crop?
 
 - intent: Cultural_Practices_Information_regarding_planting_time_of_fruits?
   examples: |
@@ -3148,11 +2613,6 @@
     - Query about pradhan mantri kisan samman nidhi yojana?
     - Tell me Query about pradhan mantri kisan samman nidhi yojana?
 
-- intent: Government_Schemes_Query_about_pradhan_mantri_kisan_samman_nidhi_yojana?
-  examples: |
-    - Query about pradhan mantri kisan samman nidhi yojana?
-    - Tell me Query about pradhan mantri kisan samman nidhi yojana?
-
 - intent: Plant_Protection_Information_regarding_the_control_of_sheath_blight_in_paddy?
   examples: |
     - Information regarding the control of sheath blight in paddy?
@@ -3163,11 +2623,6 @@
     - Information regarding the better yield of the crop?
     - Tell me Information regarding the better yield of the crop?
 
-- intent: Government_Schemes_Query_about_pradhan_mantri_kisan_samman_nidhi_yojana?
-  examples: |
-    - Query about pradhan mantri kisan samman nidhi yojana?
-    - Tell me Query about pradhan mantri kisan samman nidhi yojana?
-
 - intent: Plant_Protection_Information_regarding_application_of_pesticide_near_harvesting_time?
   examples: |
     - Information regarding application of pesticide near harvesting time?
@@ -3177,11 +2632,6 @@
   examples: |
     - Information regarding control of false smut in paddy
     - Tell me Information regarding control of false smut in paddy
-
-- intent: Sowing_Time_and_Weather_Information_regarding_sowing_time_of_oats?
-  examples: |
-    - Information regarding sowing time of oats?
-    - Tell me Information regarding sowing time of oats?
 
 - intent: Seeds_Information_regarding_seed_rate_of_oats?
   examples: |
@@ -3248,20 +2698,10 @@
     - Information regarding contact number of iwbr karnal ?
     - Tell me Information regarding contact number of iwbr karnal ?
 
-- intent: Nutrient_Management_Information_regarding_the_better_yield_of_the_paddy?
-  examples: |
-    - Information regarding the better yield of the paddy?
-    - Tell me Information regarding the better yield of the paddy?
-
 - intent: Plant_Protection_Information_regarding_for_pesticides_application_in_paddy_?
   examples: |
     - Information regarding for pesticides application in paddy ?
     - Tell me Information regarding for pesticides application in paddy ?
-
-- intent: Plant_Protection_Information_regarding_control_of_rice_ear_cutting_caterpillar_in_paddy_?
-  examples: |
-    - Information regarding control of rice ear cutting caterpillar in paddy ?
-    - Tell me Information regarding control of rice ear cutting caterpillar in paddy ?
 
 - intent: Plant_Protection_Information_regarding_control_of_maize_borer_in_fodder_maize_?
   examples: |
@@ -3272,16 +2712,6 @@
   examples: |
     - Information regarding sowing time of intercropping of toria and gobhi sarson?
     - Tell me Information regarding sowing time of intercropping of toria and gobhi sarson?
-
-- intent: Plant_Protection_Information_regarding_control_of_stem_borer_and_leaf_folder_in_paddy_and_basmati?
-  examples: |
-    - Information regarding control of stem borer and leaf folder in paddy and basmati?
-    - Tell me Information regarding control of stem borer and leaf folder in paddy and basmati?
-
-- intent: Varieties_Information_regarding_new_variety_of_wheat_?
-  examples: |
-    - Information regarding new variety of wheat ?
-    - Tell me Information regarding new variety of wheat ?
 
 - intent: Sowing_Time_and_Weather_Information_regrading_improved_varieties_of_wheat?
   examples: |
@@ -3313,20 +2743,10 @@
     - Information regarding contact number of punjab agriculture university,ludhiana?
     - Tell me Information regarding contact number of punjab agriculture university,ludhiana?
 
-- intent: Plant_Protection_Information_regarding_control_of_grasshopper_and_aphid_in_paddy_?
-  examples: |
-    - Information regarding control of grasshopper and aphid in paddy ?
-    - Tell me Information regarding control of grasshopper and aphid in paddy ?
-
 - intent: Market_Information_Information_regarding_contact_no._of_patiala_kvk?
   examples: |
     - Information regarding contact no. of patiala kvk?
     - Tell me Information regarding contact no. of patiala kvk?
-
-- intent: Plant_Protection_Information_regarding_control_of_false_smut_in_paddy_?
-  examples: |
-    - Information regarding control of false smut in paddy ?
-    - Tell me Information regarding control of false smut in paddy ?
 
 - intent: Varieties_Information_regarding_improved_varieties_of_gobhi_sarson?
   examples: |
@@ -3338,11 +2758,6 @@
     - Information regarding the control of caterpillar in cauliflower?
     - Tell me Information regarding the control of caterpillar in cauliflower?
 
-- intent: Plant_Protection_Information_regarding_control_of_grasshopper_and_aphid_in_paddy_?
-  examples: |
-    - Information regarding control of grasshopper and aphid in paddy ?
-    - Tell me Information regarding control of grasshopper and aphid in paddy ?
-
 - intent: Cultural_Practices_Information_regarding_weed_control_in_garlic?
   examples: |
     - Information regarding weed control in garlic?
@@ -3353,25 +2768,10 @@
     - Information regarding weed control in cauliflower?
     - Tell me Information regarding weed control in cauliflower?
 
-- intent: Varieties_Information_regarding_new_variety_of_wheat_?
-  examples: |
-    - Information regarding new variety of wheat ?
-    - Tell me Information regarding new variety of wheat ?
-
-- intent: Varieties_Information_regrading_improved_varieties_of_wheat?
-  examples: |
-    - Information regrading improved varieties of wheat?
-    - Tell me Information regrading improved varieties of wheat?
-
 - intent: Plant_Protection_Information_regarding_control_of_mealy_bug_on_citrus_?
   examples: |
     - Information regarding control of mealy bug on citrus ?
     - Tell me Information regarding control of mealy bug on citrus ?
-
-- intent: Plant_Protection_Information_regarding_control_of_rice_ear_cutting_caterpillar_in_paddy_?
-  examples: |
-    - Information regarding control of rice ear cutting caterpillar in paddy ?
-    - Tell me Information regarding control of rice ear cutting caterpillar in paddy ?
 
 - intent: Plant_Protection_Information_regarding_contact_no._of_punjab_agricultural_university_ludhiana_?
   examples: |
@@ -3398,20 +2798,10 @@
     - Information regarding control of root borer in radish?
     - Tell me Information regarding control of root borer in radish?
 
-- intent: Varieties_Information_regarding_new_variety_of_wheat_?
-  examples: |
-    - Information regarding new variety of wheat ?
-    - Tell me Information regarding new variety of wheat ?
-
 - intent: Plant_Protection_Tell_me_insect_control_in_paddy
   examples: |
     - Tell me insect control in paddy
     - What is the insect control in paddy
-
-- intent: Plant_Protection_Information_regarding_control_of_grasshopper_and_aphid_in_paddy_?
-  examples: |
-    - Information regarding control of grasshopper and aphid in paddy ?
-    - Tell me Information regarding control of grasshopper and aphid in paddy ?
 
 - intent: Government_Schemes_Query_about_subsidy_availability_for_tractor_?
   examples: |
@@ -3433,16 +2823,6 @@
     - Information regarding for pesticide application of paddy ?
     - Tell me Information regarding for pesticide application of paddy ?
 
-- intent: Plant_Protection_Information_regarding_control_of_grasshopper_and_aphid_in_paddy_?
-  examples: |
-    - Information regarding control of grasshopper and aphid in paddy ?
-    - Tell me Information regarding control of grasshopper and aphid in paddy ?
-
-- intent: Plant_Protection_Information_regarding_the_control_of_grasshopper_and_plant_hopper_in_paddy_?
-  examples: |
-    - Information regarding the control of grasshopper and plant hopper in paddy ?
-    - Tell me Information regarding the control of grasshopper and plant hopper in paddy ?
-
 - intent: Plant_Protection_Information_regarding_dying_of_plants_of_paddy?
   examples: |
     - Information regarding dying of plants of paddy?
@@ -3462,16 +2842,6 @@
   examples: |
     - Information regarding contact no. of chief agricultural officer of patiala?
     - Tell me Information regarding contact no. of chief agricultural officer of patiala?
-
-- intent: Plant_Protection_Information_regarding_the_control_of_grasshopper_and_plant_hopper_in_paddy_?
-  examples: |
-    - Information regarding the control of grasshopper and plant hopper in paddy ?
-    - Tell me Information regarding the control of grasshopper and plant hopper in paddy ?
-
-- intent: Nutrient_Management_Information_regarding_the_better_yield_of_the_paddy?
-  examples: |
-    - Information regarding the better yield of the paddy?
-    - Tell me Information regarding the better yield of the paddy?
 
 - intent: Sowing_Time_and_Weather_Information_regrading_sowing_time_of_wheat?
   examples: |
@@ -3498,26 +2868,6 @@
     - Information regarding improved varieties of barseem?
     - Tell me Information regarding improved varieties of barseem?
 
-- intent: Plant_Protection_Information_regarding_for_pesticide_application_of_paddy_?
-  examples: |
-    - Information regarding for pesticide application of paddy ?
-    - Tell me Information regarding for pesticide application of paddy ?
-
-- intent: Cultural_Practices_Information_regarding_sowing_time_of_pea?
-  examples: |
-    - Information regarding sowing time of pea?
-    - Tell me Information regarding sowing time of pea?
-
-- intent: Cultural_Practices_Information_regarding_improved_early_maturing_varieties_of_pea?
-  examples: |
-    - Information regarding improved early maturing varieties of pea?
-    - Tell me Information regarding improved early maturing varieties of pea?
-
-- intent: Plant_Protection_Information_regarding_application_of_pesticide_near_harvesting_time?
-  examples: |
-    - Information regarding application of pesticide near harvesting time?
-    - Tell me Information regarding application of pesticide near harvesting time?
-
 - intent: Nutrient_Management_Information_regarding_seed_treatment_of_wheat_for_getting_good_yield?
   examples: |
     - Information regarding seed treatment of wheat for getting good yield?
@@ -3542,11 +2892,6 @@
   examples: |
     - Information regarding the spray for control of fungal disease in paddy before 15 days of harvesting ?
     - Tell me Information regarding the spray for control of fungal disease in paddy before 15 days of harvesting ?
-
-- intent: Cultural_Practices_Information_regarding_improved_early_maturing_varieties_of_pea?
-  examples: |
-    - Information regarding improved early maturing varieties of pea?
-    - Tell me Information regarding improved early maturing varieties of pea?
 
 - intent: Plant_Protection_Information_regarding_deficiency_of_boron_in_paddy_crop?
   examples: |
@@ -3582,11 +2927,6 @@
   examples: |
     - Information regarding irrigation in coriander?
     - Tell me Information regarding irrigation in coriander?
-
-- intent: Plant_Protection_Information_regarding_control_of_grasshopper_and_aphid_in_paddy_?
-  examples: |
-    - Information regarding control of grasshopper and aphid in paddy ?
-    - Tell me Information regarding control of grasshopper and aphid in paddy ?
 
 - intent: Cultural_Practices_Information_regarding_improved_varieties_of_radish?
   examples: |
@@ -3648,35 +2988,10 @@
     - Information regarding the contact no. of pau ludhiana?
     - Tell me Information regarding the contact no. of pau ludhiana?
 
-- intent: Plant_Protection_Information_regarding_the_control_of_sheath_blight_in_paddy_crop?
-  examples: |
-    - Information regarding the control of sheath blight in paddy crop?
-    - Tell me Information regarding the control of sheath blight in paddy crop?
-
-- intent: Plant_Protection_Information_regarding_control_of_grasshopper_in_paddy_?
-  examples: |
-    - Information regarding control of grasshopper in paddy ?
-    - Tell me Information regarding control of grasshopper in paddy ?
-
-- intent: Cultural_Practices_Information_regarding_improved_early_maturing_varieties_of_pea?
-  examples: |
-    - Information regarding improved early maturing varieties of pea?
-    - Tell me Information regarding improved early maturing varieties of pea?
-
-- intent: Plant_Protection_Information_regarding_application_of_pesticide_near_harvesting_time?
-  examples: |
-    - Information regarding application of pesticide near harvesting time?
-    - Tell me Information regarding application of pesticide near harvesting time?
-
 - intent: Plant_Protection_Information_regarding_to_control_catterpillar_in_fodder_?
   examples: |
     - Information regarding to control catterpillar in fodder ?
     - Tell me Information regarding to control catterpillar in fodder ?
-
-- intent: Varieties_Information_regarding_new_variety_of_wheat_?
-  examples: |
-    - Information regarding new variety of wheat ?
-    - Tell me Information regarding new variety of wheat ?
 
 - intent: Nutrient_Management_Information_regarding_control_of_fruit_drop_?
   examples: |
@@ -3717,11 +3032,6 @@
   examples: |
     - Information regarding the control of neck blast in paddy?
     - Tell me Information regarding the control of neck blast in paddy?
-
-- intent: Sowing_Time_and_Weather_Information_regarding_for_sowing_time_of_barseem_?
-  examples: |
-    - Information regarding for sowing time of barseem ?
-    - Tell me Information regarding for sowing time of barseem ?
 
 - intent: Bio-Pesticides_and_Bio-Fertilizers_Information_regarding_the_better_yield_of_the_paddy?
   examples: |
@@ -3773,25 +3083,10 @@
     - Information regarding the control of weeds in carrot ?
     - Tell me Information regarding the control of weeds in carrot ?
 
-- intent: Plant_Protection_Information_regarding_control_of_grasshopper_and_aphid_in_paddy_?
-  examples: |
-    - Information regarding control of grasshopper and aphid in paddy ?
-    - Tell me Information regarding control of grasshopper and aphid in paddy ?
-
-- intent: Plant_Protection_Information_regarding_any_spray_on_paddy_?
-  examples: |
-    - Information regarding any spray on paddy ?
-    - Tell me Information regarding any spray on paddy ?
-
 - intent: Dairy_Production_Information_regarding_the_contact_number_of_district_development_manager_of_patiala_?
   examples: |
     - Information regarding the contact number of district development manager of patiala ?
     - Tell me Information regarding the contact number of district development manager of patiala ?
-
-- intent: Training_and_Exposure_Visits_Information_regarding_contact_no._of_patiala_kvk?
-  examples: |
-    - Information regarding contact no. of patiala kvk?
-    - Tell me Information regarding contact no. of patiala kvk?
 
 - intent: Plant_Protection_Information_regarding_weed_control_in_onion?
   examples: |
@@ -3848,11 +3143,6 @@
     - Information regarding the weed management in peas?
     - Tell me Information regarding the weed management in peas?
 
-- intent: Government_Schemes_Query_about_pradhan_mantri_kisan_samman_nidhi_yojana?
-  examples: |
-    - Query about pradhan mantri kisan samman nidhi yojana?
-    - Tell me Query about pradhan mantri kisan samman nidhi yojana?
-
 - intent: Plant_Protection_Information_regarding_control_of_diseases(sheath_blight_or_leaf_blight)?
   examples: |
     - Information regarding control of diseases(sheath blight or leaf blight)?
@@ -3867,16 +3157,6 @@
   examples: |
     - Information regarding fertilizer apply in tomato?
     - Tell me Information regarding fertilizer apply in tomato?
-
-- intent: Sowing_Time_and_Weather_Information_regrading_sowing_time_of_wheat?
-  examples: |
-    - Information regrading sowing time of wheat?
-    - Tell me Information regrading sowing time of wheat?
-
-- intent: Cultural_Practices_Information_regarding_sowing_time_of_pea?
-  examples: |
-    - Information regarding sowing time of pea?
-    - Tell me Information regarding sowing time of pea?
 
 - intent: Sowing_Time_and_Weather_Information_regarding_sowing_time_of_ryegrass?
   examples: |
@@ -3933,16 +3213,6 @@
     - Information regarding seed rate of barseem?
     - Tell me Information regarding seed rate of barseem?
 
-- intent: Varieties_Information_regarding_new_variety_of_wheat_?
-  examples: |
-    - Information regarding new variety of wheat ?
-    - Tell me Information regarding new variety of wheat ?
-
-- intent: Varieties_Information_regarding_the_detail_about_the_timely_sowing_varieties_of_wheat?
-  examples: |
-    - Information regarding the detail about the timely sowing varieties of wheat?
-    - Tell me Information regarding the detail about the timely sowing varieties of wheat?
-
 - intent: Plant_Protection_Information_regarding_control_of_grain_discoloration_in_rice_?
   examples: |
     - Information regarding control of grain discoloration in rice ?
@@ -3972,11 +3242,6 @@
   examples: |
     - Information regarding contact no. of punjab agricultural university ludhiana ?
     - Tell me Information regarding contact no. of punjab agricultural university ludhiana ?
-
-- intent: Plant_Protection_Information_regarding_control_of_stem_borer_and_leaf_folder_in_paddy_and_basmati?
-  examples: |
-    - Information regarding control of stem borer and leaf folder in paddy and basmati?
-    - Tell me Information regarding control of stem borer and leaf folder in paddy and basmati?
 
 - intent: Plant_Protection_Query_about_control_of_insect_pest_in_cucurbits_in_kitchen_garden?
   examples: |
@@ -4018,16 +3283,6 @@
     - Information regarding contact no. of kvk patiala ?
     - Tell me Information regarding contact no. of kvk patiala ?
 
-- intent: Sowing_Time_and_Weather_Information_regarding_sowing_time_of_gobhi_sarson?
-  examples: |
-    - Information regarding sowing time of gobhi sarson?
-    - Tell me Information regarding sowing time of gobhi sarson?
-
-- intent: Sowing_Time_and_Weather_Information_regarding_sowing_time_of_raya_and_african_sarson?
-  examples: |
-    - Information regarding sowing time of raya and african sarson?
-    - Tell me Information regarding sowing time of raya and african sarson?
-
 - intent: Plant_Protection_Information_regarding_bacterial_leaf_blight_in_paddy?
   examples: |
     - Information regarding bacterial leaf blight in paddy?
@@ -4037,21 +3292,6 @@
   examples: |
     - Information regarding new variety of wheat ?
     - Tell me Information regarding new variety of wheat ?
-
-- intent: Cultural_Practices_Information_regrading_sowing_time_of_wheat?
-  examples: |
-    - Information regrading sowing time of wheat?
-    - Tell me Information regrading sowing time of wheat?
-
-- intent: Cultural_Practices_Information_regarding_sowing_time_of_pea?
-  examples: |
-    - Information regarding sowing time of pea?
-    - Tell me Information regarding sowing time of pea?
-
-- intent: Cultural_Practices_Information_regarding_improved_varieties_of_pea_in_main_season?
-  examples: |
-    - Information regarding improved varieties of pea in main season?
-    - Tell me Information regarding improved varieties of pea in main season?
 
 - intent: Bio-Pesticides_and_Bio-Fertilizers_Information_regarding_seed_treatment_of_pea_crop?
   examples: |
@@ -4067,16 +3307,6 @@
   examples: |
     - Information regarding water management in paddy ?
     - Tell me Information regarding water management in paddy ?
-
-- intent: Plant_Protection_Information_regarding_control_of_false_smut_in_paddy_?
-  examples: |
-    - Information regarding control of false smut in paddy ?
-    - Tell me Information regarding control of false smut in paddy ?
-
-- intent: Cultural_Practices_Information_regrading_sowing_time_of_wheat?
-  examples: |
-    - Information regrading sowing time of wheat?
-    - Tell me Information regrading sowing time of wheat?
 
 - intent: Cultural_Practices_Information_regarding_method_of_fertilizer_application_in_wheat_?
   examples: |
@@ -4108,25 +3338,10 @@
     - Information regarding composition of waste decomposer?
     - Tell me Information regarding composition of waste decomposer?
 
-- intent: Water_Management_Information_regarding_the_irrigation_schedule_in_paddy?
-  examples: |
-    - Information regarding the irrigation schedule in paddy?
-    - Tell me Information regarding the irrigation schedule in paddy?
-
-- intent: Water_Management_Information_regarding_water_management_in_paddy_?
-  examples: |
-    - Information regarding water management in paddy ?
-    - Tell me Information regarding water management in paddy ?
-
 - intent: Training_and_Exposure_Visits_Information_regarding_contact_no._of_chief_agricultural_officer_of_patiala?
   examples: |
     - Information regarding contact no. of chief agricultural officer of patiala?
     - Tell me Information regarding contact no. of chief agricultural officer of patiala?
-
-- intent: Training_and_Exposure_Visits_Information_regarding_contact_no._of_patiala_kvk?
-  examples: |
-    - Information regarding contact no. of patiala kvk?
-    - Tell me Information regarding contact no. of patiala kvk?
 
 - intent: Nutrient_Management_Information_regarding_manures_and_fertilizers_used_in_carrot_crop?
   examples: |
@@ -4153,30 +3368,15 @@
     - Information regarding seed rate of carrot?
     - Tell me Information regarding seed rate of carrot?
 
-- intent: Plant_Protection_Information_regarding_the_control_of_stem_borer_and_leaf_folder_in_paddy_?
-  examples: |
-    - Information regarding the control of stem borer and leaf folder in paddy ?
-    - Tell me Information regarding the control of stem borer and leaf folder in paddy ?
-
 - intent: Varieties_Information_regarding_the_sowing_time_of_timely_sowing_varieties_of_wheat_?
   examples: |
     - Information regarding the sowing time of timely sowing varieties of wheat ?
     - Tell me Information regarding the sowing time of timely sowing varieties of wheat ?
 
-- intent: Varieties_Information_regarding_the_detail_about_the_timely_sowing_varieties_of_wheat?
-  examples: |
-    - Information regarding the detail about the timely sowing varieties of wheat?
-    - Tell me Information regarding the detail about the timely sowing varieties of wheat?
-
 - intent: Plant_Protection_Information_regarding_control_of_aphid_and_other_sucking_pest_in_cucumber?
   examples: |
     - Information regarding control of aphid and other sucking pest in cucumber?
     - Tell me Information regarding control of aphid and other sucking pest in cucumber?
-
-- intent: Plant_Protection_Information_regarding_application_of_pesticide_near_harvesting_time?
-  examples: |
-    - Information regarding application of pesticide near harvesting time?
-    - Tell me Information regarding application of pesticide near harvesting time?
 
 - intent: Seeds_Information_regarding_seed_treatment_in_wheat_for_loose_smut_and_flag_smut_?
   examples: |
@@ -4223,45 +3423,15 @@
     - Information regarding control of bacterial leaf blight in paddy?
     - Tell me Information regarding control of bacterial leaf blight in paddy?
 
-- intent: Nutrient_Management_Information_regarding_total_fertilizer_dose_used_in_barseem?
-  examples: |
-    - Information regarding total fertilizer dose used in barseem?
-    - Tell me Information regarding total fertilizer dose used in barseem?
-
-- intent: Varieties_Information_regarding_improved_varieties_of_barseem?
-  examples: |
-    - Information regarding improved varieties of barseem?
-    - Tell me Information regarding improved varieties of barseem?
-
-- intent: Training_and_Exposure_Visits_Information_regarding_contact_no._of_patiala_kvk?
-  examples: |
-    - Information regarding contact no. of patiala kvk?
-    - Tell me Information regarding contact no. of patiala kvk?
-
 - intent: Soil_Testing_Information_regarding_availability_of_soil_and_water_testing_lab?
   examples: |
     - Information regarding availability of soil and water testing lab?
     - Tell me Information regarding availability of soil and water testing lab?
 
-- intent: Market_Information_Information_regarding_contact_no._of_punjab_agricultural_university_ludhiana_?
-  examples: |
-    - Information regarding contact no. of punjab agricultural university ludhiana ?
-    - Tell me Information regarding contact no. of punjab agricultural university ludhiana ?
-
 - intent: Plant_Protection_Information_regarding_control_of_sucking_pests_in_barseem?
   examples: |
     - Information regarding control of sucking pests in barseem?
     - Tell me Information regarding control of sucking pests in barseem?
-
-- intent: Sowing_Time_and_Weather_Information_regarding_the_sowing_time_of_timely_sowing_varieties_of_wheat_?
-  examples: |
-    - Information regarding the sowing time of timely sowing varieties of wheat ?
-    - Tell me Information regarding the sowing time of timely sowing varieties of wheat ?
-
-- intent: Cultural_Practices_Information_regarding_application_of_pesticide_near_harvesting_time?
-  examples: |
-    - Information regarding application of pesticide near harvesting time?
-    - Tell me Information regarding application of pesticide near harvesting time?
 
 - intent: Seeds_and_Planting_Material_Information_regarding_improved_varieties_of_pea_in_main_season?
   examples: |
@@ -4278,25 +3448,10 @@
     - Information regarding the minimum days required for fungicide ?
     - Tell me Information regarding the minimum days required for fungicide ?
 
-- intent: Sowing_Time_and_Weather_Information_regarding_the_sowing_time_of_timely_sowing_varieties_of_wheat_?
-  examples: |
-    - Information regarding the sowing time of timely sowing varieties of wheat ?
-    - Tell me Information regarding the sowing time of timely sowing varieties of wheat ?
-
 - intent: Plant_Protection_Information_regarding_control_of_grasshopper_and_hoppers_in_paddy_?
   examples: |
     - Information regarding control of grasshopper and hoppers in paddy ?
     - Tell me Information regarding control of grasshopper and hoppers in paddy ?
-
-- intent: Plant_Protection_Information_regarding_control_of_grasshopper_and_hoppers_in_paddy_?
-  examples: |
-    - Information regarding control of grasshopper and hoppers in paddy ?
-    - Tell me Information regarding control of grasshopper and hoppers in paddy ?
-
-- intent: Plant_Protection_Information_regarding_the_control_of_sheath_blight_in_basmati_crop?
-  examples: |
-    - Information regarding the control of sheath blight in basmati crop?
-    - Tell me Information regarding the control of sheath blight in basmati crop?
 
 - intent: Plant_Protection_Information_regarding_control_of_grasshopper_and_hoppers_in_paddy_and_basmati?
   examples: |
@@ -4313,20 +3468,10 @@
     - Information regarding the seed rate of wheat?
     - Tell me Information regarding the seed rate of wheat?
 
-- intent: Varieties_Information_regarding_new_variety_of_wheat_?
-  examples: |
-    - Information regarding new variety of wheat ?
-    - Tell me Information regarding new variety of wheat ?
-
 - intent: Seeds_Information_regarding_the_contact_no._of_animal_husbandry_department_of_patiala?
   examples: |
     - Information regarding the contact no. of animal husbandry department of patiala?
     - Tell me Information regarding the contact no. of animal husbandry department of patiala?
-
-- intent: Seeds_Information_regarding_contact_no._of_kvk_patiala_?
-  examples: |
-    - Information regarding contact no. of kvk patiala ?
-    - Tell me Information regarding contact no. of kvk patiala ?
 
 - intent: Plant_Protection_Information_regarding_weed_control_in_garlic?
   examples: |
@@ -4347,11 +3492,6 @@
   examples: |
     - Information regarding control of rice ear cutting catterpiller in paddy ?
     - Tell me Information regarding control of rice ear cutting catterpiller in paddy ?
-
-- intent: Market_Information_Information_regarding_contact_no._of_patiala_kvk?
-  examples: |
-    - Information regarding contact no. of patiala kvk?
-    - Tell me Information regarding contact no. of patiala kvk?
 
 - intent: Plant_Protection_Information_regarding_control_of_stem_borer_in_paddy?
   examples: |
@@ -4403,21 +3543,6 @@
     - Information regarding improved early maturing varieties of pea?
     - Tell me Information regarding improved early maturing varieties of pea?
 
-- intent: Cultural_Practices_Information_regarding_improved_varieties_of_pea_in_main_season?
-  examples: |
-    - Information regarding improved varieties of pea in main season?
-    - Tell me Information regarding improved varieties of pea in main season?
-
-- intent: Water_Management_Information_regarding_water_management_in_paddy_?
-  examples: |
-    - Information regarding water management in paddy ?
-    - Tell me Information regarding water management in paddy ?
-
-- intent: Varieties_Information_regarding_yield_of_pusa_basmati_1718?
-  examples: |
-    - Information regarding yield of pusa basmati 1718?
-    - Tell me Information regarding yield of pusa basmati 1718?
-
 - intent: Soil_Testing_Information_regarding_contact_no._of_patiala_kvk?
   examples: |
     - Information regarding contact no. of patiala kvk?
@@ -4433,10 +3558,10 @@
     - Information regarding total fertilizer application in rapeseed-raya and gobhi sarson?
     - Tell me Information regarding total fertilizer application in rapeseed-raya and gobhi sarson?
 
-- intent: Plant_Protection_Information_regarding_control_of_foot_rot/gummosis_in_citrus?
+- intent: Plant_Protection_Information_regarding_control_of_foot_rot_gummosis_in_citrus?
   examples: |
-    - Information regarding control of foot rot/gummosis in citrus?
-    - Tell me Information regarding control of foot rot/gummosis in citrus?
+    - Information regarding control of foot rot gummosis in citrus?
+    - Tell me Information regarding control of foot rot gummosis in citrus?
 
 - intent: Plant_Protection_Information_regarding_bordeaux_paste_?
   examples: |
@@ -4453,30 +3578,10 @@
     - Information regarding caterpillar in maize ?
     - Tell me Information regarding caterpillar in maize ?
 
-- intent: Varieties_Information_regarding_improved_varieties_of_barseem?
-  examples: |
-    - Information regarding improved varieties of barseem?
-    - Tell me Information regarding improved varieties of barseem?
-
-- intent: Fertilizer_Use_and_Availability_Information_regarding_total_fertilizer_dose_used_in_barseem?
-  examples: |
-    - Information regarding total fertilizer dose used in barseem?
-    - Tell me Information regarding total fertilizer dose used in barseem?
-
 - intent: Nutrient_Management_Information_regarding_seed_rate_in_brinjal?
   examples: |
     - Information regarding seed rate in brinjal?
     - Tell me Information regarding seed rate in brinjal?
-
-- intent: Varieties_Information_regarding_improved_varieties_of_barseem?
-  examples: |
-    - Information regarding improved varieties of barseem?
-    - Tell me Information regarding improved varieties of barseem?
-
-- intent: Plant_Protection_Information_regarding_control_of_neck_blast_in_basmati_crop?
-  examples: |
-    - Information regarding control of neck blast in basmati crop?
-    - Tell me Information regarding control of neck blast in basmati crop?
 
 - intent: Plant_Protection_Information_regarding_control_of_maize_borer_?
   examples: |
@@ -4493,30 +3598,10 @@
     - Information regarding control of wilt and root rot in pea?
     - Tell me Information regarding control of wilt and root rot in pea?
 
-- intent: Bio-Pesticides_and_Bio-Fertilizers_Information_regarding_seed_treatment_of_pea_crop?
-  examples: |
-    - Information regarding seed treatment of pea crop?
-    - Tell me Information regarding seed treatment of pea crop?
-
-- intent: Cultural_Practices_Information_regarding_sowing_time_of_pea?
-  examples: |
-    - Information regarding sowing time of pea?
-    - Tell me Information regarding sowing time of pea?
-
 - intent: Seeds_and_Planting_Material_Information_regarding_seed_rate_in_pea?
   examples: |
     - Information regarding seed rate in pea?
     - Tell me Information regarding seed rate in pea?
-
-- intent: Cultural_Practices_Information_regarding_sowing_time_of_pea?
-  examples: |
-    - Information regarding sowing time of pea?
-    - Tell me Information regarding sowing time of pea?
-
-- intent: Cultural_Practices_Information_regarding_improved_early_maturing_varieties_of_pea?
-  examples: |
-    - Information regarding improved early maturing varieties of pea?
-    - Tell me Information regarding improved early maturing varieties of pea?
 
 - intent: Cultural_Practices_Information_regarding_manures_and_fertilizers_used_in_potato_crop?
   examples: |
@@ -4528,16 +3613,6 @@
     - Information regarding control of weeds in pre- emergence stage in wheat ?
     - Tell me Information regarding control of weeds in pre- emergence stage in wheat ?
 
-- intent: Cultural_Practices_Information_regrading_sowing_time_of_wheat?
-  examples: |
-    - Information regrading sowing time of wheat?
-    - Tell me Information regrading sowing time of wheat?
-
-- intent: Seeds_Information_regarding_seed_rate_of_barseem?
-  examples: |
-    - Information regarding seed rate of barseem?
-    - Tell me Information regarding seed rate of barseem?
-
 - intent: Seeds_Information_regarding_sowing_time_of_ryegrass?
   examples: |
     - Information regarding sowing time of ryegrass?
@@ -4547,16 +3622,6 @@
   examples: |
     - Information regarding seed rate of ryegrass?
     - Tell me Information regarding seed rate of ryegrass?
-
-- intent: Sowing_Time_and_Weather_Information_regarding_sowing_time_of_ryegrass?
-  examples: |
-    - Information regarding sowing time of ryegrass?
-    - Tell me Information regarding sowing time of ryegrass?
-
-- intent: Fertilizer_Use_and_Availability_Information_regarding_the_recommended_dose_of_fertilizers_for_wheat_?
-  examples: |
-    - Information regarding the recommended dose of fertilizers for wheat ?
-    - Tell me Information regarding the recommended dose of fertilizers for wheat ?
 
 - intent: Fertilizer_Use_and_Availability_Information_regarding_the_recommended_dose_of_fertilizers_for_wheat_?
   examples: |
@@ -4573,16 +3638,6 @@
     - Information regarding the contact no. of gadvasu ludhiana?
     - Tell me Information regarding the contact no. of gadvasu ludhiana?
 
-- intent: Sowing_Time_and_Weather_Information_regrading_sowing_time_of_wheat?
-  examples: |
-    - Information regrading sowing time of wheat?
-    - Tell me Information regrading sowing time of wheat?
-
-- intent: Sowing_Time_and_Weather_Information_regarding_sowing_time_of_wheat?
-  examples: |
-    - Information regarding sowing time of wheat?
-    - Tell me Information regarding sowing time of wheat?
-
 - intent: Plant_Protection_Information_regarding_the_spray_for_control_of_fungal_disease_in_paddy_before_10_days_of_harvesting_?
   examples: |
     - Information regarding the spray for control of fungal disease in paddy before 10 days of harvesting ?
@@ -4592,11 +3647,6 @@
   examples: |
     - Information regarding use of pesticides before harvesting?
     - Tell me Information regarding use of pesticides before harvesting?
-
-- intent: Plant_Protection_Information_regarding_control_of_grasshopper_and_hoppers_in_paddy_?
-  examples: |
-    - Information regarding control of grasshopper and hoppers in paddy ?
-    - Tell me Information regarding control of grasshopper and hoppers in paddy ?
 
 - intent: Cultural_Practices_Information_regarding_the_recommended_dose_of_fertilizers_for_wheat_?
   examples: |
@@ -4608,11 +3658,6 @@
     - Information regarding improved pea variety punjab-89?
     - Tell me Information regarding improved pea variety punjab-89?
 
-- intent: Plant_Protection_Information_regarding_contact_no._of_patiala_kvk?
-  examples: |
-    - Information regarding contact no. of patiala kvk?
-    - Tell me Information regarding contact no. of patiala kvk?
-
 - intent: Cultural_Practices_Information_regarding_use_of_pesticides_before_harvesting?
   examples: |
     - Information regarding use of pesticides before harvesting?
@@ -4622,21 +3667,6 @@
   examples: |
     - Information regarding the contact number of district development manager of patiala ?
     - Tell me Information regarding the contact number of district development manager of patiala ?
-
-- intent: Plant_Protection_Information_regarding_use_of_pesticides_before_harvesting?
-  examples: |
-    - Information regarding use of pesticides before harvesting?
-    - Tell me Information regarding use of pesticides before harvesting?
-
-- intent: Sowing_Time_and_Weather_Information_regrading_sowing_time_of_wheat?
-  examples: |
-    - Information regrading sowing time of wheat?
-    - Tell me Information regrading sowing time of wheat?
-
-- intent: Market_Information_Information_regarding_the_contact_no._of_punjab_mandi_board_?
-  examples: |
-    - Information regarding the contact no. of punjab mandi board ?
-    - Tell me Information regarding the contact no. of punjab mandi board ?
 
 - intent: Nutrient_Management_Information_regarding_control_of_aphid_and_other_sucking_pest_in_cucurbits?
   examples: |
@@ -4673,25 +3703,10 @@
     - Query about pradhan mantri kisan samman nidhi yojana?
     - Tell me Query about pradhan mantri kisan samman nidhi yojana?
 
-- intent: Plant_Protection_Information_regarding_control_of_grasshopper_in_paddy_?
-  examples: |
-    - Information regarding control of grasshopper in paddy ?
-    - Tell me Information regarding control of grasshopper in paddy ?
-
-- intent: Plant_Protection_Information_regarding_control_of_neck_blast_in_paddy_?
-  examples: |
-    - Information regarding control of neck blast in paddy ?
-    - Tell me Information regarding control of neck blast in paddy ?
-
 - intent: Training_and_Exposure_Visits_Information_regarding_contact_no._of_punjab_agricultural_university_ludhiana_?
   examples: |
     - Information regarding contact no. of punjab agricultural university ludhiana ?
     - Tell me Information regarding contact no. of punjab agricultural university ludhiana ?
-
-- intent: Plant_Protection_Information_regarding_bordeaux_paste_?
-  examples: |
-    - Information regarding bordeaux paste ?
-    - Tell me Information regarding bordeaux paste ?
 
 - intent: Plant_Protection_Information_regarding_the_seed_treatment_of_wheat_for_protection_from_loose_smut_and_flag_smut?
   examples: |
@@ -4718,11 +3733,6 @@
     - Information regarding control of fungus in paddy ?
     - Tell me Information regarding control of fungus in paddy ?
 
-- intent: Varieties_Information_regarding_desi_gram_varieties_for_irrigated_conditions_?
-  examples: |
-    - Information regarding desi gram varieties for irrigated conditions ?
-    - Tell me Information regarding desi gram varieties for irrigated conditions ?
-
 - intent: Sowing_Time_and_Weather_Information_regarding_sowing_time_of_gram_crop?
   examples: |
     - Information regarding sowing time of gram crop?
@@ -4738,25 +3748,10 @@
     - Information regarding control of gram caterpillar in gram ?
     - Tell me Information regarding control of gram caterpillar in gram ?
 
-- intent: Plant_Protection_Information_regarding_contact_no._of_patiala_kvk?
-  examples: |
-    - Information regarding contact no. of patiala kvk?
-    - Tell me Information regarding contact no. of patiala kvk?
-
 - intent: Plant_Protection_Information_regarding_contact_no._of_chief_agricultural_officer_of_patiala?
   examples: |
     - Information regarding contact no. of chief agricultural officer of patiala?
     - Tell me Information regarding contact no. of chief agricultural officer of patiala?
-
-- intent: Plant_Protection_Information_regarding_control_of_army_worm_in_maize_?
-  examples: |
-    - Information regarding control of army worm in maize ?
-    - Tell me Information regarding control of army worm in maize ?
-
-- intent: Plant_Protection_Information_regarding_control_of_diseases(sheath_blight_or_leaf_blight)?
-  examples: |
-    - Information regarding control of diseases(sheath blight or leaf blight)?
-    - Tell me Information regarding control of diseases(sheath blight or leaf blight)?
 
 - intent: Varieties_Information_regarding_the_yield_of_about_the_timely_sowing_varieties_of_wheat?
   examples: |
@@ -4793,21 +3788,6 @@
     - Information regarding the detail about hd-3226 and availability of seed of this variety ?
     - Tell me Information regarding the detail about hd-3226 and availability of seed of this variety ?
 
-- intent: Varieties_Information_regarding_the_yield_of_about_the_timely_sowing_varieties_of_wheat?
-  examples: |
-    - Information regarding the yield of about the timely sowing varieties of wheat?
-    - Tell me Information regarding the yield of about the timely sowing varieties of wheat?
-
-- intent: Varieties_Information_regarding_improved_varieties_of_raya?
-  examples: |
-    - Information regarding improved varieties of raya?
-    - Tell me Information regarding improved varieties of raya?
-
-- intent: Varieties_Information_regarding_improved_varieties_of_gobhi_sarson?
-  examples: |
-    - Information regarding improved varieties of gobhi sarson?
-    - Tell me Information regarding improved varieties of gobhi sarson?
-
 - intent: Cultural_Practices_Information_regarding_paddy_straw_management?
   examples: |
     - Information regarding paddy straw management?
@@ -4833,35 +3813,10 @@
     - Information regarding seed treatment in sugarcane?
     - Tell me Information regarding seed treatment in sugarcane?
 
-- intent: Cultural_Practices_Information_regarding_sowing_time_of_pea?
-  examples: |
-    - Information regarding sowing time of pea?
-    - Tell me Information regarding sowing time of pea?
-
 - intent: Cultural_Practices_Information_regarding_seed_rate_in_pea?
   examples: |
     - Information regarding seed rate in pea?
     - Tell me Information regarding seed rate in pea?
-
-- intent: Weed_Management_Information_regarding_the_pre-emergence_herbicides_used_in_the_wheat?
-  examples: |
-    - Information regarding the pre-emergence herbicides used in the wheat?
-    - Tell me Information regarding the pre-emergence herbicides used in the wheat?
-
-- intent: Varieties_Information_regarding_improved_varieties_of_gobhi_sarson?
-  examples: |
-    - Information regarding improved varieties of gobhi sarson?
-    - Tell me Information regarding improved varieties of gobhi sarson?
-
-- intent: Government_Schemes_Query_about_pradhan_mantri_kisan_samman_nidhi_yojana?
-  examples: |
-    - Query about pradhan mantri kisan samman nidhi yojana?
-    - Tell me Query about pradhan mantri kisan samman nidhi yojana?
-
-- intent: Sowing_Time_and_Weather_Information_regarding_the_sowing_time_of_timely_sowing_varieties_of_wheat_?
-  examples: |
-    - Information regarding the sowing time of timely sowing varieties of wheat ?
-    - Tell me Information regarding the sowing time of timely sowing varieties of wheat ?
 
 - intent: Nursery_Management_Information_regarding_sowing_time_of_cabbage_?
   examples: |
@@ -4893,45 +3848,20 @@
     - Information about leaf spot in okra?
     - Tell me Information about leaf spot in okra?
 
-- intent: Government_Schemes_Information_regarding_contact_no._of_chief_agricultural_officer_of_patiala?
-  examples: |
-    - Information regarding contact no. of chief agricultural officer of patiala?
-    - Tell me Information regarding contact no. of chief agricultural officer of patiala?
-
 - intent: Government_Schemes_Information_regarding_contact_no._of_patiala_kvk?
   examples: |
     - Information regarding contact no. of patiala kvk?
     - Tell me Information regarding contact no. of patiala kvk?
-
-- intent: Seeds_and_Planting_Material_Information_regarding_seed_rate_in_pea?
-  examples: |
-    - Information regarding seed rate in pea?
-    - Tell me Information regarding seed rate in pea?
 
 - intent: Varieties_Information_regarding_sowing_time_of_gobhi_sarson?
   examples: |
     - Information regarding sowing time of gobhi sarson?
     - Tell me Information regarding sowing time of gobhi sarson?
 
-- intent: Weed_Management_Information_regarding_the_pre-emergence_herbicides_used_in_the_wheat?
-  examples: |
-    - Information regarding the pre-emergence herbicides used in the wheat?
-    - Tell me Information regarding the pre-emergence herbicides used in the wheat?
-
 - intent: Plant_Protection_Information_regarding_should_we_spray_of_insecticide_at_near_harvesting_stage_?
   examples: |
     - Information regarding should we spray of insecticide at near harvesting stage ?
     - Tell me Information regarding should we spray of insecticide at near harvesting stage ?
-
-- intent: Cultural_Practices_Information_regarding_sowing_time_of_pea?
-  examples: |
-    - Information regarding sowing time of pea?
-    - Tell me Information regarding sowing time of pea?
-
-- intent: Plant_Protection_Information_regarding_application_of_pesticide_in_paddy_crop?
-  examples: |
-    - Information regarding application of pesticide in paddy crop?
-    - Tell me Information regarding application of pesticide in paddy crop?
 
 - intent: Cultural_Practices_Information_regarding_application_of_pesticide_in_paddy_crop?
   examples: |
@@ -4958,50 +3888,15 @@
     - Information regarding contact no. of punjab agricultural university ludhiana,fodder section extension no. ?
     - Tell me Information regarding contact no. of punjab agricultural university ludhiana,fodder section extension no. ?
 
-- intent: Sowing_Time_and_Weather_Information_regarding_the_sowing_time_of_timely_sowing_varieties_of_wheat_?
-  examples: |
-    - Information regarding the sowing time of timely sowing varieties of wheat ?
-    - Tell me Information regarding the sowing time of timely sowing varieties of wheat ?
-
-- intent: Fertilizer_Use_and_Availability_Information_regarding_the_recommended_dose_of_fertilizers_for_wheat_?
-  examples: |
-    - Information regarding the recommended dose of fertilizers for wheat ?
-    - Tell me Information regarding the recommended dose of fertilizers for wheat ?
-
 - intent: Varieties_Information_regarding_how_to_collect_soil_sample?
   examples: |
     - Information regarding how to collect soil sample?
     - Tell me Information regarding how to collect soil sample?
 
-- intent: Varieties_Information_regarding_the_yield_of_about_the_timely_sowing_varieties_of_wheat?
-  examples: |
-    - Information regarding the yield of about the timely sowing varieties of wheat?
-    - Tell me Information regarding the yield of about the timely sowing varieties of wheat?
-
-- intent: Sowing_Time_and_Weather_Information_regarding_sowing_time_of_wheat?
-  examples: |
-    - Information regarding sowing time of wheat?
-    - Tell me Information regarding sowing time of wheat?
-
-- intent: Sowing_Time_and_Weather_Information_regarding_sowing_time_of_wheat?
-  examples: |
-    - Information regarding sowing time of wheat?
-    - Tell me Information regarding sowing time of wheat?
-
-- intent: Weed_Management_Information_regarding_the_control_of_weeds_from_the_vacant_field_before_sowing_of_wheat_?
-  examples: |
-    - Information regarding the control of weeds from the vacant field before sowing of wheat ?
-    - Tell me Information regarding the control of weeds from the vacant field before sowing of wheat ?
-
 - intent: Fertilizer_Use_and_Availability_Information_regarding_total_fertilizer_dose_in_wheat_?
   examples: |
     - Information regarding total fertilizer dose in wheat ?
     - Tell me Information regarding total fertilizer dose in wheat ?
-
-- intent: Plant_Protection_Information_regarding_control_of_rice_ear_cutting_caterpillar_in_paddy_?
-  examples: |
-    - Information regarding control of rice ear cutting caterpillar in paddy ?
-    - Tell me Information regarding control of rice ear cutting caterpillar in paddy ?
 
 - intent: Bio-Pesticides_and_Bio-Fertilizers_Information_regarding_seed_production_of_berseem?
   examples: |
@@ -5013,20 +3908,10 @@
     - Information regarding application of fertilizer in cauliflower crop ?
     - Tell me Information regarding application of fertilizer in cauliflower crop ?
 
-- intent: Plant_Protection_Information_regarding_the_control_of_caterpillar_in_cauliflower?
-  examples: |
-    - Information regarding the control of caterpillar in cauliflower?
-    - Tell me Information regarding the control of caterpillar in cauliflower?
-
 - intent: Varieties_Information_regarding_for_subsidy_availability_in_wheat_seed_?
   examples: |
     - Information regarding for subsidy availability in wheat seed ?
     - Tell me Information regarding for subsidy availability in wheat seed ?
-
-- intent: Varieties_Information_regarding_improved_varieties_of_barseem?
-  examples: |
-    - Information regarding improved varieties of barseem?
-    - Tell me Information regarding improved varieties of barseem?
 
 - intent: Fertilizer_Use_and_Availability_Information_regarding_for_dose_of_singlesuperphosphate_(ssp)_in_wheat_?
   examples: |
@@ -5037,11 +3922,6 @@
   examples: |
     - Information regarding control of fruit drop in citrus?
     - Tell me Information regarding control of fruit drop in citrus?
-
-- intent: Plant_Protection_Information_regarding_control_of_grasshopper_and_hoppers_in_paddy_?
-  examples: |
-    - Information regarding control of grasshopper and hoppers in paddy ?
-    - Tell me Information regarding control of grasshopper and hoppers in paddy ?
 
 - intent: Plant_Protection_Information_regarding_yellowing_of_leaves_drek_tree?
   examples: |
@@ -5113,31 +3993,6 @@
     - Information regarding to growth of potato ?
     - Tell me Information regarding to growth of potato ?
 
-- intent: Plant_Protection_Information_regarding_control_of_grasshopper_in_paddy_?
-  examples: |
-    - Information regarding control of grasshopper in paddy ?
-    - Tell me Information regarding control of grasshopper in paddy ?
-
-- intent: Plant_Protection_Information_regarding_application_of_pesticide_in_paddy_crop?
-  examples: |
-    - Information regarding application of pesticide in paddy crop?
-    - Tell me Information regarding application of pesticide in paddy crop?
-
-- intent: Plant_Protection_Information_regarding_control_of_bacterial_leaf_blight_in_paddy?
-  examples: |
-    - Information regarding control of bacterial leaf blight in paddy?
-    - Tell me Information regarding control of bacterial leaf blight in paddy?
-
-- intent: Cultural_Practices_Information_regarding_improved_pea_variety_punjab-89?
-  examples: |
-    - Information regarding improved pea variety punjab-89?
-    - Tell me Information regarding improved pea variety punjab-89?
-
-- intent: Cultural_Practices_Information_regarding_improved_varieties_of_pea_in_main_season?
-  examples: |
-    - Information regarding improved varieties of pea in main season?
-    - Tell me Information regarding improved varieties of pea in main season?
-
 - intent: Plant_Protection_Information_regarding_control_of_virus_in_tomato?
   examples: |
     - Information regarding control of virus in tomato?
@@ -5148,45 +4003,15 @@
     - Information regarding control of brinjal shoot and fruit borer in brinjal ?
     - Tell me Information regarding control of brinjal shoot and fruit borer in brinjal ?
 
-- intent: Varieties_Information_regarding_the_yield_of_about_the_timely_sowing_varieties_of_wheat?
-  examples: |
-    - Information regarding the yield of about the timely sowing varieties of wheat?
-    - Tell me Information regarding the yield of about the timely sowing varieties of wheat?
-
-- intent: Varieties_Information_regarding_the_detail_about_hd-3226_and_availability_of_seed_of_this_variety_?
-  examples: |
-    - Information regarding the detail about hd-3226 and availability of seed of this variety ?
-    - Tell me Information regarding the detail about hd-3226 and availability of seed of this variety ?
-
-- intent: Plant_Protection_Information_regarding_control_of_grasshopper_and_hoppers_in_paddy_?
-  examples: |
-    - Information regarding control of grasshopper and hoppers in paddy ?
-    - Tell me Information regarding control of grasshopper and hoppers in paddy ?
-
 - intent: Power,_Roads_etc._Query_about_pradhan_mantri_kisan_samman_nidhi_yojana?
   examples: |
     - Query about pradhan mantri kisan samman nidhi yojana?
     - Tell me Query about pradhan mantri kisan samman nidhi yojana?
 
-- intent: Fertilizer_Use_and_Availability_Information_regarding_the_recommended_dose_of_fertilizers_for_wheat_?
-  examples: |
-    - Information regarding the recommended dose of fertilizers for wheat ?
-    - Tell me Information regarding the recommended dose of fertilizers for wheat ?
-
 - intent: Fertilizer_Use_and_Availability_Information_regarding_the_seed_inoculation_in_wheat_?
   examples: |
     - Information regarding the seed inoculation in wheat ?
     - Tell me Information regarding the seed inoculation in wheat ?
-
-- intent: Varieties_Information_regarding_the_yield_of_about_the_timely_sowing_varieties_of_wheat?
-  examples: |
-    - Information regarding the yield of about the timely sowing varieties of wheat?
-    - Tell me Information regarding the yield of about the timely sowing varieties of wheat?
-
-- intent: Varieties_Information_regarding_the_sowing_time_of_timely_sowing_varieties_of_wheat_?
-  examples: |
-    - Information regarding the sowing time of timely sowing varieties of wheat ?
-    - Tell me Information regarding the sowing time of timely sowing varieties of wheat ?
 
 - intent: Plant_Protection_Information_regarding_the_spray_of_insecticide_in_paddy_before_10_days?
   examples: |
@@ -5208,16 +4033,6 @@
     - Information regarding the combine control of grassy weeds and broad leaf weeds in wheat ?
     - Tell me Information regarding the combine control of grassy weeds and broad leaf weeds in wheat ?
 
-- intent: Cultural_Practices_Information_regarding_paddy_straw_management?
-  examples: |
-    - Information regarding paddy straw management?
-    - Tell me Information regarding paddy straw management?
-
-- intent: Cultural_Practices_Information_regarding_paddy_straw_management_?
-  examples: |
-    - Information regarding paddy straw management ?
-    - Tell me Information regarding paddy straw management ?
-
 - intent: Varieties_Information_regarding_contact_no._of_pau,_ludhiana?
   examples: |
     - Information regarding contact no. of pau, ludhiana?
@@ -5233,35 +4048,10 @@
     - Information regarding seed treatment in wheat for termite ?
     - Tell me Information regarding seed treatment in wheat for termite ?
 
-- intent: Seeds_Information_regarding_seed_treatment_in_wheat_for_loose_smut_and_flag_smut_?
-  examples: |
-    - Information regarding seed treatment in wheat for loose smut and flag smut ?
-    - Tell me Information regarding seed treatment in wheat for loose smut and flag smut ?
-
-- intent: Plant_Protection_Information_regarding_control_of_fruit_drop_in_citrus?
-  examples: |
-    - Information regarding control of fruit drop in citrus?
-    - Tell me Information regarding control of fruit drop in citrus?
-
 - intent: Plant_Protection_Information_regarding_control_of_lac_insect_in_ber_plants?
   examples: |
     - Information regarding control of lac insect in ber plants?
     - Tell me Information regarding control of lac insect in ber plants?
-
-- intent: Varieties_Information_regarding_the_yield_of_about_the_timely_sowing_varieties_of_wheat?
-  examples: |
-    - Information regarding the yield of about the timely sowing varieties of wheat?
-    - Tell me Information regarding the yield of about the timely sowing varieties of wheat?
-
-- intent: Varieties_Information_regarding_new_variety_of_wheat_?
-  examples: |
-    - Information regarding new variety of wheat ?
-    - Tell me Information regarding new variety of wheat ?
-
-- intent: Varieties_Information_regarding_improved_varieties_of_wheat?
-  examples: |
-    - Information regarding improved varieties of wheat?
-    - Tell me Information regarding improved varieties of wheat?
 
 - intent: Plant_Protection_Information_regarding_how_to_control_leaf_curl_in_tomato_?
   examples: |
@@ -5288,21 +4078,6 @@
     - Information regarding better flower and fruit production in tomato?
     - Tell me Information regarding better flower and fruit production in tomato?
 
-- intent: Sowing_Time_and_Weather_Information_regarding_the_yield_of_about_the_timely_sowing_varieties_of_wheat?
-  examples: |
-    - Information regarding the yield of about the timely sowing varieties of wheat?
-    - Tell me Information regarding the yield of about the timely sowing varieties of wheat?
-
-- intent: Fertilizer_Use_and_Availability_Information_regarding_the_recommended_dose_of_fertilizers_for_wheat_?
-  examples: |
-    - Information regarding the recommended dose of fertilizers for wheat ?
-    - Tell me Information regarding the recommended dose of fertilizers for wheat ?
-
-- intent: Soil_Testing_Information_regarding_contact_no._of_patiala_kvk?
-  examples: |
-    - Information regarding contact no. of patiala kvk?
-    - Tell me Information regarding contact no. of patiala kvk?
-
 - intent: Cultural_Practices_Information_regarding_contact_no._of_pau,_ludhiana?
   examples: |
     - Information regarding contact no. of pau, ludhiana?
@@ -5317,11 +4092,6 @@
   examples: |
     - Information regarding for control of wilt, root rot and collar rot in pea?
     - Tell me Information regarding for control of wilt, root rot and collar rot in pea?
-
-- intent: Plant_Protection_Information_regarding_control_of_fruit_fly_in_fruits?
-  examples: |
-    - Information regarding control of fruit fly in fruits?
-    - Tell me Information regarding control of fruit fly in fruits?
 
 - intent: Varieties_Information_regarding_sowing_time_of_wheat?
   examples: |
@@ -5348,35 +4118,10 @@
     - Information regarding fertilizer doses in guava?
     - Tell me Information regarding fertilizer doses in guava?
 
-- intent: Nutrient_Management_Information_regarding_the_recommended_dose_of_fertilizers_for_wheat_?
-  examples: |
-    - Information regarding the recommended dose of fertilizers for wheat ?
-    - Tell me Information regarding the recommended dose of fertilizers for wheat ?
-
 - intent: Bio-Pesticides_and_Bio-Fertilizers_Information_regarding_contact_no._of_waste_decomposer_paunchkula?
   examples: |
     - Information regarding contact no. of waste decomposer paunchkula?
     - Tell me Information regarding contact no. of waste decomposer paunchkula?
-
-- intent: Market_Information_Information_regarding_contact_no._of_chief_agricultural_officer_of_patiala?
-  examples: |
-    - Information regarding contact no. of chief agricultural officer of patiala?
-    - Tell me Information regarding contact no. of chief agricultural officer of patiala?
-
-- intent: Varieties_Information_regarding_new_variety_of_wheat_?
-  examples: |
-    - Information regarding new variety of wheat ?
-    - Tell me Information regarding new variety of wheat ?
-
-- intent: Varieties_Information_regarding_the_yield_of_about_the_timely_sowing_varieties_of_wheat?
-  examples: |
-    - Information regarding the yield of about the timely sowing varieties of wheat?
-    - Tell me Information regarding the yield of about the timely sowing varieties of wheat?
-
-- intent: Varieties_Information_regarding_sowing_time_of_wheat?
-  examples: |
-    - Information regarding sowing time of wheat?
-    - Tell me Information regarding sowing time of wheat?
 
 - intent: Field_Preparation_Information_regarding_paddy_straw_management_?
   examples: |
@@ -5398,11 +4143,6 @@
     - Information regarding control of bacterial leaf blight in paddy?
     - Tell me Information regarding control of bacterial leaf blight in paddy?
 
-- intent: Sowing_Time_and_Weather_Information_regrading_sowing_time_of_wheat?
-  examples: |
-    - Information regrading sowing time of wheat?
-    - Tell me Information regrading sowing time of wheat?
-
 - intent: Plant_Protection_Information_regarding_the_best_time_of_day_to_spray_any_chemical_on_paddy?
   examples: |
     - Information regarding the best time of day to spray any chemical on paddy?
@@ -5412,11 +4152,6 @@
   examples: |
     - Information regarding control of wilt and root rot in pea?
     - Tell me Information regarding control of wilt and root rot in pea?
-
-- intent: Training_and_Exposure_Visits_Information_regarding_contact_no._of_patiala_kvk?
-  examples: |
-    - Information regarding contact no. of patiala kvk?
-    - Tell me Information regarding contact no. of patiala kvk?
 
 - intent: Training_and_Exposure_Visits_Information_regarding_join_any_training_programme_in_pau?
   examples: |
@@ -5443,57 +4178,12 @@
     - Information regarding the pre-emergence herbicides used in the wheat?
     - Tell me Information regarding the pre-emergence herbicides used in the wheat?
 
-- intent: Market_Information_Pm-kisan_&_pm-kisan_maan_dhan_yojna_(pm-kmy)_help_desk_number.
-  examples: |
-    - Pm-kisan & pm-kisan maan dhan yojna (pm-kmy) help desk number.
-    - Tell me Pm-kisan & pm-kisan maan dhan yojna (pm-kmy) help desk number.
-
-- intent: Sowing_Time_and_Weather_Information_regarding_sowing_time_of_wheat?
-  examples: |
-    - Information regarding sowing time of wheat?
-    - Tell me Information regarding sowing time of wheat?
-
-- intent: Varieties_Information_regarding_the_detail_about_the_varieties_of_wheat_?
-  examples: |
-    - Information regarding the detail about the varieties of wheat ?
-    - Tell me Information regarding the detail about the varieties of wheat ?
-
 - intent: Weed_Management_Information_regarding_weed_control_in_gram?
   examples: |
     - Information regarding weed control in gram?
     - Tell me Information regarding weed control in gram?
 
-- intent: Weed_Management_Information_regarding_the_pre-emergence_herbicides_used_in_the_wheat?
-  examples: |
-    - Information regarding the pre-emergence herbicides used in the wheat?
-    - Tell me Information regarding the pre-emergence herbicides used in the wheat?
-
 - intent: Field_Preparation_Information_regarding_contact_no._of_patiala_kvk?
-  examples: |
-    - Information regarding contact no. of patiala kvk?
-    - Tell me Information regarding contact no. of patiala kvk?
-
-- intent: Field_Preparation_Information_regarding_contact_no._of_patiala_kvk?
-  examples: |
-    - Information regarding contact no. of patiala kvk?
-    - Tell me Information regarding contact no. of patiala kvk?
-
-- intent: Field_Preparation_Information_regarding_paddy_straw_management?
-  examples: |
-    - Information regarding paddy straw management?
-    - Tell me Information regarding paddy straw management?
-
-- intent: Field_Preparation_Information_regarding_paddy_straw_management_?
-  examples: |
-    - Information regarding paddy straw management ?
-    - Tell me Information regarding paddy straw management ?
-
-- intent: Varieties_Information_regarding_for_subsidy_availability_in_wheat_seed_?
-  examples: |
-    - Information regarding for subsidy availability in wheat seed ?
-    - Tell me Information regarding for subsidy availability in wheat seed ?
-
-- intent: Training_and_Exposure_Visits_Information_regarding_contact_no._of_patiala_kvk?
   examples: |
     - Information regarding contact no. of patiala kvk?
     - Tell me Information regarding contact no. of patiala kvk?
@@ -5508,26 +4198,6 @@
     - Information regarding seed treatment of pea crop?
     - Tell me Information regarding seed treatment of pea crop?
 
-- intent: Plant_Protection_Information_regarding_control_of_grasshopper_and_aphid_in_paddy_?
-  examples: |
-    - Information regarding control of grasshopper and aphid in paddy ?
-    - Tell me Information regarding control of grasshopper and aphid in paddy ?
-
-- intent: Plant_Protection_Information_regarding_the_control_of_sheath_blight_in_basmati_crop?
-  examples: |
-    - Information regarding the control of sheath blight in basmati crop?
-    - Tell me Information regarding the control of sheath blight in basmati crop?
-
-- intent: Plant_Protection_Information_regarding_control_of_grasshopper_and_aphid_in_paddy_?
-  examples: |
-    - Information regarding control of grasshopper and aphid in paddy ?
-    - Tell me Information regarding control of grasshopper and aphid in paddy ?
-
-- intent: Plant_Protection_Information_regarding_application_of_pesticide_in_paddy_crop?
-  examples: |
-    - Information regarding application of pesticide in paddy crop?
-    - Tell me Information regarding application of pesticide in paddy crop?
-
 - intent: Nutrient_Management_Information_regarding_the_fertilizer_requirement_in_wheat_sown_with_happy_seeder_?
   examples: |
     - Information regarding the fertilizer requirement in wheat sown with happy seeder ?
@@ -5538,35 +4208,15 @@
     - Information regarding the pre-emergence herbicides used in the wheat?
     - Tell me Information regarding the pre-emergence herbicides used in the wheat?
 
-- intent: Varieties_Information_regarding_the_detail_about_the_varieties_of_wheat_?
-  examples: |
-    - Information regarding the detail about the varieties of wheat ?
-    - Tell me Information regarding the detail about the varieties of wheat ?
-
-- intent: Fertilizer_Use_and_Availability_Information_regarding_manures_and_fertilizers_used_in_potato_crop?
-  examples: |
-    - Information regarding manures and fertilizers used in potato crop?
-    - Tell me Information regarding manures and fertilizers used in potato crop?
-
 - intent: Cultural_Practices_Information_regarding_weed_control_in_spinach?
   examples: |
     - Information regarding weed control in spinach?
     - Tell me Information regarding weed control in spinach?
 
-- intent: Cultural_Practices_Information_regarding_the_weed_management_in_peas?
-  examples: |
-    - Information regarding the weed management in peas?
-    - Tell me Information regarding the weed management in peas?
-
 - intent: Varieties_Information_regarding_the_varieties_of_wheat_suitable_for_rainfed_conditions?
   examples: |
     - Information regarding the varieties of wheat suitable for rainfed conditions?
     - Tell me Information regarding the varieties of wheat suitable for rainfed conditions?
-
-- intent: Varieties_Information_regarding_the_detail_about_hd-3226_and_availability_of_seed_of_this_variety_?
-  examples: |
-    - Information regarding the detail about hd-3226 and availability of seed of this variety ?
-    - Tell me Information regarding the detail about hd-3226 and availability of seed of this variety ?
 
 - intent: Varieties_Information_regarding_the_detail_about_dbw-187_variety_of_wheat_?
   examples: |
@@ -5578,20 +4228,10 @@
     - Information regarding control of disease in cucurbit?
     - Tell me Information regarding control of disease in cucurbit?
 
-- intent: Varieties_Information_regarding_the_detail_about_the_varieties_of_wheat_?
-  examples: |
-    - Information regarding the detail about the varieties of wheat ?
-    - Tell me Information regarding the detail about the varieties of wheat ?
-
 - intent: Seeds_Information_regarding_the_detail_about_hd-3226_and_availability_of_seed_of_this_variety_?
   examples: |
     - Information regarding the detail about hd-3226 and availability of seed of this variety ?
     - Tell me Information regarding the detail about hd-3226 and availability of seed of this variety ?
-
-- intent: Varieties_Information_regarding_the_detail_about_the_varieties_of_wheat_?
-  examples: |
-    - Information regarding the detail about the varieties of wheat ?
-    - Tell me Information regarding the detail about the varieties of wheat ?
 
 - intent: Varieties_Information_regarding_new_variety_of_wheat?
   examples: |
@@ -5603,35 +4243,15 @@
     - Information regarding the seed treatment of wheat to protect from termite ?
     - Tell me Information regarding the seed treatment of wheat to protect from termite ?
 
-- intent: Varieties_Information_regarding_the_detail_about_the_timely_sowing_varieties_of_wheat?
-  examples: |
-    - Information regarding the detail about the timely sowing varieties of wheat?
-    - Tell me Information regarding the detail about the timely sowing varieties of wheat?
-
 - intent: Cultural_Practices_Information_regarding_the_method_of_seed_treatment_of_wheat_for_termite_control_?
   examples: |
     - Information regarding the method of seed treatment of wheat for termite control ?
     - Tell me Information regarding the method of seed treatment of wheat for termite control ?
 
-- intent: Cultural_Practices_Information_regarding_the_seed_treatment_of_wheat_for_protection_from_loose_smut_and_flag_smut?
-  examples: |
-    - Information regarding the seed treatment of wheat for protection from loose smut and flag smut?
-    - Tell me Information regarding the seed treatment of wheat for protection from loose smut and flag smut?
-
 - intent: Cultural_Practices_Information_regarding_the_sowing_time_of_timely_sowing_varieties_of_wheat_?
   examples: |
     - Information regarding the sowing time of timely sowing varieties of wheat ?
     - Tell me Information regarding the sowing time of timely sowing varieties of wheat ?
-
-- intent: Cultural_Practices_Information_regarding_sowing_time_of_gobhi_sarson?
-  examples: |
-    - Information regarding sowing time of gobhi sarson?
-    - Tell me Information regarding sowing time of gobhi sarson?
-
-- intent: Cultural_Practices_Information_regarding_improved_varieties_of_gobhi_sarson?
-  examples: |
-    - Information regarding improved varieties of gobhi sarson?
-    - Tell me Information regarding improved varieties of gobhi sarson?
 
 - intent: Cultural_Practices_Information_regarding_improved_varieties_of_raya?
   examples: |
@@ -5648,45 +4268,15 @@
     - Information regarding total fertilizer dose in wheat ?
     - Tell me Information regarding total fertilizer dose in wheat ?
 
-- intent: Fertilizer_Use_and_Availability_Information_regarding_the_recommended_dose_of_fertilizers_for_wheat_?
-  examples: |
-    - Information regarding the recommended dose of fertilizers for wheat ?
-    - Tell me Information regarding the recommended dose of fertilizers for wheat ?
-
 - intent: Cultural_Practices_Information_regarding_seed_rate_of_rapeseed-mustard?
   examples: |
     - Information regarding seed rate of rapeseed-mustard?
     - Tell me Information regarding seed rate of rapeseed-mustard?
 
-- intent: Nutrient_Management_Information_regarding_the_recommended_dose_of_fertilizers_for_wheat_?
-  examples: |
-    - Information regarding the recommended dose of fertilizers for wheat ?
-    - Tell me Information regarding the recommended dose of fertilizers for wheat ?
-
-- intent: Fertilizer_Use_and_Availability_Information_regarding_total_fertilizer_dose_used_in_barseem?
-  examples: |
-    - Information regarding total fertilizer dose used in barseem?
-    - Tell me Information regarding total fertilizer dose used in barseem?
-
-- intent: Sowing_Time_and_Weather_Information_regarding_the_sowing_time_of_timely_sowing_varieties_of_wheat_?
-  examples: |
-    - Information regarding the sowing time of timely sowing varieties of wheat ?
-    - Tell me Information regarding the sowing time of timely sowing varieties of wheat ?
-
 - intent: Seeds_Information_regarding_the_seed_inoculation_in_wheat_?
   examples: |
     - Information regarding the seed inoculation in wheat ?
     - Tell me Information regarding the seed inoculation in wheat ?
-
-- intent: Sowing_Time_and_Weather_Information_regarding_the_sowing_time_of_timely_sowing_varieties_of_wheat_?
-  examples: |
-    - Information regarding the sowing time of timely sowing varieties of wheat ?
-    - Tell me Information regarding the sowing time of timely sowing varieties of wheat ?
-
-- intent: Plant_Protection_Information_regarding_control_of_fruit_fly_in_fruits?
-  examples: |
-    - Information regarding control of fruit fly in fruits?
-    - Tell me Information regarding control of fruit fly in fruits?
 
 - intent: Plant_Protection_Information_regarding_control_of_citrus_psylla_and_aphids_in_citrus?
   examples: |
@@ -5713,11 +4303,6 @@
     - Information regarding recruitment of kisan call centre?
     - Tell me Information regarding recruitment of kisan call centre?
 
-- intent: Varieties_Information_regarding_the_sowing_time_of_timely_sowing_varieties_of_wheat_?
-  examples: |
-    - Information regarding the sowing time of timely sowing varieties of wheat ?
-    - Tell me Information regarding the sowing time of timely sowing varieties of wheat ?
-
 - intent: Cultural_Practices_Information_regarding_management_of_bad_quality_water_and_alkali_soil_?
   examples: |
     - Information regarding management of bad quality water and alkali soil ?
@@ -5727,21 +4312,6 @@
   examples: |
     - Information regarding msp of paddy?
     - Tell me Information regarding msp of paddy?
-
-- intent: Soil_Testing_Information_regarding_how_to_collect_soil_sample?
-  examples: |
-    - Information regarding how to collect soil sample?
-    - Tell me Information regarding how to collect soil sample?
-
-- intent: Soil_Testing_Information_regarding_availability_of_soil_and_water_testing_lab?
-  examples: |
-    - Information regarding availability of soil and water testing lab?
-    - Tell me Information regarding availability of soil and water testing lab?
-
-- intent: Soil_Testing_Information_regarding_contact_no._of_patiala_kvk?
-  examples: |
-    - Information regarding contact no. of patiala kvk?
-    - Tell me Information regarding contact no. of patiala kvk?
 
 - intent: Cultural_Practices_Information_regarding_subsidy_availability_for_agricultural_machinery?
   examples: |
@@ -5758,25 +4328,10 @@
     - Information regarding processing of waste decomposer ?
     - Tell me Information regarding processing of waste decomposer ?
 
-- intent: Varieties_Information_regarding_the_detail_about_the_varieties_of_wheat_?
-  examples: |
-    - Information regarding the detail about the varieties of wheat ?
-    - Tell me Information regarding the detail about the varieties of wheat ?
-
-- intent: Varieties_Information_regarding_the_sowing_time_of_timely_sowing_varieties_of_wheat_?
-  examples: |
-    - Information regarding the sowing time of timely sowing varieties of wheat ?
-    - Tell me Information regarding the sowing time of timely sowing varieties of wheat ?
-
 - intent: Varieties_Information_regarding_the_recommended_dose_of_fertilizers_for_wheat_?
   examples: |
     - Information regarding the recommended dose of fertilizers for wheat ?
     - Tell me Information regarding the recommended dose of fertilizers for wheat ?
-
-- intent: Varieties_Information_regarding_contact_no._of_patiala_kvk?
-  examples: |
-    - Information regarding contact no. of patiala kvk?
-    - Tell me Information regarding contact no. of patiala kvk?
 
 - intent: Plant_Protection_Information_regarding_control_of_caterpillar_in_fodder_maize?
   examples: |
@@ -5788,35 +4343,10 @@
     - Information regarding fertilizer doses in fenugreek?
     - Tell me Information regarding fertilizer doses in fenugreek?
 
-- intent: Sowing_Time_and_Weather_Information_regarding_sowing_time_of_wheat?
-  examples: |
-    - Information regarding sowing time of wheat?
-    - Tell me Information regarding sowing time of wheat?
-
-- intent: Varieties_Information_regarding_new_variety_of_wheat_?
-  examples: |
-    - Information regarding new variety of wheat ?
-    - Tell me Information regarding new variety of wheat ?
-
 - intent: Cultural_Practices_Information_regarding_for_control_of_wilt,_root_rot_and_collar_rot_in_pea?
   examples: |
     - Information regarding for control of wilt, root rot and collar rot in pea?
     - Tell me Information regarding for control of wilt, root rot and collar rot in pea?
-
-- intent: Sowing_Time_and_Weather_Information_regrading_sowing_time_of_wheat?
-  examples: |
-    - Information regrading sowing time of wheat?
-    - Tell me Information regrading sowing time of wheat?
-
-- intent: Varieties_Information_regarding_new_variety_of_wheat_?
-  examples: |
-    - Information regarding new variety of wheat ?
-    - Tell me Information regarding new variety of wheat ?
-
-- intent: Weed_Management_Information_regarding_the_pre-emergence_herbicides_used_in_the_wheat?
-  examples: |
-    - Information regarding the pre-emergence herbicides used in the wheat?
-    - Tell me Information regarding the pre-emergence herbicides used in the wheat?
 
 - intent: Plant_Protection_Information_regarding_control_of_maydis_leaf_blight_in_fodder_maize_?
   examples: |
@@ -5833,45 +4363,10 @@
     - Information regarding improved variety of ryegrass?
     - Tell me Information regarding improved variety of ryegrass?
 
-- intent: Seeds_Information_regarding_seed_rate_of_ryegrass?
-  examples: |
-    - Information regarding seed rate of ryegrass?
-    - Tell me Information regarding seed rate of ryegrass?
-
-- intent: Sowing_Time_and_Weather_Information_regarding_sowing_time_of_wheat?
-  examples: |
-    - Information regarding sowing time of wheat?
-    - Tell me Information regarding sowing time of wheat?
-
-- intent: Sowing_Time_and_Weather_Information_regrading_sowing_time_of_wheat?
-  examples: |
-    - Information regrading sowing time of wheat?
-    - Tell me Information regrading sowing time of wheat?
-
 - intent: Weed_Management_Information_regarding_weedicides_in_grass_garden?
   examples: |
     - Information regarding weedicides in grass garden?
     - Tell me Information regarding weedicides in grass garden?
-
-- intent: Weed_Management_Information_regarding_the_pre-emergence_herbicides_used_in_the_wheat?
-  examples: |
-    - Information regarding the pre-emergence herbicides used in the wheat?
-    - Tell me Information regarding the pre-emergence herbicides used in the wheat?
-
-- intent: Fertilizer_Use_and_Availability_Information_regarding_method_of_fertilizer_application_in_wheat_?
-  examples: |
-    - Information regarding method of fertilizer application in wheat ?
-    - Tell me Information regarding method of fertilizer application in wheat ?
-
-- intent: Varieties_Information_regarding_the_detail_about_the_varieties_of_wheat_?
-  examples: |
-    - Information regarding the detail about the varieties of wheat ?
-    - Tell me Information regarding the detail about the varieties of wheat ?
-
-- intent: Seeds_Information_regarding_the_seed_rate_of_wheat?
-  examples: |
-    - Information regarding the seed rate of wheat?
-    - Tell me Information regarding the seed rate of wheat?
 
 - intent: Sowing_Time_and_Weather_Information_regarding_the_sowing_time_of_timely_sowing_varieties_of_wheat?
   examples: |
@@ -5883,40 +4378,10 @@
     - Information regarding the method of seed treatment of wheat for termite control ?
     - Tell me Information regarding the method of seed treatment of wheat for termite control ?
 
-- intent: Seeds_Information_regarding_the_seed_inoculation_in_wheat_?
-  examples: |
-    - Information regarding the seed inoculation in wheat ?
-    - Tell me Information regarding the seed inoculation in wheat ?
-
 - intent: Seeds_Information_regarding_the_seed_treatment_of_wheat_for_protection_from_loose_smut_and_flag_smut?
   examples: |
     - Information regarding the seed treatment of wheat for protection from loose smut and flag smut?
     - Tell me Information regarding the seed treatment of wheat for protection from loose smut and flag smut?
-
-- intent: Fertilizer_Use_and_Availability_Information_regarding_the_recommended_dose_of_fertilizers_for_wheat_?
-  examples: |
-    - Information regarding the recommended dose of fertilizers for wheat ?
-    - Tell me Information regarding the recommended dose of fertilizers for wheat ?
-
-- intent: Seeds_and_Planting_Material_Information_regarding_for_control_of_wilt,_root_rot_and_collar_rot_in_pea?
-  examples: |
-    - Information regarding for control of wilt, root rot and collar rot in pea?
-    - Tell me Information regarding for control of wilt, root rot and collar rot in pea?
-
-- intent: Seeds_and_Planting_Material_Information_regarding_seed_treatment_of_pea_crop?
-  examples: |
-    - Information regarding seed treatment of pea crop?
-    - Tell me Information regarding seed treatment of pea crop?
-
-- intent: Fertilizer_Use_and_Availability_Information_regarding_manures_and_fertilizers_used_in_pea_crop?
-  examples: |
-    - Information regarding manures and fertilizers used in pea crop?
-    - Tell me Information regarding manures and fertilizers used in pea crop?
-
-- intent: Cultural_Practices_Information_regarding_seed_rate_in_pea?
-  examples: |
-    - Information regarding seed rate in pea?
-    - Tell me Information regarding seed rate in pea?
 
 - intent: Cultural_Practices_Information_regarding_spacing_in_pea_crop?
   examples: |
@@ -5928,21 +4393,6 @@
     - Information regarding irrigation management in pea crop?
     - Tell me Information regarding irrigation management in pea crop?
 
-- intent: Plant_Protection_Information_regarding_for_control_of_wilt,_root_rot_and_collar_rot_in_pea?
-  examples: |
-    - Information regarding for control of wilt, root rot and collar rot in pea?
-    - Tell me Information regarding for control of wilt, root rot and collar rot in pea?
-
-- intent: Bio-Pesticides_and_Bio-Fertilizers_Information_regarding_seed_treatment_of_pea_crop?
-  examples: |
-    - Information regarding seed treatment of pea crop?
-    - Tell me Information regarding seed treatment of pea crop?
-
-- intent: Varieties_Information_regarding_sowing_time_of_wheat?
-  examples: |
-    - Information regarding sowing time of wheat?
-    - Tell me Information regarding sowing time of wheat?
-
 - intent: Cultural_Practices_Information_regarding_improved_varieties_of_carrot?
   examples: |
     - Information regarding improved varieties of carrot?
@@ -5952,11 +4402,6 @@
   examples: |
     - Information regarding control of fruit drop in lemon ?
     - Tell me Information regarding control of fruit drop in lemon ?
-
-- intent: Cultural_Practices_Information_regarding_contact_no._of_patiala_kvk?
-  examples: |
-    - Information regarding contact no. of patiala kvk?
-    - Tell me Information regarding contact no. of patiala kvk?
 
 - intent: Sowing_Time_and_Weather_Information_regarding_the_detail_about_the_varieties_of_wheat_?
   examples: |
@@ -5973,11 +4418,6 @@
     - Information regarding the detail about the varieties of wheat ?
     - Tell me Information regarding the detail about the varieties of wheat ?
 
-- intent: Varieties_Information_regarding_sowing_time_of_wheat?
-  examples: |
-    - Information regarding sowing time of wheat?
-    - Tell me Information regarding sowing time of wheat?
-
 - intent: Plant_Protection_Information_regarding_the_method_of_seed_treatment_of_wheat_for_rodent_control_?
   examples: |
     - Information regarding the method of seed treatment of wheat for rodent control ?
@@ -5993,20 +4433,10 @@
     - Information regarding total fertilizer dose used in barseem?
     - Tell me Information regarding total fertilizer dose used in barseem?
 
-- intent: Plant_Protection_Information_regarding_control_of_grasshopper_and_aphid_in_paddy_?
-  examples: |
-    - Information regarding control of grasshopper and aphid in paddy ?
-    - Tell me Information regarding control of grasshopper and aphid in paddy ?
-
 - intent: Plant_Protection_Information_regarding_the_sowing_time_of_timely_sowing_varieties_of_wheat_?
   examples: |
     - Information regarding the sowing time of timely sowing varieties of wheat ?
     - Tell me Information regarding the sowing time of timely sowing varieties of wheat ?
-
-- intent: Water_Management,_Micro_Irrigation_Information_regarding_irrigation_management_in_pea_crop?
-  examples: |
-    - Information regarding irrigation management in pea crop?
-    - Tell me Information regarding irrigation management in pea crop?
 
 - intent: Cultural_Practices_Information_regarding_for_weed_control_in_methi_?
   examples: |
@@ -6018,55 +4448,15 @@
     - Information regarding seed rate of rapeseed-mustard?
     - Tell me Information regarding seed rate of rapeseed-mustard?
 
-- intent: Fertilizer_Use_and_Availability_Information_regarding_the_recommended_dose_of_fertilizers_for_wheat_?
-  examples: |
-    - Information regarding the recommended dose of fertilizers for wheat ?
-    - Tell me Information regarding the recommended dose of fertilizers for wheat ?
-
-- intent: Fertilizer_Use_and_Availability_Information_regarding_the_timing_of_fertilizer_application_in_wheat_crop?
-  examples: |
-    - Information regarding the timing of fertilizer application in wheat crop?
-    - Tell me Information regarding the timing of fertilizer application in wheat crop?
-
 - intent: Plant_Protection_Information_regarding_contact_no._of_punjab_agricultural_university,_ludhiana?
   examples: |
     - Information regarding contact no. of punjab agricultural university, ludhiana?
     - Tell me Information regarding contact no. of punjab agricultural university, ludhiana?
 
-- intent: Varieties_Information_regarding_the_varieties_of_wheat_suitable_for_rainfed_conditions?
-  examples: |
-    - Information regarding the varieties of wheat suitable for rainfed conditions?
-    - Tell me Information regarding the varieties of wheat suitable for rainfed conditions?
-
 - intent: Varieties_Information_regarding_the_pre-emergence_herbicides_used_in_the_wheat?
   examples: |
     - Information regarding the pre-emergence herbicides used in the wheat?
     - Tell me Information regarding the pre-emergence herbicides used in the wheat?
-
-- intent: Seeds_Information_regarding_the_method_of_seed_treatment_of_wheat_for_termite_control_?
-  examples: |
-    - Information regarding the method of seed treatment of wheat for termite control ?
-    - Tell me Information regarding the method of seed treatment of wheat for termite control ?
-
-- intent: Seeds_Information_regarding_the_seed_treatment_of_wheat_for_protection_from_loose_smut_and_flag_smut?
-  examples: |
-    - Information regarding the seed treatment of wheat for protection from loose smut and flag smut?
-    - Tell me Information regarding the seed treatment of wheat for protection from loose smut and flag smut?
-
-- intent: Seeds_Information_regarding_the_seed_inoculation_in_wheat_?
-  examples: |
-    - Information regarding the seed inoculation in wheat ?
-    - Tell me Information regarding the seed inoculation in wheat ?
-
-- intent: Training_and_Exposure_Visits_Information_regarding_the_contact_no._of_pau_ludhiana?
-  examples: |
-    - Information regarding the contact no. of pau ludhiana?
-    - Tell me Information regarding the contact no. of pau ludhiana?
-
-- intent: Cultural_Practices_Information_regarding_seed_rate_in_pea?
-  examples: |
-    - Information regarding seed rate in pea?
-    - Tell me Information regarding seed rate in pea?
 
 - intent: Cultural_Practices_Information_regarding_irrigation_management_in_pea_crop?
   examples: |
@@ -6078,16 +4468,6 @@
     - Information regarding seed treatment of pea crop?
     - Tell me Information regarding seed treatment of pea crop?
 
-- intent: Cultural_Practices_Information_regarding_the_weed_management_in_peas?
-  examples: |
-    - Information regarding the weed management in peas?
-    - Tell me Information regarding the weed management in peas?
-
-- intent: Varieties_Information_regarding_sowing_time_of_wheat?
-  examples: |
-    - Information regarding sowing time of wheat?
-    - Tell me Information regarding sowing time of wheat?
-
 - intent: Government_Schemes_Information_regarding_for_subsidy_in_implements_?
   examples: |
     - Information regarding for subsidy in implements ?
@@ -6097,11 +4477,6 @@
   examples: |
     - Information regarding to seed treatment with rhizobium leguminosorum culture in pea seed ?
     - Tell me Information regarding to seed treatment with rhizobium leguminosorum culture in pea seed ?
-
-- intent: Sowing_Time_and_Weather_Information_regarding_the_detail_about_the_varieties_of_wheat_?
-  examples: |
-    - Information regarding the detail about the varieties of wheat ?
-    - Tell me Information regarding the detail about the varieties of wheat ?
 
 - intent: Sowing_Time_and_Weather_Information_regarding_control_of_termite_in_wheat_?
   examples: |
@@ -6142,11 +4517,6 @@
   examples: |
     - Information regarding sowing time of garlic?
     - Tell me Information regarding sowing time of garlic?
-
-- intent: Nutrient_Management_Information_regarding_the_recommended_dose_of_fertilizers_for_wheat_?
-  examples: |
-    - Information regarding the recommended dose of fertilizers for wheat ?
-    - Tell me Information regarding the recommended dose of fertilizers for wheat ?
 
 - intent: Nutrient_Management_Information_regarding_prepration_of_bordeaux_mixture?
   examples: |
@@ -6193,26 +4563,6 @@
     - Information regarding the varieties of wheat which are suitable for sowing under popular trees?
     - Tell me Information regarding the varieties of wheat which are suitable for sowing under popular trees?
 
-- intent: Cultural_Practices_Information_regarding_improved_varieties_of_pea_in_main_season?
-  examples: |
-    - Information regarding improved varieties of pea in main season?
-    - Tell me Information regarding improved varieties of pea in main season?
-
-- intent: Cultural_Practices_Information_regarding_seed_rate_in_pea?
-  examples: |
-    - Information regarding seed rate in pea?
-    - Tell me Information regarding seed rate in pea?
-
-- intent: Fertilizer_Use_and_Availability_Information_regarding_manures_and_fertilizers_used_in_pea_crop?
-  examples: |
-    - Information regarding manures and fertilizers used in pea crop?
-    - Tell me Information regarding manures and fertilizers used in pea crop?
-
-- intent: Cultural_Practices_Information_regarding_spacing_in_pea_crop?
-  examples: |
-    - Information regarding spacing in pea crop?
-    - Tell me Information regarding spacing in pea crop?
-
 - intent: Plant_Protection_Information_regarding_control_of_garlic_thrips?
   examples: |
     - Information regarding control of garlic thrips?
@@ -6223,95 +4573,30 @@
     - Information regarding varieties of soybean?
     - Tell me Information regarding varieties of soybean?
 
-- intent: Varieties_Information_regarding_the_detail_about_the_varieties_of_wheat_?
-  examples: |
-    - Information regarding the detail about the varieties of wheat ?
-    - Tell me Information regarding the detail about the varieties of wheat ?
-
 - intent: Cultural_Practices_Information_regarding_the_seed_rate_of_wheat?
   examples: |
     - Information regarding the seed rate of wheat?
     - Tell me Information regarding the seed rate of wheat?
-
-- intent: Nutrient_Management_Information_regarding_the_recommended_dose_of_fertilizers_for_wheat_?
-  examples: |
-    - Information regarding the recommended dose of fertilizers for wheat ?
-    - Tell me Information regarding the recommended dose of fertilizers for wheat ?
-
-- intent: Seeds_Information_regarding_seed_rate_of_barseem?
-  examples: |
-    - Information regarding seed rate of barseem?
-    - Tell me Information regarding seed rate of barseem?
-
-- intent: Nutrient_Management_Information_regarding_the_recommended_dose_of_fertilizers_for_wheat_?
-  examples: |
-    - Information regarding the recommended dose of fertilizers for wheat ?
-    - Tell me Information regarding the recommended dose of fertilizers for wheat ?
 
 - intent: Agriculture_Mechanization_Information_regarding_contact_no._of_patiala_kvk?
   examples: |
     - Information regarding contact no. of patiala kvk?
     - Tell me Information regarding contact no. of patiala kvk?
 
-- intent: Plant_Protection_Information_regarding_for_control_of_wilt,_root_rot_and_collar_rot_in_pea?
-  examples: |
-    - Information regarding for control of wilt, root rot and collar rot in pea?
-    - Tell me Information regarding for control of wilt, root rot and collar rot in pea?
-
-- intent: Seeds_and_Planting_Material_Information_regarding_seed_rate_in_pea?
-  examples: |
-    - Information regarding seed rate in pea?
-    - Tell me Information regarding seed rate in pea?
-
 - intent: Training_and_Exposure_Visits_Information_regarding_contact_no._of_punjab_agricultural_university,_ludhiana?
   examples: |
     - Information regarding contact no. of punjab agricultural university, ludhiana?
     - Tell me Information regarding contact no. of punjab agricultural university, ludhiana?
-
-- intent: Sowing_Time_and_Weather_Information_regarding_the_detail_about_the_varieties_of_wheat_?
-  examples: |
-    - Information regarding the detail about the varieties of wheat ?
-    - Tell me Information regarding the detail about the varieties of wheat ?
-
-- intent: Varieties_Information_regarding_new_variety_of_wheat_?
-  examples: |
-    - Information regarding new variety of wheat ?
-    - Tell me Information regarding new variety of wheat ?
 
 - intent: Seeds_Information_regarding_the_depth_sowing_of_wheat_?
   examples: |
     - Information regarding the depth sowing of wheat ?
     - Tell me Information regarding the depth sowing of wheat ?
 
-- intent: Varieties_Information_regarding_the_detail_about_the_varieties_of_wheat_?
-  examples: |
-    - Information regarding the detail about the varieties of wheat ?
-    - Tell me Information regarding the detail about the varieties of wheat ?
-
-- intent: Seeds_Information_regarding_the_seed_rate_of_wheat?
-  examples: |
-    - Information regarding the seed rate of wheat?
-    - Tell me Information regarding the seed rate of wheat?
-
-- intent: Sowing_Time_and_Weather_Information_regarding_sowing_time_of_wheat?
-  examples: |
-    - Information regarding sowing time of wheat?
-    - Tell me Information regarding sowing time of wheat?
-
-- intent: Sowing_Time_and_Weather_Information_regrading_sowing_time_of_wheat?
-  examples: |
-    - Information regrading sowing time of wheat?
-    - Tell me Information regrading sowing time of wheat?
-
 - intent: Training_and_Exposure_Visits_Information_regarding_contact_of_iari_?
   examples: |
     - Information regarding contact of iari ?
     - Tell me Information regarding contact of iari ?
-
-- intent: Weed_Management_Information_regarding_the_pre-emergence_herbicides_used_in_the_wheat?
-  examples: |
-    - Information regarding the pre-emergence herbicides used in the wheat?
-    - Tell me Information regarding the pre-emergence herbicides used in the wheat?
 
 - intent: Sowing_Time_and_Weather_Information_regarding_the_detail_about_the_timely_sowing_varieties_of_wheat?
   examples: |
@@ -6328,20 +4613,10 @@
     - Information regarding machinery for agriculture ?
     - Tell me Information regarding machinery for agriculture ?
 
-- intent: Plant_Protection_Information_regarding_control_of_fruit_fly_in_fruits?
-  examples: |
-    - Information regarding control of fruit fly in fruits?
-    - Tell me Information regarding control of fruit fly in fruits?
-
 - intent: Cultural_Practices_Information_regarding_the_detail_about_the_timely_sowing_varieties_of_wheat?
   examples: |
     - Information regarding the detail about the timely sowing varieties of wheat?
     - Tell me Information regarding the detail about the timely sowing varieties of wheat?
-
-- intent: Training_and_Exposure_Visits_Information_regarding_contact_no._of_punjab_agricultural_university,_ludhiana?
-  examples: |
-    - Information regarding contact no. of punjab agricultural university, ludhiana?
-    - Tell me Information regarding contact no. of punjab agricultural university, ludhiana?
 
 - intent: Government_Schemes_Information_regarding_contact_no._of_kvk_sangrur_?
   examples: |
@@ -6358,21 +4633,6 @@
     - Information regarding the correct time for first irrigation to the wheat crop?
     - Tell me Information regarding the correct time for first irrigation to the wheat crop?
 
-- intent: Fertilizer_Use_and_Availability_Information_regarding_the_recommended_dose_of_fertilizers_for_wheat_?
-  examples: |
-    - Information regarding the recommended dose of fertilizers for wheat ?
-    - Tell me Information regarding the recommended dose of fertilizers for wheat ?
-
-- intent: Fertilizer_Use_and_Availability_Information_regarding_the_timing_of_fertilizer_application_in_wheat_crop?
-  examples: |
-    - Information regarding the timing of fertilizer application in wheat crop?
-    - Tell me Information regarding the timing of fertilizer application in wheat crop?
-
-- intent: Seeds_Information_regarding_seed_rate_of_wheat?
-  examples: |
-    - Information regarding seed rate of wheat?
-    - Tell me Information regarding seed rate of wheat?
-
 - intent: Nutrient_Management_Information_regarding_control_of_reddening_of_leaves_?
   examples: |
     - Information regarding control of reddening of leaves ?
@@ -6382,16 +4642,6 @@
   examples: |
     - Information regarding sowing time of chilli ?
     - Tell me Information regarding sowing time of chilli ?
-
-- intent: Cultural_Practices_Information_regarding_improved_pea_variety_punjab-89?
-  examples: |
-    - Information regarding improved pea variety punjab-89?
-    - Tell me Information regarding improved pea variety punjab-89?
-
-- intent: Cultural_Practices_Information_regarding_seed_rate_in_pea?
-  examples: |
-    - Information regarding seed rate in pea?
-    - Tell me Information regarding seed rate in pea?
 
 - intent: Seeds_and_Planting_Material_Information_regarding_hau_helpline_no.?
   examples: |
@@ -6403,45 +4653,20 @@
     - Information regarding control of termite in wheat ?
     - Tell me Information regarding control of termite in wheat ?
 
-- intent: Cultural_Practices_Information_regarding_the_seed_treatment_of_wheat_for_protection_from_loose_smut_and_flag_smut?
-  examples: |
-    - Information regarding the seed treatment of wheat for protection from loose smut and flag smut?
-    - Tell me Information regarding the seed treatment of wheat for protection from loose smut and flag smut?
-
 - intent: Cultural_Practices_Information_regarding_the_seed_inoculation_in_wheat_?
   examples: |
     - Information regarding the seed inoculation in wheat ?
     - Tell me Information regarding the seed inoculation in wheat ?
-
-- intent: Varieties_Information_regarding_the_detail_about_the_varieties_of_wheat_?
-  examples: |
-    - Information regarding the detail about the varieties of wheat ?
-    - Tell me Information regarding the detail about the varieties of wheat ?
-
-- intent: Varieties_Information_regarding_the_new_varieties_of_wheat_?
-  examples: |
-    - Information regarding the new varieties of wheat ?
-    - Tell me Information regarding the new varieties of wheat ?
 
 - intent: Plant_Protection_Information_regarding_control_of_aphids_in_guava?
   examples: |
     - Information regarding control of aphids in guava?
     - Tell me Information regarding control of aphids in guava?
 
-- intent: Nutrient_Management_Information_regarding_fertilizer_doses_in_guava?
-  examples: |
-    - Information regarding fertilizer doses in guava?
-    - Tell me Information regarding fertilizer doses in guava?
-
 - intent: Fertilizer_Use_and_Availability_Information_regarding_the_detail_about_the_varieties_of_wheat_?
   examples: |
     - Information regarding the detail about the varieties of wheat ?
     - Tell me Information regarding the detail about the varieties of wheat ?
-
-- intent: Sowing_Time_and_Weather_Information_regarding_the_sowing_time_of_timely_sowing_varieties_of_wheat_?
-  examples: |
-    - Information regarding the sowing time of timely sowing varieties of wheat ?
-    - Tell me Information regarding the sowing time of timely sowing varieties of wheat ?
 
 - intent: Government_Schemes_Information_regarding_for_subsidy_of_agricultural_implements_?
   examples: |
@@ -6463,35 +4688,10 @@
     - Information regarding the zinc application in wheat ?
     - Tell me Information regarding the zinc application in wheat ?
 
-- intent: Nutrient_Management_Information_regarding_the_recommended_dose_of_fertilizers_for_wheat_?
-  examples: |
-    - Information regarding the recommended dose of fertilizers for wheat ?
-    - Tell me Information regarding the recommended dose of fertilizers for wheat ?
-
-- intent: Soil_Testing_Information_regarding_how_to_collect_soil_sample?
-  examples: |
-    - Information regarding how to collect soil sample?
-    - Tell me Information regarding how to collect soil sample?
-
-- intent: Soil_Testing_Information_regarding_availability_of_soil_and_water_testing_lab?
-  examples: |
-    - Information regarding availability of soil and water testing lab?
-    - Tell me Information regarding availability of soil and water testing lab?
-
 - intent: Plant_Protection_Information_regarding_to_control_footrot_in_garlic?
   examples: |
     - Information regarding to control footrot in garlic?
     - Tell me Information regarding to control footrot in garlic?
-
-- intent: Soil_Testing_Information_regarding_contact_no._of_patiala_kvk?
-  examples: |
-    - Information regarding contact no. of patiala kvk?
-    - Tell me Information regarding contact no. of patiala kvk?
-
-- intent: Varieties_Information_regarding_sowing_time_of_wheat?
-  examples: |
-    - Information regarding sowing time of wheat?
-    - Tell me Information regarding sowing time of wheat?
 
 - intent: Varieties_Information_regarding_seed_rate_of_wheat?
   examples: |
@@ -6507,9 +4707,3 @@
   examples: |
     - Information regarding seed rate of wheat for varieties unnat pbw 550 and pbw 550?
     - Tell me Information regarding seed rate of wheat for varieties unnat pbw 550 and pbw 550?
-
-- intent: Weed_Management_Information_regarding_control_of_weeds_in_pre-_emergence_stage_in_wheat_?
-  examples: |
-    - Information regarding control of weeds in pre- emergence stage in wheat ?
-    - Tell me Information regarding control of weeds in pre- emergence stage in wheat ?
-
