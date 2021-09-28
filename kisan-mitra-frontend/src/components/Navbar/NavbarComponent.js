@@ -14,11 +14,11 @@ export default function NavbarComponent() {
                         src= { logo }
                         width="50"
                         height="50"
-                        className="d-inline-block align-top logo ms-4"
+                        className="d-inline-block align-top logo ms-md-4 ms-1 "
                         alt="Agriculure Logo"
                     />
 
-                    <span className="d-inline-block align-center ms-4 mt-1 title">
+                    <span className="d-inline-block align-center ms-md-4 ms-1 mt-1 title">
                         Kisan Mitra
                     </span>
                 </Navbar.Brand>
