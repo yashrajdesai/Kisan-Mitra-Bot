@@ -23,7 +23,7 @@ with open(filename, 'r') as csvfile:
 
 file = open("domainIntents.yml","w", encoding="utf-8") 
 intents_dataset= []
-for row in rows:
+for row in rows[1:800]:
     
     queryType = row[0].strip()
     queryType =  re.sub(' +', ' ', queryType)
