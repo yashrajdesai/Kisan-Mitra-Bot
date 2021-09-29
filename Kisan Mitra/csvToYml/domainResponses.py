@@ -32,7 +32,7 @@ print('\nFirst 5 rows are:\n')
 file = open("domainResponses.yml","w", encoding="utf-8")  
 #rows = list(set(rows))
 utter_dataset=[]
-for row in rows[1:]:
+for row in rows[1:800]:
 
     queryType = row[0].strip()
     queryType =  re.sub(' +', ' ', queryType)

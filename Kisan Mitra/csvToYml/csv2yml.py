@@ -31,7 +31,7 @@ print('Field names are:' + ', '.join(field for field in fields))
 print('\nFirst 5 rows are:\n')
 file = open("nlu.yml", "w", encoding="utf-8")
 intent_dataset = []
-for row in rows[1:]:
+for row in rows:
 
     queryType = row[0].strip()
     queryType = re.sub(' +', ' ', queryType)
@@ -39,10 +39,8 @@ for row in rows[1:]:
     queryText = row[1].strip()
     queryText = re.sub(' +', ' ', queryText)
 
-    intent = "- intent: " + \
-        queryType.replace(" ", "_") + "_" + queryText.replace(" ", "_") + "\n"
-    examples = "  examples: |\n" + "    - " + \
-        queryText.replace("_", " ") + "\n"
+    intent = "- intent: " + queryType.replace(" ", "_") + "_" + queryText.replace(" ", "_") + "\n"
+    examples = "  examples: |\n" + "    - " + queryText.replace("_", " ") + "\n"
 
     if intent not in intent_dataset:
         if(queryText.startswith("Tell me")):
