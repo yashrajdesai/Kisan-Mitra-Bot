@@ -32,7 +32,7 @@ print('\nFirst 5 rows are:\n')
 x = 6
 file = open("stories.yml","w", encoding="utf-8")  
 action_dataset = []
-for row in rows[1:]:
+for row in rows[1:800]:
     
     queryType = row[0].strip()
     queryType =  re.sub(' +', ' ', queryType)
