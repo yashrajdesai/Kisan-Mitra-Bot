@@ -11,8 +11,9 @@ const Statistics = () => {
         return queryList;
       }
 
-    useEffect(() => {
-        console.log(getQueries(db))
+    useEffect(async() => {
+        const query = await getQueries(db)
+        console.log(query);
     }, [])
     return (
         <div>
