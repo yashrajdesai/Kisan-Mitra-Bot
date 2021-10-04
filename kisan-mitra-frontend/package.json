@@ -16,8 +16,11 @@
     "react-router-bootstrap": "^0.25.0",
     "react-router-dom": "^5.3.0",
     "react-scripts": "4.0.3",
+    "react-simple-maps": "^2.3.0",
+    "react-tooltip": "^4.2.21",
     "recharts": "^2.1.4",
-    "web-vitals": "^1.0.1"
+    "web-vitals": "^1.0.1",
+    "zingchart-react": "^3.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
