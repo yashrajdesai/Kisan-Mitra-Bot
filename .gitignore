@@ -5,6 +5,7 @@
 /kisan-mitra-frontend/.pnp
 /kisan-mitra-frontend/.pnp.js
 /Kisan Mitra/models
+/server/node_modules
 
 # testing
 /coverage
