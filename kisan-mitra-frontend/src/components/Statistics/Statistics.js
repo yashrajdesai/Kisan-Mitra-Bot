@@ -3,6 +3,8 @@ import { PieChart, Pie, Legend, Tooltip, ResponsiveContainer } from 'recharts';
 import {db} from "../../firebase.js";
 import { doc, getDoc } from "firebase/firestore"
 import { collection, getDocs } from 'firebase/firestore/lite';
+import MapStatistics from './MapStatistics.js';
+import IndiaMapStatistics from './IndiaMapStatistics.js';
 
 const data01 = [
     { name: 'Group A', value: 400 },
@@ -84,6 +86,10 @@ const Statistics = () => {
                 />
                 <Tooltip />
                 </PieChart>
+                <MapStatistics/>
+                <IndiaMapStatistics/>
+
+
             {/* </ResponsiveContainer> */}
         </div>
     )
