@@ -5,7 +5,6 @@ import MicIcon from '@material-ui/icons/Mic';
 import axios from 'axios';
 import { collection, query, orderBy, onSnapshot, addDoc, Timestamp } from "firebase/firestore"; 
 import {firestore as db} from "../../firebase.js";
-
 import bot from "./bot.png"
 import "./Home.css"
 
@@ -37,15 +36,14 @@ function Home() {
     const sendMessage = async (e) => {
 
             e.preventDefault();
-
             const jsonMessage = JSON.stringify({ message });
-
             axios.post('http://localhost:3001/sendMessage', {body : jsonMessage}, {
                 headers: {
                     'Content-Type': 'application/json'
                 }
             }).then(async (res) => {
-                setBotMessage(res.data.answer)
+                console.log(res.data.answer);
+                setBotMessage(res.data.answer);
                 await addDoc(collection(db, 'users/7y5BmQyWY93YRJBgWfIM/chats'), {
                     botAnswer: res.data.answer,
                     userMessage: message,
