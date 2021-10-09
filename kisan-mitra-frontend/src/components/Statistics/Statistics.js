@@ -1,28 +1,29 @@
-import React, {  useEffect, useState} from 'react';
-import { PieChart, Pie,  Tooltip } from 'recharts'; //Legend, ResponsiveContainer
+import React, { PureComponent, useEffect, useState} from 'react';
+import { PieChart, Pie, Legend, Tooltip, ResponsiveContainer } from 'recharts';
 import {db} from "../../firebase.js";
-// import { doc, getDoc } from "firebase/firestore"
+import { doc, getDoc } from "firebase/firestore"
 import { collection, getDocs } from 'firebase/firestore/lite';
+import MapStatistics from './MapStatistics.js';
 import IndiaMapStatistics from './IndiaMapStatistics.js';
 
-// const data01 = [
-//     { name: 'Group A', value: 400 },
-//     { name: 'Group B', value: 300 },
-//     { name: 'Group C', value: 300 },
-//     { name: 'Group D', value: 200 },
-//     { name: 'Group E', value: 278 },
-//     { name: 'Group F', value: 189 },
-// ];
+const data01 = [
+    { name: 'Group A', value: 400 },
+    { name: 'Group B', value: 300 },
+    { name: 'Group C', value: 300 },
+    { name: 'Group D', value: 200 },
+    { name: 'Group E', value: 278 },
+    { name: 'Group F', value: 189 },
+];
   
-//   const data02 = [
-//     { name: 'Group A', value: 2400 },
-//     { name: 'Group B', value: 4567 },
-//     { name: 'Group C', value: 1398 },
-//     { name: 'Group D', value: 9800 },
-//     { name: 'Group E', value: 3908 },
-//     { name: 'Group F', value: 4800 }
-//     // { name: 'Group G', value: 3908 },
-//   ];
+  const data02 = [
+    { name: 'Group A', value: 2400 },
+    { name: 'Group B', value: 4567 },
+    { name: 'Group C', value: 1398 },
+    { name: 'Group D', value: 9800 },
+    { name: 'Group E', value: 3908 },
+    { name: 'Group F', value: 4800 }
+    // { name: 'Group G', value: 3908 },
+  ];
 
 const Statistics = () => {
 
@@ -85,6 +86,7 @@ const Statistics = () => {
                 />
                 <Tooltip />
                 </PieChart>
+                <MapStatistics/>
                 <IndiaMapStatistics/>
 
 
