@@ -8,6 +8,8 @@ import {firestore as db} from "../../firebase.js";
 import bot from "./bot.png"
 import "./Home.css"
 import $ from 'jquery'
+import ReactTooltip from "react-tooltip";
+// import MappleToolTip from "reactjs-mappletooltip"
 
 
 
@@ -18,6 +20,7 @@ function Home() {
     const [message, setMessage] = useState("");
     const [botMessage, setBotMessage] = useState("");
     const [languageChosen,setLanguageChosen]=useState('EN');
+    const [micButtonClicked,setMicButton]=useState(false);
 
     var speechRecognition = window.webkitSpeechRecognition;   //used for speech to text
     var synth = window.speechSynthesis;                       //used for text to speech
@@ -45,11 +48,12 @@ function Home() {
 
     recognition.onspeechend = function(event){
         recognition.stop();
-        instructions.text("Voice end");
+        instructions.text("Recorded Successfully. Click Again For Speaking");
+        setMicButton(false);
     }
 
     recognition.onerror = function(event){
-        instructions.text("Error");
+        instructions.text("Speak");
     }
 
 
@@ -65,13 +69,14 @@ function Home() {
     }
     
     $("#mic-button").on('click',function(event){
-
+      
         console.log("clicked")
         recognition.start();
         if(content.length){
             content+= ''
         }
         console.log(content);
+        setMicButton(true);
         
     });
 
@@ -111,7 +116,6 @@ function Home() {
             console.log(message);
 
             const jsonMessage = JSON.stringify({ message });
-
             axios.post('http://localhost:3001/sendMessage', {body : jsonMessage}, {
                 headers: {
                     'Content-Type': 'application/json'
@@ -119,6 +123,8 @@ function Home() {
             }).then(async (res) => {
                 setBotMessage(res.data.answer)
                 // speak();
+                console.log(res.data.answer);
+                // setBotMessage(res.data.answer);
                 await addDoc(collection(db, 'users/7y5BmQyWY93YRJBgWfIM/chats'), {
                     botAnswer: res.data.answer,
                     userMessage: message,
@@ -141,7 +147,9 @@ function Home() {
                 }
                 var selectedOption = 'zh-TW';
                 for(var i = 0; i < voices.length ; i++) {
-                  if(voices[i].name === selectedOption) {
+                    // console.log(voices[i].name);
+                    // console.log(voices[i].lang);
+                  if(voices[i].lang === selectedOption) {
                     utterThis.voice = voices[i];
                     break;
                   }
@@ -195,9 +203,19 @@ function Home() {
                 
                 <div className="chat-footer">
                     <form>
-                        <IconButton id="mic-button" className="icon-button">
-                            <MicIcon style={{fill: "white"}}/>
-                        </IconButton>
+                        {/* <MappleToolTip> */}
+                           <div data-tip data-for="registerTip">
+                                <IconButton id="mic-button" className="icon-button" style={{backgroundColor: micButtonClicked?"white":""}}>
+                                    <MicIcon style={{fill: micButtonClicked?"red":"white"}}/>
+                                </IconButton>
+                            </div>
+                            <ReactTooltip id="registerTip" place="top" effect="solid">
+                                <div id="instructions">
+                                    Speak
+                                </div>
+                            </ReactTooltip>
+
+                        {/* </MappleToolTip> */}
 
                         <input id="textbox" value = {message} onChange = {(e)=>{setMessage(e.target.value);}} placeholder="Type a message" type="text" />                      
                         
@@ -206,9 +224,7 @@ function Home() {
                             <label htmlFor="messageSubmit"><SendIcon style={{fill: "white"}}/></label>
                         </IconButton>
                     </form>
-                    <div id="instructions">
-                       Speak
-                    </div>
+                   
                 </div>
                 <select onChange={setLanguage} value={languageChosen} data-placeholder="Choose a Language...">
                         <option value="AF">Afrikaans</option>
@@ -244,6 +260,7 @@ function Home() {
                         <option value="JA">Japanese</option>
                         <option value="JW">Javanese</option>
                         <option value="KO">Korean</option>
+                        <option value="KN">Kannada</option>
                         <option value="LA">Latin</option>
                         <option value="LV">Latvian</option>
                         <option value="LT">Lithuanian</option>

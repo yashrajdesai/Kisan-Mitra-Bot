@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^12.1.10",
     "axios": "^0.22.0",
     "bootstrap": "^5.1.1",
+    "express": "^4.17.1",
     "firebase": "^9.1.0",
     "jquery": "^3.6.0",
     "node-speak": "0.0.2",
