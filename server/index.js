@@ -3,9 +3,9 @@ const router = express.Router();
 const axios = require('axios');
 const cors = require("cors");
 const { v4: uuidv4 } = require('uuid');
-const key = require("./keys.json"); 
+// const key = require("./keys.json"); 
 
-var subscriptionKey = key.OCP_APIM_SUBSCRIPTION_KEY;
+var subscriptionKey = "46f430e8db494bc2a36ec12d06e8e321";
 var endpoint = "https://api.cognitive.microsofttranslator.com/";
 var detectedlanguage;
 // Add your location, also known as region. The default is global.
@@ -19,7 +19,7 @@ const PORT = process.env.PORT || 3001;
 const app = express();
 app.use(
     cors({
-        origin : "http://localhost:3000"
+        origin : "http://frontend:3000"
     })
 )
 app.use(express.json());
@@ -64,7 +64,7 @@ app.post("/sendMessage", (req,res) => {
         console.log(translatedtext);
         console.log(detectedlanguage);
 
-        axios.post('http://localhost:5005/webhooks/rest/webhook', {"message": translatedtext})
+        axios.post('http://rasa:5005/webhooks/rest/webhook', {"message": translatedtext})
         .then(function (respon) {
             console.log(respon.data);
             if(respon.data.length === 0) {
