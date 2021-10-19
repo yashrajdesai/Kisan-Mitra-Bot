@@ -35,6 +35,10 @@ function App() {
             type: "SET_USER_ID",
             userId: authUser.uid,
           });
+          dispatch({
+            type:"SET_AUTH_READY",
+            authReady: true
+          });
         } else {
           console.log("No such document!");
           dispatch({
