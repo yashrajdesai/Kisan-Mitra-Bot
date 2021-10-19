@@ -130,13 +130,13 @@ function App() {
 
   return (
     <div className="full-width-height container">
-      <h1 className="no-margin center">States and UTs</h1>
+      <h1 className="no-margin center mt-5">States and UTs</h1>
       <ReactTooltip>{tooltipContent}</ReactTooltip>
         <ComposableMap
           projectionConfig={PROJECTION_CONFIG}
           projection="geoMercator"
-          width={600}
-          height={220}
+          width={450}
+          height={200}
           data-tip=""
         >
           <Geographies geography={INDIA_TOPO_JSON}>
@@ -158,10 +158,6 @@ function App() {
             }
           </Geographies>
         </ComposableMap>
-        {/* <LinearGradient data={gradientData} /> */}
-        <div className="center">
-          <button className="mt16" onClick={onChangeButtonClick}>Change</button>
-        </div>
     </div>
   );
 }
