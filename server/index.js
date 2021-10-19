@@ -3,9 +3,9 @@ const router = express.Router();
 const axios = require('axios');
 const cors = require("cors");
 const { v4: uuidv4 } = require('uuid');
-const key = require("./keys.json"); 
+// const key = require("./keys.json"); 
 
-var subscriptionKey = key.OCP_APIM_SUBSCRIPTION_KEY;
+var subscriptionKey = "46f430e8db494bc2a36ec12d06e8e321";
 var endpoint = "https://api.cognitive.microsofttranslator.com/";
 var detectedlanguage;
 // Add your location, also known as region. The default is global.

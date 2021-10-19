@@ -1,36 +1,11 @@
 import React from 'react'
-import { Navbar, Nav, Button } from 'react-bootstrap';
-import { LinkContainer } from 'react-router-bootstrap';
-import { getAuth, signOut } from "firebase/auth";
-import { useHistory } from 'react-router-dom';
+import { Navbar, Nav } from 'react-bootstrap';
+import { LinkContainer } from 'react-router-bootstrap'
 
 import logo from "./logo.png"
-import { useStateValue } from "../../StateProvider";
 import "./NavbarComponent.css"
 
 export default function NavbarComponent() {
-
-    const [{user},dispatch] = useStateValue();
-
-    const history = useHistory();
-
-    const logout = () => {
-        if(user) {
-            const auth = getAuth();
-            signOut(auth).then(() => {
-                dispatch({
-                    type: "SET_USER",
-                    user: null,
-                });
-
-                history.push("/login")
-
-            }).catch((error) => {
-                console.log(error);
-            });
-        }
-    }
-
     return (
         <Navbar expand="lg" className="navbar-color p-0" variant="dark">
             <LinkContainer to="/">
@@ -64,12 +39,16 @@ export default function NavbarComponent() {
                     <LinkContainer to="/analytics">
                         <Nav.Link className="mx-4"><span className="linkText">Analytics</span></Nav.Link>
                     </LinkContainer>
-                    
-                    <LinkContainer to="/login" onClick = {logout}>
+
+                    {/* <LinkContainer to="/login" onClick = {handleLogin}>
                         {user ? 
-                                <Nav.Link className="mx-4"><span className="linkText">Log out</span></Nav.Link> :
-                                <Nav.Link className="mx-4"><span className="linkText">Log in/Sign Up</span></Nav.Link>
+                            <Nav.Link className="ml-4 mr-4"><span className="linkText">Sign out</span></Nav.Link> :
+                            <Nav.Link className="ml-4 mr-4"><span className="linkText">Login</span></Nav.Link>
                         }
+                    </LinkContainer> */}
+                    
+                    <LinkContainer to="/login">
+                        <Nav.Link className="mx-4"><span className="linkText">Log in</span></Nav.Link>
                     </LinkContainer>
 
                 </Nav>

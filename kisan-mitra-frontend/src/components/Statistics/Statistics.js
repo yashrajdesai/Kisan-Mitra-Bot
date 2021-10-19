@@ -85,6 +85,7 @@ const Statistics = () => {
                 />
                 <Tooltip />
                 </PieChart>
+                {/* <MapStatistics/> */}
                 <IndiaMapStatistics/>
 
 
