@@ -13,6 +13,7 @@ var detectedlanguage;
 var location = "global";
 var translatedtext;
 var translatedBotText;
+var intent;
 
 const PORT = process.env.PORT || 3001;
 
@@ -34,10 +35,10 @@ app.use(express.json());
 //   });
 
 app.post("/sendMessage", (req,res) => {
-    console.log(req.body);
+    // console.log(req.body);
     var {body} =  req.body;
     body = JSON.parse(body);
-    console.log(body.message);
+    // console.log(body.message);
     //console.log(body.message);
     axios({
         baseURL: endpoint,
@@ -58,15 +59,15 @@ app.post("/sendMessage", (req,res) => {
         }],
         responseType: 'json'
     }).then(function(response){
-        console.log(JSON.stringify(response.data, null, 4));
+        // console.log(JSON.stringify(response.data, null, 4));
         detectedlanguage = JSON.stringify(response.data[0].detectedLanguage.language);
         translatedtext = response.data[0].translations[0].text;
-        console.log(translatedtext);
-        console.log(detectedlanguage);
+        // console.log(translatedtext);
+        // console.log(detectedlanguage);
 
         axios.post('http://localhost:5005/webhooks/rest/webhook', {"message": translatedtext})
         .then(function (respon) {
-            console.log(respon.data);
+            // console.log(respon.data);
             if(respon.data.length === 0) {
                 res.json({answer: "Sorry, I do not have idea about this question. Please contact Kisan Call Center at 1800-180-1551."});
             } 
@@ -92,10 +93,22 @@ app.post("/sendMessage", (req,res) => {
                     }],
                     responseType: 'json'
                 }).then(function(resp){
-                    console.log(JSON.stringify(resp.data, null, 4));
+                    // console.log(JSON.stringify(resp.data, null, 4));
                     translatedBotText = resp.data[0].translations[0].text;
-                    console.log(translatedBotText);
-                    res.json({answer: translatedBotText});
+                    // console.log(translatedBotText);
+
+                    console.log(translatedtext);
+
+                    axios.post('http://localhost:5005/model/parse', {"text": translatedtext}, {
+                        headers: {
+                            'Content-Type': 'application/json'
+                        }
+                    }).then((result)=>{
+                        intent = result.data.intent.name
+                        res.json({answer: translatedBotText,intent});
+                    })
+                    
+                       
                 })
                 // }
                 // else {
