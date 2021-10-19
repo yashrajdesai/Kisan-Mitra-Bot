@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import { Form, Container, Button } from 'react-bootstrap'
 import { useHistory } from 'react-router-dom';
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
-import { doc, setDoc} from "firebase/firestore"; 
+import { doc, setDoc, query, collection, where, getDocs, updateDoc, addDoc} from "firebase/firestore"; 
 import {firestore as db} from "../../firebase.js";
 
 function SignUp() {
@@ -67,7 +67,30 @@ function SignUp() {
                 District: district,
                 State: state,
                 Phone: phone
-            }).then(() => {
+            }).then(async() => {
+
+                const q = query(collection(db, "usersStats"), where("name", "==", state));
+
+                const querySnapshot = await getDocs(q);
+
+                if(querySnapshot){
+                    querySnapshot.forEach(async(document) =>{
+                        var val = document.data().value;
+                        
+                        const docRef = doc(db, "usersStats", document.id)
+
+                        await updateDoc(docRef, {
+                            name: state,
+                            value: val + 1
+                        });
+
+                    })
+                }else{
+                    await addDoc(collection(db, "usersStats"), {
+                        name: state,
+                        value: 1
+                    });
+                }     
                 history.push('/')
             });
 
