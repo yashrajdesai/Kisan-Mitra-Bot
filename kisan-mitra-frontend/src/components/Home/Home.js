@@ -129,7 +129,7 @@ function Home() {
             e.preventDefault();
             if(user){
                 const jsonMessage = JSON.stringify({ message });
-                axios.post('http://localhost:3001/sendMessage', {body : jsonMessage}, {
+                axios.post('/sendMessage', {body : jsonMessage}, {
                     headers: {
                         'Content-Type': 'application/json'
                     }

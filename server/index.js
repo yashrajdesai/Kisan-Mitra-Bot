@@ -99,7 +99,7 @@ app.post("/sendMessage", (req,res) => {
 
                     console.log(translatedtext);
 
-                    axios.post('http://localhost:5005/model/parse', {"text": translatedtext}, {
+                    axios.post('http://rasa:5005/model/parse', {"text": translatedtext}, {
                         headers: {
                             'Content-Type': 'application/json'
                         }
