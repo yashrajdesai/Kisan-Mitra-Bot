@@ -57,10 +57,6 @@ export default function NavbarComponent() {
                         <Nav.Link  className="mx-4"><span className="linkText">Our Bot</span></Nav.Link>
                     </LinkContainer>  
 
-                    <LinkContainer to="/about">
-                        <Nav.Link className="mx-4"><span className="linkText">About</span></Nav.Link>
-                    </LinkContainer>  
-
                     <LinkContainer to="/analytics">
                         <Nav.Link className="mx-4"><span className="linkText">Analytics</span></Nav.Link>
                     </LinkContainer>

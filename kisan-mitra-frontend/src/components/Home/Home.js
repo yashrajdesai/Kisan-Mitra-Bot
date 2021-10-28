@@ -136,40 +136,42 @@ function Home() {
                 }).then(async (res) => {
                     console.log(res.data.answer);
                     console.log(res.data.intent);
+                    if (res.data.intent) {
+                        var suggestedIntent = res.data.intent.replaceAll("_", " ");
 
-                    var suggestedIntent = res.data.intent.replaceAll("_", " ");
+                        var intents = ['Animal Production (Piggery, Goatery, Sheep Farming etc.)', 'Fertilizer Use and Availability', 'Varieties', 'Organic Farming', 'Market Information', 'Soil Health Card', 'Power, Roads etc.', 'Mushroom Production', 'Plant Protection', 'Bio-Pesticides and Bio-Fertilizers', 'Cattle shed Planning and Management', 'Water Management, Micro Irrigation', 'Training and Exposure Visits', 'Agriculture Mechanization', 'Cultural Practices', 'Livestock Products Processing and Packaging', 'Dairy Production', 'Field Preparation', 'Animal Breeding', 'Soil Testing', 'Tank, Pond and Reservoir Management', 'Seeds', 'Crop Insurance', 'Sowing Time and Weather', 'Government Schemes', 'Animal Nutrition', 'Water Management', 'Credit', 'Weed Management', 'Disease Management', 'Integrated Farming', 'Post Harvest Management (Cleaning, Grading, Packaging, Food Processing, Cool Chain etc.)', 'Seeds and Planting Material', 
+    'Weather', 'Nutrient Management'];
 
-                    var intents = ['Animal Production (Piggery, Goatery, Sheep Farming etc.)', 'Fertilizer Use and Availability', 'Varieties', 'Organic Farming', 'Market Information', 'Soil Health Card', 'Power, Roads etc.', 'Mushroom Production', 'Plant Protection', 'Bio-Pesticides and Bio-Fertilizers', 'Cattle shed Planning and Management', 'Water Management, Micro Irrigation', 'Training and Exposure Visits', 'Agriculture Mechanization', 'Cultural Practices', 'Livestock Products Processing and Packaging', 'Dairy Production', 'Field Preparation', 'Animal Breeding', 'Soil Testing', 'Tank, Pond and Reservoir Management', 'Seeds', 'Crop Insurance', 'Sowing Time and Weather', 'Government Schemes', 'Animal Nutrition', 'Water Management', 'Credit', 'Weed Management', 'Disease Management', 'Integrated Farming', 'Post Harvest Management (Cleaning, Grading, Packaging, Food Processing, Cool Chain etc.)', 'Seeds and Planting Material', 
-'Weather', 'Nutrient Management'];
+                        intents.forEach(async(intent) => {
+                            if(suggestedIntent.includes(intent)){
 
-                    intents.forEach(async(intent) => {
-                        if(suggestedIntent.includes(intent)){
+                                const q = query(collection(db, "statistics"), where("name", "==", intent));
 
-                            const q = query(collection(db, "statistics"), where("name", "==", intent));
+                                const querySnapshot = await getDocs(q);
+                            
+                                if(querySnapshot){
+                                    querySnapshot.forEach(async(document) =>{
+                                        var val = document.data().value;
+                                        
+                                        const docRef = doc(db, "statistics", document.id)
 
-                            const querySnapshot = await getDocs(q);
-                          
-                            if(querySnapshot){
-                                querySnapshot.forEach(async(document) =>{
-                                    var val = document.data().value;
-                                    
-                                    const docRef = doc(db, "statistics", document.id)
+                                        await updateDoc(docRef, {
+                                            name: intent,
+                                            value: val + 1
+                                        });
 
-                                    await updateDoc(docRef, {
+                                    })
+                                }else{
+                                    await addDoc(collection(db, "statistics"), {
                                         name: intent,
-                                        value: val + 1
+                                        value: 1
                                     });
-
-                                })
-                            }else{
-                                await addDoc(collection(db, "statistics"), {
-                                    name: intent,
-                                    value: 1
-                                });
-                            }     
-    
-                        } 
-                    })
+                                }     
+        
+                            } 
+                        })
+                    }
+                    
 
                     
                     setBotMessage(res.data.answer);

@@ -99,31 +99,24 @@ app.post("/sendMessage", (req,res) => {
 
                     console.log(translatedtext);
 
-                    axios.post('http://rasa:5005/model/parse', {"text": translatedtext}, {
-                        headers: {
-                            'Content-Type': 'application/json'
-                        }
-                    }).then((result)=>{
+                    axios.post('http://rasa:5005/model/parse', {"text": translatedtext})
+                    .then((result)=>{
                         intent = result.data.intent.name
                         res.json({answer: translatedBotText,intent});
                     })
-                    
-                       
+                    .catch(function (error) {
+                        console.log(error);
+                    });
                 })
-                // }
-                // else {
-                //     translatedBotText = response.data[0].text
-                // }
-
-        }
-      })
-      .catch(function (error) {
-        console.log(error);
-    });
+                .catch(function (error) {
+                    console.log(error);
+                });
+            }
+        })
+        .catch(function (error) {
+            console.log(error);
+        });
     })
-
-
-
 })
 
 app.get("/sendMessage", (req,res) => {

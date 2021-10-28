@@ -1,18 +1,18 @@
 version: '3.0'
 services:
   rasa:
+    build:
+      context: ./Kisan Mitra
+      dockerfile: ./Dockerfile
     image: rasa/rasa:2.8.5-full
     ports:
       - 5005:5005
-    volumes:
-      - ./Kisan Mitra:/app
-    command:
-      - run
       
   action-server:
+    build:
+      context: ./Kisan Mitra/actions
+      dockerfile: ./Dockerfile
     image: rasa/rasa-sdk:2.8.2
-    volumes:
-      - ./Kisan Mitra/actions:/app/actions
     ports: 
       - 5055:5055
 
@@ -20,7 +20,7 @@ services:
     build:
       context: ./kisan-mitra-frontend
       dockerfile: ./Dockerfile
-    image: "kisan-mitra-frontend"
+    image: kisan-mitra-frontend
     ports:
       - "3000:3000"
     depends_on:
@@ -30,6 +30,6 @@ services:
     build:
       context: ./server
       dockerfile: ./Dockerfile
-    image: "kisan-mitra-backend"
+    image: kisan-mitra-backend
     ports:
       - "3001:3001"

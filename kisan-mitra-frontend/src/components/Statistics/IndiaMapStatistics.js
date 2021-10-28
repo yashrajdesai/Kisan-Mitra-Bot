@@ -130,7 +130,7 @@ function App() {
 
   return (
     <div className="full-width-height container">
-      <h1 className="no-margin center mt-5">States and UTs</h1>
+      <h1 className="no-margin center mt-5">Number of Queries Asked per State</h1>
       <ReactTooltip>{tooltipContent}</ReactTooltip>
         <ComposableMap
           projectionConfig={PROJECTION_CONFIG}
