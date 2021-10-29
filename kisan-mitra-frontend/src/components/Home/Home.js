@@ -24,6 +24,7 @@ function Home() {
 
     const [languageChosen,setLanguageChosen]=useState('EN');
     const [micButtonClicked,setMicButton]=useState(false);
+    const [speechButtonUsed,setSpeechButton]=useState(false);
 
     var speechRecognition = window.webkitSpeechRecognition;   //used for speech to text
     var synth = window.speechSynthesis;                       //used for text to speech
@@ -52,7 +53,8 @@ function Home() {
     recognition.onspeechend = function(event){
         recognition.stop();
         instructions.text("Recorded Successfully. Click Again For Speaking");
-        setMicButton(false);
+        setSpeechButton(false);
+        
     }
 
     recognition.onerror = function(event){
@@ -80,6 +82,7 @@ function Home() {
         }
         console.log(content);
         setMicButton(true);
+        setSpeechButton(true);
         
     });
 
@@ -182,30 +185,32 @@ function Home() {
                     });
                     
                     setMessage("")
-                    if (synth.speaking) {
-                        console.error('speechSynthesis.speaking');
-                        return;
+                    if(micButtonClicked){
+                        if (synth.speaking) {
+                            console.error('speechSynthesis.speaking');
+                            return;
+                        }
+                        if (res.data.answer !== '') {
+                        var utterThis = new SpeechSynthesisUtterance(res.data.answer);
+                        utterThis.onend = function (event) {
+                            console.log('SpeechSynthesisUtterance.onend');
+                        }
+                        utterThis.onerror = function (event) {
+                            console.error('SpeechSynthesisUtterance.onerror');
+                        }
+                        var selectedOption = 'hi-IN';
+                        for(var i = 0; i < voices.length ; i++) {
+                            // console.log(voices[i].name);
+                            // console.log(voices[i].lang);
+                        if(voices[i].lang === selectedOption) {
+                            utterThis.voice = voices[i];
+                            break;
+                        }
+                        }
+                        synth.speak(utterThis);
+                        setMicButton(false);
                     }
-                    if (res.data.answer !== '') {
-                    var utterThis = new SpeechSynthesisUtterance(res.data.answer);
-                    utterThis.onend = function (event) {
-                        console.log('SpeechSynthesisUtterance.onend');
-                    }
-                    utterThis.onerror = function (event) {
-                        console.error('SpeechSynthesisUtterance.onerror');
-                    }
-                    var selectedOption = 'hi-IN';
-                    for(var i = 0; i < voices.length ; i++) {
-                        // console.log(voices[i].name);
-                        // console.log(voices[i].lang);
-                      if(voices[i].lang === selectedOption) {
-                        utterThis.voice = voices[i];
-                        break;
-                      }
-                    }
-                    synth.speak(utterThis);
-                   
-                  }
+                }
                     
                 });
 
@@ -270,8 +275,8 @@ function Home() {
                 <div className="chat-footer">
                     <form>
                            <div data-tip data-for="registerTip">
-                                <IconButton id="mic-button" className="icon-button" style={{backgroundColor: micButtonClicked?"white":""}}>
-                                    <MicIcon style={{fill: micButtonClicked?"red":"white"}}/>
+                                <IconButton id="mic-button" className="icon-button" style={{backgroundColor: speechButtonUsed?"white":""}}>
+                                    <MicIcon style={{fill: speechButtonUsed?"red":"white"}}/>
                                 </IconButton>
                             </div>
                             <ReactTooltip id="registerTip" place="top" effect="solid">
