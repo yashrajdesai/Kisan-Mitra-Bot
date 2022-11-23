@@ -24,22 +24,10 @@ app.use(
     })
 )
 app.use(express.json());
-// axios.post('/sendMessage', {
-    
-//   })
-//   .then(function (response) {
-//     console.log(response);
-//   })
-//   .catch(function (error) {
-//     console.log(error);
-//   });
 
 app.post("/sendMessage", (req,res) => {
-    // console.log(req.body);
     var {body} =  req.body;
     body = JSON.parse(body);
-    // console.log(body.message);
-    //console.log(body.message);
     axios({
         baseURL: endpoint,
         url: '/translate',
@@ -59,20 +47,17 @@ app.post("/sendMessage", (req,res) => {
         }],
         responseType: 'json'
     }).then(function(response){
-        // console.log(JSON.stringify(response.data, null, 4));
         detectedlanguage = JSON.stringify(response.data[0].detectedLanguage.language);
         translatedtext = response.data[0].translations[0].text;
-        // console.log(translatedtext);
-        // console.log(detectedlanguage);
 
         axios.post('http://rasa:5005/webhooks/rest/webhook', {"message": translatedtext})
         .then(function (respon) {
-            // console.log(respon.data);
+
             if(respon.data.length === 0) {
                 res.json({answer: "Sorry, I do not have idea about this question. Please contact Kisan Call Center at 1800-180-1551."});
             } 
             else {
-                // if(detectedlanguage != "en") {
+                // if(detectedlanguage != "en")
                 axios({
                     baseURL: endpoint,
                     url: '/translate',
@@ -93,9 +78,8 @@ app.post("/sendMessage", (req,res) => {
                     }],
                     responseType: 'json'
                 }).then(function(resp){
-                    // console.log(JSON.stringify(resp.data, null, 4));
+
                     translatedBotText = resp.data[0].translations[0].text;
-                    // console.log(translatedBotText);
 
                     console.log(translatedtext);
 
